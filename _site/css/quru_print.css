@@ -1,0 +1,58 @@
+/*
+#
+# Quru Web Site
+#
+# Document:      quru_print.css
+# Date started:  12Nov2014
+# By:            Roland Whitehead
+# Purpose:       An overlay css for printing
+# Requires:      
+# Copyright:     Quru Ltd (www.quru.com)
+# 
+# Last Changed:  $Date: 2014-04-17 18:29:27 +0100 (Thu, 17 Apr 2014) $ $Rev: 1357 $ by $Author: roland $
+# 
+# Notable modifications:
+# Date       By    Details
+# =========  ====  ============================================================
+# 12Nov2014  RW    New
+*/
+
+body
+{
+	font: 19px/1.5em "Gill Sans", "Gill Sans MT", 'Gill Sans W01 Medium', sans-serif;
+	font-weight: 300;
+	padding: 1em 0 0 0;
+	margin: 10mm 15mm 10mm 25mm;
+}
+
+.noprint {
+	display: none;
+}
+
+
+
+#page {
+	width: 100%;
+	max-width: 1100px;
+	padding: 0 4.5em 0 4.5em;
+}
+
+
+.strapline {
+	display:  none;
+}
+
+
+#contactUs {
+	display: none;
+}
+
+#social {
+	display:  none;
+}
+
+.followUs, .tweetThis, #___plusone_0
+{
+	display: none;
+}
+

@@ -5,8 +5,63 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="google-site-verification" content="CUwdgKgMYtgtXO6GhUTjNcGFd1NA8HEBzXcXkt8h3Uc" />
+  <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="{{ "/images/quru144.png" | prepend: site.baseurl }}" />
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/quru.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/nav.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" media="print" href="{{ "/css/quru_print.css" | prepend: site.baseurl }}">
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <script type="text/javascript" src="//images.quru.com/static/js/mootools_yc.js"></script>
+  <script defer async type="text/javascript" src="/static/js/quru.js"></script>
+  <script defer async type="text/javascript" src="/static/js/nav.js"></script>
+
+  <link rel="stylesheet" href="//images.quru.com/static/styles/canvas_view.css" type="text/css" />
+  <!--[if lte IE 8]>
+  	<script src="//images.quru.com/static/js/excanvas_yc.js" type="text/javascript"></script>
+  	<![endif]-->
+  <script src="//images.quru.com/static/js/canvas_view_yc.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  		window.addEvent('domready', function() {
+  			// Initialise the clickable images
+  			canvas_view_init_all_images('clickable', {
+  				showcontrols: 'yes',
+  				title: 'Quru Image Server',
+  				description: 'The Quru Image Server is a high performance dynamic imaging ' +
+  				             'solution for presenting your image collections on the web. ' +
+  				             'It is ideal for use in conjunction with your existing web site ' +
+  				             'for applications such as product catalogues.\n\n' +
+  				             'For more information, email us or request a call.'
+  			});
+  		});
+
+  		// Story must be >= sidebar height to avoid sidebar overlapping the footer.
+  		// This needs to be done after dynamic elements have loaded, not just the initial DOM.
+  		window.addEvent('load', function() {
+  			if (($('sidebar').getStyle('position') == 'absolute') &&
+  			    ($('sidebar').clientHeight > $('story').clientHeight))
+  			{
+  				$('story').setStyle('min-height', $('sidebar').clientHeight+'px');
+  			}
+  		});
+  	</script>
+
+    <script type="text/javascript">
+    // Resize the full-width slideshows when the window is resized
+    window.addEvent('resize', function() {
+        if (window._cb_resize !== undefined) clearTimeout(window._cb_resize);
+        window._cb_resize = setTimeout(resetSlideshows, 500);
+    });
+    function resetSlideshows() {
+        $$('.fullwidth .slideshow').each(function(el) {
+            if (el.id && el._show) slideshow_view_init(el.id, el._show.options);
+        });
+    }
+    </script>
 </head>
