@@ -3,7 +3,7 @@ QuruSales website
 
 # Introduction #
 
-This sit is the development site for the Quru marketing website. It can be viewed either locally (assuming that you have Jekyll and thus Ruby installed) or via github at http://qurusales.github.io
+This site is the development site for the Quru marketing website. It can be viewed either locally (assuming that you have Jekyll and thus Ruby installed) or via github at [http://qurusales.github.io](http://qurusales.github.io).
 
 
 #  Installation #
@@ -14,7 +14,7 @@ There are three stages:
 1. Check-out the repo
 
 ## Getting a github account ##
-Visit https://github.com and follow their instructions.
+Visit [https://github.com](https://githubcom) and follow their instructions. You are probably there now so just look in the top right corner to "sign up".
 
 When you have an account and have signed in, ask someone who is an administrator on the qurusales.github.io repo to invite you. Follow the instructions in the invitation.
 
@@ -24,13 +24,13 @@ Ruby can be installed in a number of ways but you might already have it installe
 
 ``` ruby --version ```
 
-If you get a response that is anything other than an error then you'll have Ruby installed. Almost any version of Ruby will work with Jekyll so don't worry too much about getting the latest version.
+If you get a response that is anything other than an error then you'll have Ruby installed. Almost any version of Ruby above 2.1 will work with Jekyll so don't worry too much about getting the latest version. If you have a version lower than 2.1 (er, thanks Apple) then you will have to update it via the ruby-lang.org site below.
 
 If you get an error then the best solution is to visit [https://www.ruby-lang.org/en/documentation/installation/](https://www.ruby-lang.org/en/documentation/installation/) to install for your platform of choice.
 
 Once you have Ruby installed, installing Jekyll is pretty easy. [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/) has the full details but essentially, assuming that you have RubyGems installed) just run 
 
-```gem install jekyll```
+```sudo gem install jekyll```
 
 and all should be ready to go.
 
