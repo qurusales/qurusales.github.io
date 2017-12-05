@@ -10,4 +10,4 @@ headimage:
 
 ---
 
-Quru is a cool outfit.
+Quru is a very cool outfit.
