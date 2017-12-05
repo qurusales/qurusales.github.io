@@ -40,3 +40,5 @@ collections:
     output: true
   quru:
     output: true
+  products:
+    output: true
