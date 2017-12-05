@@ -9,7 +9,7 @@ thumbnail:
 headimage:
 
 ---
-**Design, develop, deploy and support enterprise level solutions**
+**Design, develop, deploy & support enterprise level solutions**
 
 Our key enterprise partner and founding supporter is Bonhams, one of 3 key significant global auction players, and we are proud to support & inspire Bonhams as the global auction house of choice.
 
