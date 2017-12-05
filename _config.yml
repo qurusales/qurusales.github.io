@@ -38,3 +38,5 @@ collections:
     output: true
   partners:
     output: true
+  quru:
+    output: true

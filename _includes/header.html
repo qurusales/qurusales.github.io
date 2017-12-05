@@ -39,15 +39,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
        <li><a href="/index/">Quru</a>
             <ul class="article_list">
-                <li><a href="/about/">About us</a></li>
-                <li><a href="/customers/">Our customers</a></li>
-                <li><a href="/casestudy/">Customer Case Studies</a></li>
-                <li><a href="/contact/">Contact us</a></li>
-                <li><a href="/news/">News</a></li>
-                <li><a href="/events/">Events</a></li>
-                <li><a href="/jobs/">Jobs</a></li>
+                {% assign contents = site.quru | sort:'order' %}{% for q in contents %}{% if q.title != "index" %}<li><a href="{{ q.url | prepend: site.baseurl}}">{{ q.title }}</a></li>{% endif %}{% endfor %}
             </ul>
-
+       </li>
        </li>
     </ul>
 </div>
