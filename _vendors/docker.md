@@ -7,7 +7,7 @@ tags:
 order: 5
 thumbnail:
 headimage:
-
+index: true
 ---
 
 Docker do a load of stuff that everyone loves and no one wants to pay for

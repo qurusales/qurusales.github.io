@@ -7,7 +7,7 @@ tags:
 order: 1
 thumbnail:
 headimage:
-
+index: true
 ---
 
 Red Hat is our biggest vendor partner and we like them a great deal

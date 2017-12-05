@@ -7,6 +7,7 @@ tags:
 order: 1
 thumbnail:
 headimage:
+index: true
 
 ---
 

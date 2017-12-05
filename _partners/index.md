@@ -6,6 +6,7 @@ tags:
   - Index
 order: 1
 thumbnail:
+index: false
 headimage:
 
 ---
