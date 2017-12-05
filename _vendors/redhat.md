@@ -10,4 +10,4 @@ headimage:
 
 ---
 
-Red Hat is our biggest vendor partner and we like them a biggest
+Red Hat is our biggest vendor partner and we like them a great deal
