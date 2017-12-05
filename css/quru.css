@@ -704,22 +704,22 @@ input[type="text"]:hover, textarea:hover {
 	border-radius:         5px;
     height: 18px;
     padding: 2px 8px 2px 25px;
-	background: #f8f8f8 url('/static/images/twitter16.png') 5px center no-repeat;
-	background: url('/static/images/twitter16.png') 5px center no-repeat,         linear-gradient(bottom, #ddd, #f8f8f8);
-	background: url('/static/images/twitter16.png') 5px center no-repeat,       -o-linear-gradient(bottom, #dd, #f8f8f8);
-	background: url('/static/images/twitter16.png') 5px center no-repeat,     -ms-linear-gradient(bottom, #ddd, #f8f8f8);
-	background: url('/static/images/twitter16.png') 5px center no-repeat,    -moz-linear-gradient(bottom, #ddd, #f8f8f8);
-	background: url('/static/images/twitter16.png') 5px center no-repeat, -webkit-linear-gradient(bottom, #ddd, #f8f8f8);
+	background: #f8f8f8 url('/images/twitter16.png') 5px center no-repeat;
+	background: url('/images/twitter16.png') 5px center no-repeat,         linear-gradient(bottom, #ddd, #f8f8f8);
+	background: url('/images/twitter16.png') 5px center no-repeat,       -o-linear-gradient(bottom, #dd, #f8f8f8);
+	background: url('/images/twitter16.png') 5px center no-repeat,     -ms-linear-gradient(bottom, #ddd, #f8f8f8);
+	background: url('/images/twitter16.png') 5px center no-repeat,    -moz-linear-gradient(bottom, #ddd, #f8f8f8);
+	background: url('/images/twitter16.png') 5px center no-repeat, -webkit-linear-gradient(bottom, #ddd, #f8f8f8);
 }
 
 .followUs a:hover, .tweetThis a:hover
 {
 	background-color: #eee;
-	background: url('/static/images/twitter16.png') 5px center no-repeat, linear-gradient(bottom, #aaa, #eee);
-	background: url('/static/images/twitter16.png') 5px center no-repeat,      -o-linear-gradient(bottom, #aaa, #eee);
-	background: url('/static/images/twitter16.png') 5px center no-repeat,     -ms-linear-gradient(bottom, #aaa, #eee);
-	background: url('/static/images/twitter16.png') 5px center no-repeat,    -moz-linear-gradient(bottom, #aaa, #eee);
-	background: url('/static/images/twitter16.png') 5px center no-repeat, -webkit-linear-gradient(bottom, #aaa, #eee);
+	background: url('/images/twitter16.png') 5px center no-repeat, linear-gradient(bottom, #aaa, #eee);
+	background: url('/images/twitter16.png') 5px center no-repeat,      -o-linear-gradient(bottom, #aaa, #eee);
+	background: url('/images/twitter16.png') 5px center no-repeat,     -ms-linear-gradient(bottom, #aaa, #eee);
+	background: url('/images/twitter16.png') 5px center no-repeat,    -moz-linear-gradient(bottom, #aaa, #eee);
+	background: url('/images/twitter16.png') 5px center no-repeat, -webkit-linear-gradient(bottom, #aaa, #eee);
 }
 
 .clickable

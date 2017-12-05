@@ -90,7 +90,7 @@ ul#navigation ul {
    or on (inferred) yes_touch when touched */
 .no_touch ul#navigation li:hover > a,
           ul#navigation li.touch_on > a {
-	background-image: url('/static/images/triangle.png');
+	background-image: url('/images/triangle.png');
 	background-repeat: no-repeat;
 	background-position: 10px bottom;
 }
