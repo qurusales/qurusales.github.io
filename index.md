@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Index
+title: Quru
 summary: Quru summary
 tags:
   - Index
