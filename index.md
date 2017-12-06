@@ -9,7 +9,7 @@ thumbnail:
 headimage:
 ---
 
-**Open source solutions evangelists promoting technical design innovation**
+**Open source solutions evangelists applying technical design innovation**
 
 Quru is inspired by technological inquisitiveness and excellence, especially in open source and bespoke software development.  The company leverages its relationships with enterprise and vendor partners and develops enterprise level software product.
 
