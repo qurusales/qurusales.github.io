@@ -12,7 +12,7 @@ description: >
   Quru is an open source solutions specialist that designs, develops, consults and
   implements enterprise business solutions. Quru also supplies IT services to several
   customers including international auction house Bonhams. Quru partners with most
-  major open source vendors including Red Hat, Docker, EnterpriseDB and MariaBD.
+  major open source vendors including Red Hat, Docker, EnterpriseDB and MariaDB.
 baseurl:  # the subpath of your site, e.g. /blog
 url: http://www.quru.com  # the base hostname & protocol for your site
 twitter_username: quru
