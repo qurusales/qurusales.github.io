@@ -25,7 +25,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 <div id="nav">
     <ul id="navigation">
-        <li><a href="/partners/" class="first">Partners</a>
+        <li><a href="/partners/" class="first">Enterprise Partners</a>
             <ul class="article_list">
                 {% assign contents = site.partners | sort: 'order' %}{% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>{% endif %}{% endfor %}
             </ul>
@@ -37,13 +37,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </ul>
        </li>
 
-       <li><a href="/quru/">Products</a>
+       <li><a href="/products/">Products</a>
             <ul class="article_list">
                 {% assign contents = site.products | sort:'order' %}{% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url | prepend: site.baseurl}}">{{ p.title }}</a></li>{% endif %}{% endfor %}
             </ul>
        </li>
-       
-       <li><a href="/quru/">Resources</a>
+
+       <li><a href="/resources/">Resources</a>
             <ul class="article_list">
                 {% assign contents = site.quru | sort:'order' %}{% for q in contents %}{% if q.index == true %}<li><a href="{{ q.url | prepend: site.baseurl}}">{{ q.title }}</a></li>{% endif %}{% endfor %}
             </ul>

@@ -1,10 +1,10 @@
 ---
 layout: vendors
-title: Bonhams
-summary: Bath Road, Kintbury</br>Hungerford<br/>RG17 9SA<br/><br/>01488 608020
+title: Talisker Technologies
+summary: US based Blink EDM
 tags:
   - client
-order: 3
+order: 4
 thumbnail:
 headimage:
 index: true

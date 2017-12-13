@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Quru Image Server
-summary: A really useful dynamic image server
+title: Blink EDM
+summary: Massively scaleable electronic document management system
 tags:
   - product
-order: 4
+order: 3
 thumbnail:
 headimage:
 index: true
