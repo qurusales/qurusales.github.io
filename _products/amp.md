@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Quru Image Server
-summary: A really useful dynamic image server
+title: AMP
+summary: The cloud deployment Agile Metal Platform (AMP)
 tags:
   - product
-order: 4
+order: 2
 thumbnail:
 headimage:
 index: true

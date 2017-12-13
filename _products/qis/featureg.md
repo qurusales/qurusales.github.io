@@ -1,13 +1,14 @@
 ---
 layout: default
-title: Quru Image Server
-summary: A really useful dynamic image server
+title: Feature G
+summary: G
+target: technology
 tags:
   - product
-order: 4
+order: 1
 thumbnail:
 headimage:
-index: true
+index: feature
 
 ---
 

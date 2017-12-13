@@ -42,3 +42,5 @@ collections:
     output: true
   products:
     output: true
+  resources:
+    output: true
