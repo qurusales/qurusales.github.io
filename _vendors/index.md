@@ -20,19 +20,11 @@ Our key vendor partner is Red Hat who has supported us since foundation. We have
 
 Quru specifies and supplies open source 3rd party solutions that allow companies to deploy and manage business grade infrastructure and applications. Its areas of focus are:
 
-<<<<<<< HEAD
+
 * Operating Systems
 * Innovative database technologies
 * Microservices
 * Cloud services
-=======
-<ul>
-<li>Operating Systems</li>
-<li>Innovative database technologies</li>
-<li>Microservices</li>
-<li>Cloud services</li>
-</ul>
->>>>>>> 6fdbf0adda143c49675bbaed5ced35676b2541b2
 
 Our partners include:
 

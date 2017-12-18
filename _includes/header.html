@@ -31,7 +31,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </ul>
        </li>
 
-       <li><a href="/vendors/">Open Source Software</a>
+       <li><a href="/vendors/">Open Source Solutions</a>
             <ul class="article_list">
                 {% assign contents = site.vendors | sort:'order' %}{% for v in contents %}{% if v.index == true %}<li><a href="{{ v.url | prepend: site.baseurl}}">{{ v.title }}</a></li>{% endif %}{% endfor %}
             </ul>
@@ -45,7 +45,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
        <li><a href="/resources/">Resources</a>
             <ul class="article_list">
-                {% assign contents = site.quru | sort:'order' %}{% for q in contents %}{% if q.index == true %}<li><a href="{{ q.url | prepend: site.baseurl}}">{{ q.title }}</a></li>{% endif %}{% endfor %}
+                {% assign contents = site.resources | sort:'order' %}{% for q in contents %}{% if q.index == true %}<li><a href="{{ q.url | prepend: site.baseurl}}">{{ q.title }}</a></li>{% endif %}{% endfor %}
             </ul>
        </li>
 
