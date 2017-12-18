@@ -25,7 +25,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 <div id="nav">
     <ul id="navigation">
-        <li><a href="/partners/" class="first">Enterprise Partners</a>
+        <li><a href="/partners/" class="first">Enterprise Clients</a>
             <ul class="article_list">
                 {% assign contents = site.partners | sort: 'order' %}{% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>{% endif %}{% endfor %}
             </ul>
