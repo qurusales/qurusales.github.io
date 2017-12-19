@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Feature 8
-summary: 8 this incredible because ...
+title: Built to work at scale
+summary: 7 this incredible because ...
 target: business
 tags:
   - product
-order: 1
+order: 7
 thumbnail:
 headimage:
 index: feature

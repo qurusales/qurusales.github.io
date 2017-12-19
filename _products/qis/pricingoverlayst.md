@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Feature 2
-summary: 2 this incredible because ...
+title: Pricing overlays
+summary: 4 this incredible because ...
 target: business
 tags:
   - product
-order: 1
+order: 4
 thumbnail:
 headimage:
 index: feature

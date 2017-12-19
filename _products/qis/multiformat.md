@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Feature 6
-summary: 6 this incredible because ...
+title: Multi-format
+summary: 3 this incredible because ...
 target: business
 tags:
   - product
-order: 1
+order: 3
 thumbnail:
 headimage:
 index: feature

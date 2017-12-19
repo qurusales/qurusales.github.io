@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Feature G
-summary: G
-target: technology
+title: Dynamic Image Re-Resize
+summary: Dynamic Image Re-Resize is incredible because ...
+target: business
 tags:
   - product
 order: 1

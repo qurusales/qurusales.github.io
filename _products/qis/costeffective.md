@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Feature 7
-summary: 7 this incredible because ...
+title: Cost effective
+summary: 8 this incredible because ...
 target: business
 tags:
   - product
-order: 1
+order: 8
 thumbnail:
 headimage:
 index: feature

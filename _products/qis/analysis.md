@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Feature F
-summary: F
-target: technology
+title: Analysis of viewed images
+summary: 6 this incredible because ...
+target: business
 tags:
   - product
 order: 1

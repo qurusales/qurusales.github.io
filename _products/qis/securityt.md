@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Feature B
-summary: B
+title: Security
+summary: 5 this incredible because ...
 target: technology
 tags:
   - product
-order: 1
+order: 5
 thumbnail:
 headimage:
 index: feature
