@@ -13,4 +13,6 @@ index: false
 
 **Perfect detailed images delivered cost effectively at scale**
 
-Quru Image Server 
+**BUSINESS**
+
+**TECHNOLOGY**
