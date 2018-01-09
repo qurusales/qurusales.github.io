@@ -1,0 +1,14 @@
+<div class="cell pointer" id="item{{ post.title | remove:' '}}">
+  <div class="cell_front">
+    <center>
+      <a href="/{{ post.url | remove_first: '/' }}">
+        **{{ post.title }}**
+      </a>
+    </center>
+  </div>
+  <div class="cell_back">
+    <a href="/{{ post.url | remove_first: '/' }}">
+      {{ post.summary }}
+    </a>
+  </div>
+</div>

@@ -744,7 +744,18 @@ td.upper_line
 table.searchresults {
 	border: none;
 }
-table.searchresults th, td {
+table.searchresults th, td {.cell {
+	width: 175px;
+	height: 175px;
+	border: 1px solid #ddd;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	/*display: inline-block;*/
+float: left;	vertical-align: middle;
+	text-align: center;
+	overflow: hidden;
+	line-height: 175px;
+}
 	padding: 5px;
 }
 table.searchresults th {
@@ -796,7 +807,37 @@ div.sidebarItem.plain
 	border: 1px solid gray;
 }
 
+.cell {
+	width: 175px;
+	height: 175px;
+	border: 1px solid #ddd;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	/*display: inline-block;*/
+float: left;	vertical-align: middle;
+	text-align: center;
+	overflow: hidden;
+	line-height: 175px;
+}
 
+.cell_front {
+	height: 100%;
+}
+
+
+.cell_back {
+	padding: 0.5rem;
+	background-color: white;
+	z-index: 10;
+	top: -175px;
+	position: relative;
+	height: 90%;
+	opacity: 0;
+	transition-property: opacity;
+    transition-duration: 2s;
+	line-height: 1.2rem;
+	text-align: left;
+}
 
 
 /* Responsive layout for small screens (767 == narrower than iPad) */

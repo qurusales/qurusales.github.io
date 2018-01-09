@@ -44,3 +44,5 @@ collections:
     output: true
   resources:
     output: true
+  qis:
+    output: true
