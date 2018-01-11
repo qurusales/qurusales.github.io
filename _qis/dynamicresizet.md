@@ -2,7 +2,7 @@
 layout: default
 title: Dynamic Image Re-Resize
 summary: Dynamic Image Re-Resize is incredible because ...
-target: business
+target: technology
 tags:
   - product
 order: 1

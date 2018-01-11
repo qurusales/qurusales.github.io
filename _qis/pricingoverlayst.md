@@ -2,7 +2,7 @@
 layout: default
 title: Pricing overlays
 summary: 4 this incredible because ...
-target: business
+target: technology
 tags:
   - product
 order: 4

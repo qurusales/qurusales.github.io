@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Multi-format
-summary: 3 this incredible because ...
-target: technology
+title: Dynamic Image Re-Resize
+summary: Dynamic Image Re-Resize is incredible because ...
+target: business
 tags:
   - product
-order: 3
+order: 1
 thumbnail:
 headimage:
 index: feature

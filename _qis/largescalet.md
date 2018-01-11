@@ -2,7 +2,7 @@
 layout: default
 title: Built to work at scale
 summary: 7 this incredible because ...
-target: business
+target: technology
 tags:
   - product
 order: 7

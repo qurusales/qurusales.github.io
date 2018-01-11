@@ -2,7 +2,7 @@
 layout: default
 title: Analysis of viewed images
 summary: 6 this incredible because ...
-target: business
+target: technology
 tags:
   - product
 order: 1

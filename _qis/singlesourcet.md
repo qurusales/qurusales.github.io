@@ -2,7 +2,7 @@
 layout: default
 title: Single source
 summary: 2 this incredible because ...
-target: business
+target: technology
 tags:
   - product
 order: 2
