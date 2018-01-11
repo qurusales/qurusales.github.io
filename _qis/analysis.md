@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: qis
 title: Analysis of viewed images
 summary: 6 this incredible because ...
 target: business
+8ws: The Quru Image Server, business analysis
 tags:
   - product
 order: 6
@@ -12,4 +13,9 @@ index: feature
 
 ---
 
-The Quru Image Server, or QIS, is a truly wonderful product.
+### Feature ###
+Body text
+### Advantage ###
+Body text
+### Benefit ###
+Body text

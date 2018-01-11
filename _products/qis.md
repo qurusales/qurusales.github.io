@@ -14,9 +14,8 @@ index: true
 The Quru Image Server, or QIS, is a truly wonderful product.
 
   <div class="grid clearfix">
-    {% assign contents = site.qis | sort:'order' %}{% for post in contents %}{% if post.publish != false %}
-    {% include cell.html %}
-    {% endif %}{% endfor %}
+    <a href="/products/qisforbusiness.html" class="qis_type" id="qis_for_business"> Business </a>
+    <a href="/products/qistechnology.html" class="qis_type" id="qis_technology"> Technology </a> 
   </div>
 
 -----

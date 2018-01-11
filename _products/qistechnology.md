@@ -1,6 +1,6 @@
 ---
 layout: qis
-title: QIS for Businesss
+title: QIS Technology
 summary: A really useful dynamic image server
 tags:
   - product
@@ -14,5 +14,5 @@ index: false
 The Quru Image Server, or QIS, is a truly wonderful product and will appeal to those business users...
 
 <div class="grid clearfix">
-  {% for post in site.qis | sort: order %}{% if post.index == "feature"  %}{% if post.target == "business" %}{% include cell.html %}{% endif %}{% endif %}{% endfor %}
+  {% for post in site.qis | sort: order %}{% if post.index == "feature"  %}{% if post.target == "technology" %}{% include cell.html %}{% endif %}{% endif %}{% endfor %}
 </div>
