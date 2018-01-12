@@ -219,36 +219,42 @@ a#logo
 	position: relative;
 }
 
-#story
-{
-	margin-right: 255px;
-	margin-top: 1em;
-	/* IE7 trigger hasLayout */
-	min-height: 0px;
+.post {
+    margin-right: 255px;
+    margin-top: 1em;
+    /* IE7 trigger hasLayout */
+    min-height: 0px;
 }
 
-#story h2
-{
-	font: italic 1.6em/1em "CrimsonRoman", "Times New Roman", Times, serif;
-	color: #888;
+.post h1 {
+    font-size: 1.2em;
+    margin-top: 0px;
+    font-weight: 400;
 }
 
-#story a
-{
-	color: black;
-	text-decoration: none;
-	border-bottom: 1px dotted #555;
+.post h2 {
+    font-size: 1.2em;
+    color: #888;
 }
 
-#story a:hover
-{
-	border-bottom: 1px solid maroon;
+.post h3 {
+    font-size: 1em;
+    font-wright: 400;
 }
 
-#story div.summary
-{
-	font-style: italic;
-	color:  #888;
+.post a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dotted #555;
+}
+
+.story a:hover {
+    border-bottom: 1px solid maroon;
+}
+
+.story div.summary {
+    font-style: italic;
+    color:  #888;
 }
 
 #sidebar
@@ -816,37 +822,91 @@ div.sidebarItem.plain
 	border: 1px solid gray;
 }
 
+.grid {
+	margin: 1rem 0;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+
+* html .clearfix { height: 1%; }
+
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
 .cell {
-	width: 175px;
-	height: 175px;
-	border: 1px solid #ddd;
-	margin-right: 15px;
-	margin-bottom: 15px;
-	/*display: inline-block;*/
-float: left;	vertical-align: middle;
-	text-align: center;
-	overflow: hidden;
-	line-height: 175px;
+    width: 175px;
+    height: 175px;
+    border: 1px solid #ddd;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    /*display: inline-block;*/
+    float: left;	vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+    line-height: 175px;
 }
 
 .cell_front {
-	height: 100%;
+    height: 100%;
 }
 
 
 .cell_back {
-	padding: 0.5rem;
-	background-color: white;
-	z-index: 10;
-	top: -175px;
-	position: relative;
-	height: 90%;
-	opacity: 0;
-	transition-property: opacity;
+    padding: 0.5rem;
+    background-color: white;
+    z-index: 10;
+    top: -175px;
+    position: relative;
+    height: 90%;
+    opacity: 0;
+    transition-property: opacity;
     transition-duration: 2s;
-	line-height: 1.2rem;
-	text-align: left;
+    line-height: 1.2rem;
+    text-align: left;
 }
+
+
+.cell_back.show {
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 2s;
+}
+
+.cell_back a, .cell_front a {
+    height: 150px;
+    width: 150px;
+}
+
+.cell_back a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#stockists .cell_back a {
+    font-size: 75%;
+    line-height: 100%;
+
+}
+
+.cell_back a span.title {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+
 
 
 /* Responsive layout for small screens (767 == narrower than iPad) */

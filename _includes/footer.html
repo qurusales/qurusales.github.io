@@ -1,35 +1,36 @@
-<footer class="site-footer">
-
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+<div class="clear"></div>
+<div id="footer">
+  <div class="column" id="footerColumn1">
+    <ul>
+      <li><a href="/partners/">Enterprise clients</a></li>
+      <li><a href="/vendors/">Open source solutions</a></li>
+      <li><a href="/products/">Quru software</a></li>
+      <li><a href="/resources/">Resources</a></li>
+    </ul>
+  </div>
+  <div class="column" id="footerColumn2">
+    <ul class="article_list">
+      <li>
+	<a href="/qurulabs/">QuruLabs</a>
+      </li>
+      <li>
+	<a href="/healthcheck/">Health check</a>
+      </li>
+      <li>
+	<a href="/architecture/">Linux infrastructure design</a>
+      </li>
+      <li>
+	<a href="/implementation/">Linux implementation</a>
+      </li>
+      <li>
+	<a href="/development/">Development</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column" id="footerColumn3">
+    <div class="article_list">
+      
     </div>
-
-</footer>
+  </div>
+  <div class="clear"></div>
+</div> 
