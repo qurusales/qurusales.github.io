@@ -856,6 +856,29 @@ div.sidebarItem.plain
     line-height: 175px;
 }
 
+.cell .plain {
+    background: none;
+}
+
+.cella {
+    background: #fefcea;
+    background: linear-gradient(to bottom,#fefcea 0%, #f1da36 100% );
+}
+
+.cellb {
+    background: #ff3019;
+    background: linear-gradient(to bottom,#ff3019 0%, #cf0404 100% );
+}
+
+.cellc {
+    background: #7abcff;
+    background: linear-gradient(to bottom,#7abcff 0%, #60abf8 100% );
+}
+
+.celld {
+    background: #299a0b;
+    background: linear-gradient(to bottom,#299a0b 0%, #164F06 100% );
+}
 .cell_front {
     height: 100%;
 }
@@ -907,7 +930,28 @@ div.sidebarItem.plain
 }
 
 
+.qis_type {
+    width: 10em;
+    height: 100px;
+    border: 1px solid #ddd !important;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    overflow: hidden;
+    line-height: 100px;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
 
+#qis_for_business {
+    background: #fefcea;
+    background: linear-gradient(to bottom, #fefcea 0%, #f1da36 100%);
+}
+
+#qis_technology {
+    background: #ff3019;
+    background: linear-gradient(to bottom,#ff3019 0%, #cf0404 100% );
+}
 
 /* Responsive layout for small screens (767 == narrower than iPad) */
 

@@ -3,6 +3,7 @@ layout: default
 title: Cost effective
 summary: 8 this incredible because ...
 target: business
+class: cellb
 tags:
   - product
 order: 8

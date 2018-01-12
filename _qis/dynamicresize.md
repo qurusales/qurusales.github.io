@@ -3,6 +3,7 @@ layout: default
 title: Dynamic Image Re-Resize
 summary: Dynamic Image Re-Resize is incredible because ...
 target: business
+class: cellc
 tags:
   - product
 order: 1
