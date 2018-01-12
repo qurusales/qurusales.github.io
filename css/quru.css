@@ -76,6 +76,7 @@ img
 	position: relative;
 }
 
+
 #trends
 {
 	position: absolute;
@@ -164,6 +165,14 @@ img
 #trends a.random_9
 {
 	color:  #aaa;
+}
+
+
+#telephone
+{
+    position: absolute;
+    top: 107px;
+    right: 80px;
 }
 
 .clear
