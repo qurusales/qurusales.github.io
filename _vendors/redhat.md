@@ -1,5 +1,5 @@
 ---
-layout: partners
+layout: redhat
 title: Red Hat
 summary: Bath Road, Kintbury</br>Hungerford<br/>RG17 9SA<br/><br/>01488 608020
 footer: Red Hat centric Quru piece

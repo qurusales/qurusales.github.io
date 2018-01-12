@@ -321,6 +321,13 @@ ul.noBullets li img.partnerLogo
 	float: left;
 }
 
+hr {
+    margin: 2.5rem 0 2rem;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0));
+}
+
 h3
 {
 	/*color: gray;*/
@@ -441,14 +448,6 @@ td.partnerLogo
 	margin-left: 1em;
 	margin-top: 0.3em;
 	line-height: 1.2em;
-}
-
-hr
-{
-	border: 0;
-	color: #555;
-	background-color: #555;
-	height: 1px;
 }
 
 #partners {
@@ -640,6 +639,22 @@ input[type="text"]:hover, textarea:hover {
 .column a
 {
 	border: none !important;
+}
+
+.eightws {
+    margin-bottom: 1em;
+    font-style: italic;
+    color: #555;
+}
+
+#About {
+    color: #555;
+    font-size: 0.8em;
+    margin-bottom: 2em;
+}
+
+#About hr {
+    margin-bottom: 1em;
 }
 
 #footer
