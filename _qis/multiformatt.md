@@ -12,4 +12,9 @@ index: feature
 
 ---
 
-The Quru Image Server, or QIS, is a truly wonderful product.
+### Feature ###
+Upload any file and it will convert
+### Advantage ###
+Saves image creation and upload times
+### Benefit ###
+Remove the time and effort spent converting and uploading hundreds of product images

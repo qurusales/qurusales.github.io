@@ -13,4 +13,9 @@ index: feature
 
 ---
 
-The Quru Image Server, or QIS, is a truly wonderful product.
+### Feature ###
+Unlimited volume / instance. Use as many images as you like per license at no additional cost
+### Advantage ###
+More economical and faster to buy (not build)
+### Benefit ###
+Serve all of your images from a fully functioning Image Server for £2,000 pa and make significant business savings and direct costs

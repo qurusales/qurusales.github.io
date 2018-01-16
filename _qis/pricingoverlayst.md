@@ -12,4 +12,9 @@ index: feature
 
 ---
 
-The Quru Image Server, or QIS, is a truly wonderful product.
+### Feature ###
+Dynamically overlay pricing on displayed images
+### Advantage ###
+Allows you to control pricing anywhere your images are being displayed
+### Benefit ###
+Ensures clients see consistent pricing and lets them take advantage of incredibly easy to deploy flash sales

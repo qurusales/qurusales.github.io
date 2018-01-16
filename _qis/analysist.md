@@ -12,4 +12,9 @@ index: feature
 
 ---
 
-The Quru Image Server, or QIS, is a truly wonderful product.
+### Feature ###
+Track number of requests per minute
+### Advantage ###
+See which images are trending aross multiple pages/ sites
+### Benefit ###
+Leverage how many people are viewing which of your product images across the internet

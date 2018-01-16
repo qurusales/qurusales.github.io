@@ -12,4 +12,9 @@ index: feature
 
 ---
 
-The Quru Image Server, or QIS, is a truly wonderful product.
+### Feature ###
+Protect image rights through watermarking
+### Advantage ###
+Prevents image abuse and revenue loss
+### Benefit ###
+Protect your images from theft, manipulation and misuse?

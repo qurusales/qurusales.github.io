@@ -15,8 +15,8 @@ index: feature
 ---
 
 ### Feature ###
-Body text
+Track number of requests per minute
 ### Advantage ###
-Body text
+See which images are trending aross multiple pages/ sites
 ### Benefit ###
-Body text
+Leverage how many people are viewing which of your product images across the internet
