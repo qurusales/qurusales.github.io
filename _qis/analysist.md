@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: qisfeatures
 title: Analysis of viewed images
 summary: 6 this incredible because ...
 target: technology
@@ -18,3 +18,5 @@ Track number of requests per minute
 See which images are trending aross multiple pages/ sites
 ### Benefit ###
 Leverage how many people are viewing which of your product images across the internet
+
+{% include otherfeatures.html %}

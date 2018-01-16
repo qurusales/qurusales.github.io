@@ -1,5 +1,5 @@
 ---
-layout: qis
+layout: qisfeatures
 title: Analysis of viewed images
 summary: 6 this incredible because ...
 target: business

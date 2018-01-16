@@ -1,0 +1,5 @@
+## Other features ##
+
+<div class="grid clearfix">
+  {% for post in site.qis | sort: order %}{% if post.index == "feature"  %}{% if post.target == page.target %}{% if post.title != page.title %}{% include cell.html %}{% endif %}{% endif %}{% endif %}{% endfor %}
+</div>
