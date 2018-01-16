@@ -23,7 +23,7 @@ As premium partners of the key open source vendors in the UK, Quru has a team of
 {% for p in site.partners  | sort:'order' %}{% if p.index == true %}<li><b>{{ p.title }}</b> {{ p.8ws }}</li>{% endif %}{% endfor %}
 </ul>
 
-**A24.io**, one of the fastest moving cloud providers that has expanded dramatically from its Asia foundations to become a global player with footprint in Europe and the US. Quru partner with A24 to produce AMP, a highly advanced hybrid cloud deployment and management system.
+**[A24.io](//partners/a24.io.html)** is one of the fastest moving cloud providers that has expanded dramatically from its Asia foundations to become a global player with footprint in Europe and the US. Quru partner with A24 to produce AMP, a highly advanced hybrid cloud deployment and management system.
 
 **Bonhams** is one of 3 key significant global auction players and is our key enterprise partner and founding supporter.  Quru is responsible for the design, implementation and ongoing "follow the sun" support for Bonham's digital online auction services and image management.  We are proud to support and inspire Bonhams as the global auction house of choice.
 
