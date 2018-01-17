@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: qisfeatures
 title: Cost effective
 summary: 8 this incredible because ...
 target: technology

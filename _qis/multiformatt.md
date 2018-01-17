@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: qisfeatures
 title: Multi-format
 summary: 3 this incredible because ...
 target: technology

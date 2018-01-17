@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: qisfeatures
 title: Security
 summary: 5 this incredible because ...
 target: business

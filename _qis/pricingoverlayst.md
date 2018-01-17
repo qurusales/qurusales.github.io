@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: qisfeatures
 title: Pricing overlays
 summary: 4 this incredible because ...
 target: technology

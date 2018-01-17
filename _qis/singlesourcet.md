@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: qisfeatures
 title: Single source
 summary: 2 this incredible because ...
 target: technology

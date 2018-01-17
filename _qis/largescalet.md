@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: qisfeatures
 title: Built to work at scale
 summary: 7 this incredible because ...
 target: technology
