@@ -1,5 +1,5 @@
 ---
-layout: qisfeatures
+layout: default
 title: Pricing overlays
 summary: 4 this incredible because ...
 target: business
@@ -13,8 +13,13 @@ index: feature
 ---
 
 ### Feature ###
-Protect image rights through watermarking
+
+Dynamically overlay pricing on displayed images
+
 ### Advantage ###
-Prevents image abuse and revenue loss
+
+Allows you to control pricing anywhere your images are being displayed
+
 ### Benefit ###
-Protect your images from theft, manipulation and misuse?
+
+Ensures clients see consistent pricing and lets them take advantage of incredibly easy to deploy flash sales

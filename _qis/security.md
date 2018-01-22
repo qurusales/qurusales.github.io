@@ -13,8 +13,13 @@ index: feature
 ---
 
 ### Feature ###
+
 Protect image rights through watermarking
+
 ### Advantage ###
+
 Prevents image abuse and revenue loss
+
 ### Benefit ###
+
 Protect your images from theft, manipulation and misuse?
