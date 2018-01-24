@@ -14,12 +14,12 @@ index: feature
 
 ### Feature ###
 
-Protect image rights through watermarking
+Protect image rights through watermarking.  Automatically overlay a logo or other device and merge them together to create a single identifiable image
 
 ### Advantage ###
 
-Prevents image abuse and revenue loss
+Prevents image abuse and potential revenue loss
 
 ### Benefit ###
 
-Protect your images from theft, manipulation and misuse?
+Protects your images from IP theft, manipulation and misuse

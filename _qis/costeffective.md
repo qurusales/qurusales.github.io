@@ -16,10 +16,12 @@ index: feature
 ### Feature ###
 
 Unlimited volume / instance. Use as many images as you like per license at no additional cost
+Fast and easy to integrate image workflow into website & digital retail solutions
 
 ### Advantage ###
 
-More economical and faster to buy (not build)
+No additional software, license or usage cost as volumes rise beyond the traditional low traffic solutions.  We run up to 20 TB of image data in a single instance.
+More economical and faster to integrate QIS than using expensive “off the shelf” services or writing from first principles. QIS is priced to ensure that the cost of the license and support is substantially less than the equivalent development costs.
 
 ### Benefit ###
 

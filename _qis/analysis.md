@@ -16,11 +16,15 @@ index: feature
 
 ### Feature ###
 
-Track number of requests per minute
+Integrated reporting of image traffic
+View overall image traffic on site
+View individual  traffic on site
+Track and see number of requests hourly
+
 
 ### Advantage ###
 
-See which images are trending aross multiple pages/ sites
+See which images are trending across multiple pages/ sites to see which are most popular at any time
 
 ### Benefit ###
 

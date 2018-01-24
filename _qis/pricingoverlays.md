@@ -14,12 +14,12 @@ index: feature
 
 ### Feature ###
 
-Dynamically overlay pricing on displayed images
+Dynamically overlay pricing on displayed images.  Through a watermarking process you can apply overly prices directly from a pricing table which will then appear with the image wherever it is viewed.
 
 ### Advantage ###
 
-Allows you to control pricing anywhere your images are being displayed
+Allows you to quickly change and control pricing anywhere your images are being displayed
 
 ### Benefit ###
 
-Ensures clients see consistent pricing and lets them take advantage of incredibly easy to deploy flash sales
+Ensures customers see consistent pricing and lets them take advantage of incredibly easy to deploy flash sales.  It also prevents your distributors and retailers from displaying prices other than the ones that you have approved.

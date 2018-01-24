@@ -14,12 +14,12 @@ index: feature
 ---
 ### Feature ###
 
-Create perfect detail at any size image
+Deliver the perfect size image for your audience in perfect detail
 
 ### Advantage ###
 
-There is an almost non existent barrier to entry
+Images do not need to be sized to pre-determined dimensions such as thumbnails and fixed expanded views.  Rather the images will dynamically re-size to fit the page or screen size and can be zoomed to the full size of the original image for optimum sharpness and detail.
 
 ### Benefit ###
 
-Give your customers the opportunity to buy more online by showing perfect details of every part of every image of every product.
+Give your customers the opportunity to see ultimate detail and feel confident to buy online by showing perfect details of every part of every image of every product.
