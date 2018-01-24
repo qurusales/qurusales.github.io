@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Blink EDM
+menu: Blink EDM
+Title: Blink EDM - document storage with workflow
 summary: Massively scaleable electronic document management system
 tags:
   - product

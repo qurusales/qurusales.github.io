@@ -1,6 +1,7 @@
 ---
 layout: qis
-title: Quru Image Server
+menu: Quru Image Server
+title: Quru Image Server - colour managed dynamic image rendering at scale
 summary: A really useful dynamic image server
 tags:
   - product
