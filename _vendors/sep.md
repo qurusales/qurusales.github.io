@@ -1,7 +1,7 @@
 ---
 layout: partners
 menu: SEP
-title: Advanced enterprise back up solutions from SEP
+title:  SEP advanced enterprise backup solutions
 summary: Linux workload backup
 tags:
   - vendor

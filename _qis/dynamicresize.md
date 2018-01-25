@@ -1,4 +1,4 @@
----
+cd---
 layout: qisfeatures
 title: Dynamic Image Re-Resize
 summary: Dynamic Image Re-Resize is incredible because ...
@@ -14,7 +14,9 @@ index: feature
 ---
 ### Feature ###
 
-+ Dynamically re-size images as people look and manipulate them to deliver the perfect size image for your audience in perfect detail every time. This works for instance when people are zooming in for details in a photo.  An example would be the signature on a painting https://goo.gl/tZCzCt
++ Dynamically re-size images as people look and manipulate them to deliver the perfect size image for your audience in perfect detail every time. This works for instance when people are zooming in for details in a photo.  An example would be the signature on a painting
+
+ [See here](https://goo.gl/tZCzCt)
 
 ### Advantage ###
 

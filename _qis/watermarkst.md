@@ -2,7 +2,7 @@
 layout: qisfeatures
 title: Pricing overlays and security watermarks
 summary: 4 this incredible because ...
-target: business
+target: technology
 tags:
   - product
 order: 4

@@ -12,4 +12,4 @@ index: true
 
 ---
 
-The Quru Image Server, or QIS, is a truly wonderful product.
+Blink EDM is a truly wonderful product.

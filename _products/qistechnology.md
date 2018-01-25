@@ -1,5 +1,6 @@
 ---
 layout: qis
+menu: Quru Image Server
 title: QIS Technology
 summary: A really useful dynamic image server
 tags:

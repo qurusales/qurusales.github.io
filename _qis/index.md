@@ -11,7 +11,7 @@ headimage:
 index: false
 ---
 
-**Perfect detailed images delivered cost effectively at scale**
+** Perfect detailed images delivered cost effectively at scale **
 
 **BUSINESS**
 
