@@ -15,16 +15,16 @@ index: feature
 
 ### Feature ###
 
-Unlimited volume / instance.
-No limit to the number of images per license.  
-No limit to the size of individual images.
-There is no limit to the size of image database.
-Designed to use across as many web servers as you need in multiple locations and countries
++ Unlimited volume per instance.
++ No limit to the number of images per license.  
++ No limit to the size of individual images.
++ There is no limit to the size of image database.
++ Designed to use across as many web servers as you need in multiple locations and countries
 
 ### Advantage ###
 
-QIS is designed to deliver more capacity than you need and has currently been regularly operationally tested to 30TB of total data comprising x million images served at up to x images/ hour.
+QIS is designed to deliver more capacity than you need and has currently been regularly operationally tested to 20TB of total data comprising over 5,000,000 images served at up to 300,000 images/ hour.
 
 ### Benefit ###
 
-Future proof your image upload, management and delivery by serving your images from a fully functioning, Image Server
+QIS is the only image server that will allow scale delivery at an affordable cost. By deploying QIS you immediately future proof your image upload, management and delivery by serving your images from a fully functioning, open source image server.

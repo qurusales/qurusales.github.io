@@ -15,7 +15,7 @@ index: feature
 
 ### Feature ###
 
-QIS supports a huge number of differing file formats and we are committed to adding any that don’t automatically upload, making them compatible with standard web practices and other systems.
++ QIS supports a huge number of differing file formats and we are committed to adding any that don’t automatically upload, making them compatible with standard web practices and other systems.
 
 ### Advantage ###
 
@@ -23,4 +23,4 @@ The advantage of this approach is that it saves image creation and upload times 
 
 ### Benefit ###
 
-Removing the time and effort spent converting hundreds of product images means that your partners and target audience gain access to whatever images you have available in a very easy way.
+Your teams save considerable time and effort currently spent converting hundreds of product images, which means that your partners and target audience gain access to whatever images you have available in a very easy way.

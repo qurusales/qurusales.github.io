@@ -13,10 +13,22 @@ index: feature
 ---
 
 ### Feature ###
-Track number of requests per minute
+
++ Integrated reporting of image traffic
++ View overall image traffic on site
++ View individual  traffic on site
++ Track and see number of requests hourly
+
 ### Advantage ###
-See which images are trending aross multiple pages/ sites
+
+Network traffic level vs capacity & cost
+
+Identify the business of the Server
+
+Performance tuning
+
 ### Benefit ###
-Leverage how many people are viewing which of your product images across the internet
+
+Capacity and cost planning with hosting provider + performance tuning
 
 {% include otherfeatures.html %}

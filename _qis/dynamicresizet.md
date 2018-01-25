@@ -13,8 +13,22 @@ index: feature
 ---
 
 ### Feature ###
-Create perfect detail at any size image
+
++ Responsive image creation in response to browser generated demand
++ API driven resizing
++ Image zooming
++ Slideshow
++ Viewing gallery
++ Full screen  
+
 ### Advantage ###
-There is an almost non exisrtent barrier to entry
+
+Images do not need to be sized to pre-determined dimensions.  Rather the images will dynamically re-size to fit the page or screen size and can be zoomed to the full size of the original image for optimum sharpness and detail.
+
+This allows flexibility to deliver thumbnails, respond to varying size requests and viewing formats to mobile and desktop devices.
+
 ### Benefit ###
-Give your customers the opportunity to buy more online by showing perfect details of every part of every image of every product.
+
+Adopting an open source code solution lets you create a better performing environment that uses less bandwidth and delivers faster speeds whilst delivering ultimate detail, showing perfect details of every part of every image of every product.
+
+{% include otherfeatures.html %}
