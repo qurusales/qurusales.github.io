@@ -17,7 +17,7 @@ index: feature
 
 + Unlimited volume per image server. Unlike any other image server you and your site can use as many images as you like per license with no additional cost. Depending on what servers you are using you may need to allow for more storage but that will not affect the license.
 
-+ Fast and easy for your website developers and marketing team to introduce and maintain the system. In effect they are working in an integrated image workflow environment within your  website & digital retail solution.
++ Fast and easy for your website developers and marketing team to introduce and maintain the system. In effect they are working in an integrated image workflow environment within your website & digital retail solutions.
 
 ### Advantage ###
 
