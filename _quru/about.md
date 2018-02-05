@@ -6,8 +6,27 @@ summary: Quru is the leading open source product and software design and develop
 tags:
   - quru
 order: 1
+test: This is great!
+slideshow:
+  - slide:
+      url: "/mariadb/"
+      src: "web/mariadb-banner.png"
+      quality: 90
+  - slide:
+      url: "/insights/VirtualizationChoice"
+      src: "web/Website Banners/NewOpenSourceVirtualizationStory.png"
+      quality: 90
+  - slide:
+      url: "/sep/deduplication/"
+      src: "web/sepdedup.png"
+      quality: 90
+  - slide:
+      url: "/ibm/"
+      src: "web/Power8videobanner.png"
+      quality: 90
 thumbnail:
 headimage:
+
 
 ---
 

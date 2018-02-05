@@ -18,9 +18,9 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-  <script type="text/javascript" src="//images.quru.com/static/js/mootools_yc.js"></script>
+<!--  <script type="text/javascript" src="//images.quru.com/static/js/mootools_yc.js"></script>
   <script defer async type="text/javascript" src="/static/js/quru.js"></script>
-  <script defer async type="text/javascript" src="/static/js/nav.js"></script>
+  <script defer async type="text/javascript" src="/static/js/nav.js"></script>-->
 
   <link rel="stylesheet" href="//images.quru.com/static/styles/canvas_view.css" type="text/css" />
   <!--[if lte IE 8]>
@@ -28,7 +28,7 @@
   	<![endif]-->
   <script src="//images.quru.com/static/js/canvas_view_yc.js" type="text/javascript"></script>
   <script type="text/javascript">
-  		window.addEvent('domready', function() {
+  		QU.whenReady(function() {
   			// Initialise the clickable images
   			canvas_view_init_all_images('clickable', {
   				showcontrols: 'yes',
@@ -43,25 +43,29 @@
 
   		// Story must be >= sidebar height to avoid sidebar overlapping the footer.
   		// This needs to be done after dynamic elements have loaded, not just the initial DOM.
-  		window.addEvent('load', function() {
-  			if (($('sidebar').getStyle('position') == 'absolute') &&
-  			    ($('sidebar').clientHeight > $('story').clientHeight))
-  			{
-  				$('story').setStyle('min-height', $('sidebar').clientHeight+'px');
-  			}
-  		});
+  		//QU.whenReady(function() {
+                //if ($('sidebar')) {
+                //   if (($('sidebar').getStyle('position') == 'absolute') &&
+                //      ($('sidebar').clientHeight > $('story').clientHeight))
+                //      {
+                //          $('story').setStyle('min-height', $('sidebar').clientHeight+'px');
+                //      }
+                //   }
+	        //});
   	</script>
 
     <script type="text/javascript">
     // Resize the full-width slideshows when the window is resized
-    window.addEvent('resize', function() {
+    window.addEventListener('resize', function() {
         if (window._cb_resize !== undefined) clearTimeout(window._cb_resize);
         window._cb_resize = setTimeout(resetSlideshows, 500);
     });
     function resetSlideshows() {
-        $$('.fullwidth .slideshow').each(function(el) {
+        var shows = document.querySelectorAll('.slideshow');
+        for (var i = 0; i < shows.length; i++) {
+            var el = shows[i];
             if (el.id && el._show) slideshow_view_init(el.id, el._show.options);
-        });
-    }
+         }
+    };
     </script>
 </head>

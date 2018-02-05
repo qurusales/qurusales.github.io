@@ -8,8 +8,18 @@ layout: default
   </header>
 
   <div class="eightws">{{ page.8ws }}</div>
-
+  <h1>{{ page.test }}</h1>
   <div class="post-content">
+    
+    {% if page.carousel | size > 0 %}
+    <div class="showbox">
+      <script type="text/javascript" src="//images.quru.com/static/js/slideshow_view.min.js"></script>
+      <div class="slideshow " id="slideshow_1" style="height: 20VW; overflow: hidden; text-align: center; line-height: 304px;margin-bottom: 1em;"></div>
+      <script type="text/javascript">
+	slideshow_view_init('slideshow_1', {"images": [{% for slide in page.carousel %}{"url": "{{ slide.url }}", "src": "{{ slide.src }}", "quality": "{{ slide.quality|default('90') }}"}{% if forloop.last != true %},{% endif %}{% endfor %}], "mode": "fade", "server": "//images.quru.com/"});
+      </script>
+    </div>
+    {% endif %}
     {{ content }}
   </div>
 

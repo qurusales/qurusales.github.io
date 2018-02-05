@@ -9,6 +9,20 @@ order: 1
 thumbnail:
 headimage:
 footer: quru
+carousel:
+  - url: "/mariadb/"
+    src: "web/mariadb-banner.png"
+    quality: 90
+  - url: "/insights/VirtualizationChoice"
+    src: "web/Website Banners/NewOpenSourceVirtualizationStory.png"
+    quality: 90
+  - url: "/sep/deduplication/"
+    src: "web/sepdedup.png"
+    quality: 90
+  - url: "/ibm/"
+    src: "web/Power8videobanner.png"
+    quality: 90
+
 
 ---
 
