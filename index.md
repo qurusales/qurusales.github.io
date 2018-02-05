@@ -1,14 +1,15 @@
 ---
 layout: quru
 title: About Quru
+heading: About Quru
+menu:
 summary: Quru is the leading open source product and software design and development team in Europe
-8ws: Open source solutions evangelists applying technical design innovation
+8ws: Design and development of open source applications and infrastructure
 tags:
   - quru
 order: 1
 thumbnail:
 headimage:
-footer: quru
 carousel:
   - url: "/mariadb/"
     src: "web/mariadb-banner.png"
