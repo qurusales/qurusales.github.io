@@ -12,7 +12,7 @@ index: false
 
 ---
 
-The Quru Image Server, or QIS, is a truly wonderful product and will appeal to those business users...
+The Quru Image Server (QIS) for business users
 
 <div class="grid clearfix">
   {% for post in site.qis | sort: order %}{% if post.index == "feature"  %}{% if post.target == "business" %}{% include cell.html %}{% endif %}{% endif %}{% endfor %}
