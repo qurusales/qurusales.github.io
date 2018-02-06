@@ -4,7 +4,7 @@ menu: Red Hat
 title: Red Hat UK Premier Partner - enterprise Linux & open source subscriptions
 heading: Red Hat UK Premier Partner
 summary: Quru is a premier partner for Red Hat and leads on a number of infrastructure technologies including Ansible, OpenShift and Virtualisation. Quru will always give best advice and can reduce your infrastructure costs.
-footer: Red Hat centric Quru piece
+8ws:
 tags:
   - vendor
 order: 2

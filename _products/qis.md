@@ -12,13 +12,13 @@ index: true
 
 ---
 
-The Quru Image Server, or QIS, is a truly wonderful product.
+The Quru Image Server (QIS) is the image server of choice for serious business demands, delivering perfect detailed images, cost effectively, at scale.
 
   <div class="grid clearfix">
     <a href="/products/qisforbusiness.html" class="qis_type" id="qis_for_business"> Business </a>
-    <a href="/products/qistechnology.html" class="qis_type" id="qis_technology"> Technology </a> 
+    <a href="/products/qistechnology.html" class="qis_type" id="qis_technology"> Technology </a>
   </div>
 
 -----
 
-Something else goes here...
+Browse the features of the image server from a marketing or technological perspective.
