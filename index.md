@@ -29,6 +29,10 @@ carousel:
 
 Quru enables organisations to utilise the most appropriate blend of open source and proprietary technologies to maximise the effectiveness of their IT infrastructure and be better prepared to meet today's business challenges. Quru is a market leader in the technical design, development, deployment and support of open source based solutions that help organisations to reduce costs and increase operational agility and capability.
 
-We use established processes and our own proven methodologies to build a detailed picture of a specific aspect of the client's infrastructure, applications or services. This leads to our Linux Infrastructure Design Services and the development of the detailed solution. Build and deployment is undertaken through our portfolio of Linux Implementation Services, with full documentation and training.
+**Software development** - Bespoke software development to create applications that matter.
 
-We focus on development and deployment of inspired enterprise-class, award-winning solutions across key areas - business software product development, complex web applications and mobile apps - together with grid, messaging, and distributed filesystem and virtualization technologies.
+**Consulting, design and deployment** - Design and implementation of infrastructure solutions that make open source solutions work for business.
+
+**Open source software subscription sales** - Specification and support sales of vendor software solutions from the key global open source companies.
+
+**Applications** - Design of corporate open source applications available with enterprise support.

@@ -32,5 +32,3 @@ Because there is no need to upload and store images more than once you can even 
 Because there is no duplication your customers will always see exactly what you intend and you can manage this with simplicity, speed and ease.
 
 Single source architecture also creates a simpler database to manage and reduces infrastructure load and complexity.
-
-{% include otherfeatures.html %}

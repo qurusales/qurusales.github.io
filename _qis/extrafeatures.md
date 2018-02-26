@@ -30,5 +30,3 @@ Aside from security features development takes place in a single environment and
 ### Benefit ###
 
 The templated approach allows you to make simple changes at the image server which in turn automatically flow through to the website or application that it supports.
-
-{% include otherfeatures.html %}

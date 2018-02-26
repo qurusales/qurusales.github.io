@@ -2,7 +2,7 @@
 layout: page
 title: Resources
 summary: Information about open source vendors, software and Products
-8ws: Creating accessible open source information environment for business
+8ws: Creating an accessible open source environment for business
 tags:
   - Index
 order: 1
@@ -12,7 +12,7 @@ index: false
 
 ---
 
-**Creating accessible open source information environment for business**
+**Creating an accessible open source environment for business**
 
 Ut in urna quis ex commodo faucibus eu a diam. Cras posuere dapibus erat eget euismod. Ut ut lectus sollicitudin, finibus dui et, fermentum ante. Sed viverra congue leo, a vulputate massa fringilla et. Donec dapibus ut ligula ac ornare. Praesent feugiat, metus nec blandit pulvinar, diam justo euismod massa, vel maximus nunc justo nec dui. Nam nibh lacus, posuere sed posuere vitae, porta ac sem. Nullam vehicula nisl ac eleifend ultrices.
 
