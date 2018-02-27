@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: vendors
 title: Open source software
 summary: Open source partners are very important to us
 8ws: Helping customers leverage the benefits of open source
@@ -11,13 +11,6 @@ headimage:
 index: false
 
 ---
-
-**Helping customers leverage the benefits of open source**
-
-
-
-
-
 
 Quru specifies and supplies open source 3<sup>rd</sup> party solutions that allow companies to deploy and manage business grade infrastructure and applications. We have a history of saving clients substantial costs by ensuring that they have the right open source subscriptions for their needs.
 
@@ -35,7 +28,6 @@ Our key vendor partner is Red Hat who has supported us since foundation. We have
 
 Our partners include:
 
-{% for p in site.vendors | sort:'order' %}{% if p.title != "Vendor partners" %}{% if p.index %}<li>{{ p.title }}</li>{% endif %}{% endif %}{% endfor %}
-
------
-Quru work closely with vendors to establish their presence in the UK market and promote their ongoing innovations to our client base of over 500.  Our relationship with them is unrelentingly technical which allows us to fully understand the wider implications and opportunities arising when embedding solutions both into  enterprise partners' deployments and into software  developed by Quru.  
+<ul>
+{% for p in site.vendors | sort:'order' %}{% if p.title != "Vendor partners" %}{% if p.index %}<li><a href='{{ p.url }}'>{{ p.menu }}</a> - {{ p.summary }}</li>{% endif %}{% endif %}{% endfor %}
+</ul>

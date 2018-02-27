@@ -226,6 +226,14 @@ a#logo
     min-height: 0px;
 }
 
+.post-footer {
+    margin-bottom: 2em;    
+}
+
+.post-footer p {
+    color: #999;
+}
+
 .post h1 {
     font-size: 1.2em;
     margin-top: 0px;
@@ -233,8 +241,9 @@ a#logo
 }
 
 .post h2 {
-    font-size: 1.2em;
-    color: #888;
+    font-size: 1em;
+    color: #880000;
+    font-weight: 400;
 }
 
 .post h3 {
