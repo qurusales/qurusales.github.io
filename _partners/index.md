@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Enterprise clients
-summary: Our key enterprise partner and founding supporter is Bonhams
-8ws: Design, develop & deploy enterprise open source solutions
+summary: Quru is extremely proud of it's client list and we are very happy to provide references for our work from our customers
+8ws: Client focussed technology solutions to mission critical problems
 tags:
   - Index
 order: 1
@@ -11,13 +11,9 @@ index: false
 headimage:
 
 ---
-**Design, develop & deploy enterprise open source solutions**
+**Client focussed technology solutions to mission critical problems**
 
-## Design and development ##
-Quru's core expertise is design and development of software for enterprise clients whose requirements cannot simply or economically be met by 3rd party software solutions.  
-
-## Consult, design and deploy ##
-As premium partners of the key open source vendors in the UK, Quru has a team of certified experiences solutions architects that work directly and indirectly via our partners to help exploit the potential that 3rd party solutions provide.
+Quru is extremely proud of it's client list and we are very happy to provide references for our work from our customers
 
 ## Client case studies ##
 
