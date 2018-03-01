@@ -1,6 +1,7 @@
 ---
 layout: partners
 title: Contact us
+menu: Contact us
 summary: Useful contact details
 tags:
   - vendor

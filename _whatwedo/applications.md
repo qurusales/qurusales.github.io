@@ -1,5 +1,5 @@
 ---
-layout: whatwedo
+layout: quru
 title: Applications
 summary: Quru designs and develops corporate open source applications available with enterprise support.
 8ws: Corporate open source applications that enhance existing solutions

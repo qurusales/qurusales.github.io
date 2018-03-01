@@ -1,6 +1,7 @@
 ---
 layout: partners
 title: Whitepapers
+menu: Whitepapers
 summary: Useful publications and papers
 tags:
   - vendor

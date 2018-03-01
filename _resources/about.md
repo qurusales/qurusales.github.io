@@ -1,5 +1,6 @@
 ---
 layout: quru
+menu: About us
 title: About Quru
 summary: Quru is the leading open source product and software design and development team in Europe
 8ws: Design and development of open source applications and infrastructure
