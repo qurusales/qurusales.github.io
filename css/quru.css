@@ -75,6 +75,15 @@ img
 	/* Provide base for trends and logo positioning */
 	position: relative;
 }
+#telephone
+{
+  position: absolute;
+	top: 30px;
+	right: 0em;
+	text-align: right;
+	margin-right: 1em;
+	margin-left: 200px; /* Logo width + space */
+}
 
 
 #trends
