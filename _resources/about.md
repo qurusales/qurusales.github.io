@@ -33,8 +33,10 @@ headimage:
 
 
 
-Quru enables organisations to utilise the most appropriate blend of open source and proprietary technologies to maximise the effectiveness of their IT infrastructure and be better prepared to meet today's business challenges. Quru is a market leader in the technical design, development, deployment and support of open source based solutions that help organisations to reduce costs and increase operational agility and capability.
+Quru was established in 2008 as an innovative design and development house.  
 
-We use established processes and our own proven methodologies to build a detailed picture of a specific aspect of the client's infrastructure, applications or services. This leads to our Linux Infrastructure Design Services and the development of the detailed solution. Build and deployment is undertaken through our portfolio of Linux Implementation Services, with full documentation and training.
+In the last 10 years there have been huge changes in software application development including the rise of mobile, the acceleration of enterprise adoption of open source technologies and the emergence of cloud.  
 
-We focus on development and deployment of inspired enterprise-class, award-winning solutions across key areas - business software product development, complex web applications and mobile apps - together with grid, messaging, and distributed filesystem and virtualization technologies.
+We are now actively working with secure private cloud , distributed ledger (blockchain) and machine learning/ AI technologies to help our clients remain well ahead of their competitors.
+
+The company is headed by its founder Roland Whitehead.

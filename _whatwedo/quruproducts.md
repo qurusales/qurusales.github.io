@@ -16,4 +16,4 @@ Our relationship with open source vendor partners combined with the experience a
 
 Open source products are very powerful when combined to create meaningful business solutions.  Quru's method brings the existing technologies together with bespoke software to create unique software applications.  Our key focus is "robustness at scale".
 
-Core Technologies include: DCRaw, Docker, Go, GoScript, Image Magic, JBoss, LibRaw, Memcache, PostgreSQL, Python, Redhat OS, Redis and other open source.
+Core Technologies include: DCRaw, Docker, Go, GoScript, Image Magick, JBoss, LibRaw, Memcache, PostgreSQL, Python, Redhat OS, Redis and other open source.
