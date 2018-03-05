@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: quru
 title: Resources
 summary: Information about open source vendors, software and Products
 8ws: Creating an accessible open source environment for business
@@ -12,11 +12,7 @@ index: false
 
 ---
 
-**Creating an accessible open source environment for business**
-
-Ut in urna quis ex commodo faucibus eu a diam. Cras posuere dapibus erat eget euismod. Ut ut lectus sollicitudin, finibus dui et, fermentum ante. Sed viverra congue leo, a vulputate massa fringilla et. Donec dapibus ut ligula ac ornare. Praesent feugiat, metus nec blandit pulvinar, diam justo euismod massa, vel maximus nunc justo nec dui. Nam nibh lacus, posuere sed posuere vitae, porta ac sem. Nullam vehicula nisl ac eleifend ultrices.
-
-In vehicula libero vitae ipsum venenatis pellentesque. Morbi urna tortor, porttitor sed velit ut, luctus venenatis neque. Nulla iaculis diam at laoreet feugiat. Mauris dolor purus, interdum non arcu vel, rutrum mollis mi. Donec ac convallis felis. Nulla ac urna tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras consequat odio ut sapien blandit, fringilla ultrices sapien vehicula. Aliquam vitae erat non massa sagittis congue ut at elit. In tristique urna ex, sed ornare nisi suscipit eget.
+Our commitment to open source drives us to provide as much relevant information and assistance as we can.  We re-invest the majority of our profits into R&D in software development and infrastructure, with particular emphasis on cloud deployment.
 
 Quick links:
 

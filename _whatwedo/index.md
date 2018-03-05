@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: quru
 title: What we do
 summary: Quru works with organisations to leverage bespoke and 3rd party technologies.
 8ws: Design, develop & deploy enterprise open source solutions
@@ -11,7 +11,6 @@ index: false
 headimage:
 
 ---
-**Design, develop & deploy enterprise open source solutions**
 
 **Software development** - Bespoke software development to create applications that matter.
 
