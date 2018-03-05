@@ -1,8 +1,9 @@
 ---
-layout: partners
+layout: vendors
 menu: Docker
 title: Docker container solutions & subscriptions
 summary: Docker are a leading container evangelist
+8ws: Freedom to create and deploy applications quickly and easily 
 tags:
   - vendor
 order: 4

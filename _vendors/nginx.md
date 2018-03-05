@@ -1,8 +1,9 @@
 ---
-layout: partners
+layout: vendors
 menu: NGINX
 title: NGINX
 summary: The application server for the modern web
+8ws: The application server for the modern web
 tags:
   - vendor
 order: 8
@@ -11,8 +12,6 @@ headimage:
 index: true
 
 ---
-
-**The application server for the modern web**
 
 High performance load balancer, webserver and content cache
 NGINX has earnt a reputation as the web server for modern web sites, applications and microservices - lightweight, easily configured and fast. But there is a commercial version of NGINX that adds enterprise grade support and added features including session persistence, monitoring, configuration API and even more performance options.

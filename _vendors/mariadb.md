@@ -1,8 +1,9 @@
 ---
-layout: partners
+layout: vendors
 menu: MariaDB
 title: MariaDB - enterprise MySQL solutions
 summary: MariaDB open source database
+8ws: The logical robust, scalable, and reliable database choice
 tags:
   - vendor
 order: 6

@@ -1,8 +1,9 @@
 ---
-layout: partners
+layout: vendors
 title: Coscale container monitoring solutions
 menu: Coscale
 summary: Container monitoring
+8ws: Full stack container and microservices production monitoring platform
 tags:
   - vendor
 order: 3
@@ -11,8 +12,6 @@ headimage:
 index: true
 
 ---
-
-***CoSale: Full stack container monitoring***
 
 <div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="http://images.quru.com/image?src=web/logos/coscale.png&width=300" title="Coscale" alt="Quru are Coscales's UK partners"> </div>
 

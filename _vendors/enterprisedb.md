@@ -1,8 +1,9 @@
 ---
-layout: partners
+layout: vendors
 menu: EnterpriseDB
 title: EnterpriseDB - PostgreSQL solutions for the enterprise
 summary: EnterpriseDB open source database
+8ws: Challenging enterprise level proprietary RDBMS solutions
 tags:
   - vendor
 order: 5

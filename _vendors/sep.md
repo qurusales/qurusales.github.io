@@ -1,8 +1,9 @@
 ---
-layout: partners
+layout: vendors
 menu: SEP
 title:  SEP advanced enterprise backup solutions
 summary: Linux workload backup
+8ws: Enterprise Backup & Disaster Recovery, Deduplication & Archiving
 tags:
   - vendor
 order: 9

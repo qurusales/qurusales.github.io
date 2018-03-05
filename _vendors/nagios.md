@@ -1,8 +1,9 @@
 ---
-layout: partners
+layout: vendors
 menu: Nagios
 title: Enterprise monitoring with NagiosXI
 summary: Nagios open source OS
+8ws: The Industry standard in IT infrastructure monitoring
 tags:
   - vendor
 order: 7
@@ -15,8 +16,6 @@ index: true
 <div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="http://images.quru.com/image?src=web/logos/nagios-xi.jpg&width=300" title="NagiosXI" alt="Quru are Nagios' UK partners"> </div>
 
 Solve infrastructure issues before they become business problems
-
-## The Industry standard in IT infrastructure monitoring ##
 
 Nagios is a powerful open source monitoring system that enables organizations to identify and resolve IT infrastructure problems before they affect critical business processes.
 
