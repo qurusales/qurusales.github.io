@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: quru
 title: Quru products
 summary: Quru products are the ultimate release of the R&D that drives the Quru team
 8ws: Building enterprise open source software to empower business
@@ -10,8 +10,6 @@ thumbnail:
 headimage:
 index: false
 ---
-
-**Building enterprise open source software to empower business**
 
 Quru designs and develops corporate open source applications available with enterprise support.  Our track record of innovation and design led solutions has resulted in the development of applications that are widely used by multiple companies.
 

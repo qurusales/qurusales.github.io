@@ -7,7 +7,7 @@ summary: Quru is a premier partner for Red Hat and leads on a number of infrastr
 8ws: The world's leading open source company and community
 tags:
   - vendor
-order: 2
+order: 9
 logo: //images.quru.com/image?src=/web/logos/RHBusPremierLogo_RGB.png
 headimage:
 index: true

@@ -6,7 +6,7 @@ summary: Linux workload backup
 8ws: Enterprise Backup & Disaster Recovery, Deduplication & Archiving
 tags:
   - vendor
-order: 9
+order: 10
 thumbnail:
 headimage:
 index: true

@@ -12,8 +12,14 @@ headimage:
 
 ---
 
-Our relationship with open source vendor partners combined with the experience and revenue derived from our enterprise clients allows us to develop simple, scaleable products.  We are passionate about open source and consequently all of our product is available in open source with free license agreements.  Quru also sells enterprise licenses and support contracts so that companies can deploy large scale solutions with enhanced features, services and support, as well as taking advantage of the latest patches and upgrades.
+Our relationship with open source vendor partners combined with the experience and revenue derived from our enterprise clients allows us to develop our own products in-house. We are passionate about open source, and consequently all of our products are made freely available under open source license agreements.
 
-Open source products are very powerful when combined to create meaningful business solutions.  Quru's method brings the existing technologies together with bespoke software to create unique software applications.  Our key focus is "robustness at scale".
+Quru also sells enterprise licenses and support contracts so that companies can deploy large scale solutions with enhanced features, service monitoring and technical support, as well as receiving the latest patches and upgrades.
 
-Core Technologies include: DCRaw, Docker, Go, GoScript, Image Magick, JBoss, LibRaw, Memcache, PostgreSQL, Python, Redhat OS, Redis and other open source.
+Our open source products are powerful, proven in production, and can be combined to create meaningful business solutions. Quru’s method brings existing technologies together with bespoke software to create unique software applications. Our key focus is “robustness at scale”.
+
+Core Technologies include: Ansible, Docker, Go, JavaScript, ImageMagick, JBoss, LibRaw, Memcache, PostgreSQL, Python, Red Hat OS, Redis and other open source technologies.
+
+**Agile Metal Platform** ..... Link
+
+**Quru Image Server** ..... Link
