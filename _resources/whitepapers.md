@@ -5,11 +5,11 @@ menu: Whitepapers
 summary: Useful publications and papers
 tags:
   - vendor
-order: 3
+order: 5
 thumbnail:
 headimage:
-index: true
+index: false
 
 ---
 
-MariaDB is a key player in the open source database ecosystem
+Whitepapers??
