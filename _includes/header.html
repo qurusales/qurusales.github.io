@@ -42,7 +42,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </ul>
        </li>
 
-       <li><a href="/products/">Applications</a>
+       <li><a href="/products/">Quru products</a>
             <ul class="article_list">
                 {% assign contents = site.products | sort:'order' %}{% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url | prepend: site.baseurl}}">{{ p.menu }}</a></li>{% endif %}{% endfor %}
             </ul>

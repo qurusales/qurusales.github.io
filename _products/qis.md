@@ -1,8 +1,8 @@
 ---
 layout: qis
 menu: Quru Image Server
-title: Quru Image Server - colour managed dynamic image rendering at scale
-summary: A really useful dynamic image server
+title: Quru Image Server
+summary: Colour managed dynamic image rendering at scale
 tags:
   - product
 order: 4
@@ -11,6 +11,8 @@ headimage:
 index: true
 
 ---
+
+**Colour managed dynamic image rendering at scale**
 
 The Quru Image Server (QIS) is the image server of choice for serious business demands, delivering perfect detailed images, cost effectively, at scale.
 

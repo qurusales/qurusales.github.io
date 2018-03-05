@@ -5,7 +5,7 @@ title: Enterprise monitoring with NagiosXI
 summary: Nagios open source OS
 tags:
   - vendor
-order: 8
+order: 7
 thumbnail:
 headimage:
 index: true

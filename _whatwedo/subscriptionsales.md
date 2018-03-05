@@ -11,7 +11,6 @@ index: true
 headimage:
 
 ---
-**Design, develop & deploy enterprise open source solutions**
 
 Quru specifies and supports sales of vendor software solutions from the key global open source companies. We supply open source 3rd party solutions that allow companies to deploy and manage business grade infrastructure and applications. We have a history of saving clients substantial costs by ensuring that they have the right open source subscriptions for their needs.
 
@@ -23,7 +22,3 @@ Operating Systems
 Innovative database technologies
 Microservices
 Cloud services
-
-<ul class="partners">
-{% for p in site.partners  | sort:'order' %}{% if p.index == true %}<li><b>[{{ p.title }}](this needs a link)</b> {{ p.summary }}</li>{% endif %}{% endfor %}
-</ul>

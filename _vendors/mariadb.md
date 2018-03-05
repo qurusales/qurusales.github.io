@@ -5,7 +5,7 @@ title: MariaDB - enterprise MySQL solutions
 summary: MariaDB open source database
 tags:
   - vendor
-order: 7
+order: 6
 thumbnail:
 headimage:
 index: true
