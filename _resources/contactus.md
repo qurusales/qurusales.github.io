@@ -12,9 +12,12 @@ index: true
 
 ---
 
-Telephone
-Email
-Address
-Map
+* Telephone
 
-Pic of courtyard
+* Email
+
+* Address
+
+* Map
+
+* Pic of courtyard
