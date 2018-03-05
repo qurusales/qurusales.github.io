@@ -1,6 +1,6 @@
 ---
 layout: quru
-title: Open source software subscription sales
+title: Open source subscription sales
 summary: Specification and support sales of vendor software solutions from the key global open source companies.
 8ws: Design, develop & deploy enterprise open source solutions
 tags:
@@ -18,7 +18,7 @@ Quru has a team of architects and consultants that design and implement infrastr
 
 Key areas of focus are:
 
-Operating Systems
-Innovative database technologies
-Microservices
-Cloud services
+* Operating Systems
+* Innovative database technologies
+* Microservices
+* Cloud services
