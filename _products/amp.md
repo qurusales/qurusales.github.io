@@ -13,6 +13,7 @@ index: true
 ---
 
 ## AMP - Agile Metal Platform ##
+
 AMP is a joint development project between Quru and A24.io, a Tokyo based cloud services company. Quru are currently working to develop AMP into a robust, highly available, scaleable but totally understandable infrastructure management system.
 
 AMP's history:
