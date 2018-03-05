@@ -12,4 +12,4 @@ index: false
 
 ---
 
-MariaDB is a key player in the open source database ecosystem
+Insights??

@@ -1,10 +1,11 @@
 ---
-layout: partners
+layout: quru
 title: Contact us
 menu: Contact us
 summary: Useful contact details
+8ws: 
 tags:
-  - vendor
+  - resources
 order: 2
 thumbnail:
 headimage:
