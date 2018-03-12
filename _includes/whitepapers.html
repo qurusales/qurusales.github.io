@@ -1,0 +1,14 @@
+{% assign counter=0 %}
+{% for t in page.whitepapers %}
+{% assign counter=counter+1 %}
+{% endfor %}
+{% if counter != 0 %}
+<div class="sidebarItem">
+  <h3>White papers</h3>
+  <div class="article_list">
+    <ul>
+      {% assign contents = site.whitepapers %}{% for t in page.whitepapers %}<li><a href="{{ t.url | prepend: site.baseurl }}">{{ t.menu }}</a></li>{% endfor %}
+    </ul>
+  </div>
+</div>
+{% endif %}

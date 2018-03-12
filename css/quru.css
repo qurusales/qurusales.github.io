@@ -78,11 +78,16 @@ img
 #telephone
 {
   position: absolute;
-	top: 30px;
-	right: 0em;
+	top: 107px;
+	right: 80px;
 	text-align: right;
 	margin-right: 1em;
 	margin-left: 200px; /* Logo width + space */
+	background-image: url("/css/contact.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
 }
 
 
@@ -177,13 +182,6 @@ img
 }
 
 
-#telephone
-{
-    position: absolute;
-    top: 107px;
-    right: 80px;
-}
-
 .clear
 {
 	clear:  both;
@@ -277,7 +275,7 @@ a#logo
 
 #sidebar
 {
-	width: 225px;
+	width: 235px;
 	position: absolute;
 	right: 0px;
 	/* Align top sidebar item with story headline */
@@ -490,6 +488,7 @@ em.color
 em.italic, em.inspired {
 	font-style: italic;
 }
+    </div>
 
 em.bold {
 	font-weight: bold;
@@ -510,7 +509,7 @@ em.bold {
 }
 #contactUs div.copy form input
 {
-    width: 93px;
+    width: 103px;
 }
 #contactUs div.copy form input[type="button"],
 #contactUs div.copy form input[type="submit"]
@@ -965,13 +964,13 @@ div.sidebarItem.plain
 }
 
 #qis_for_business {
-    background: #fefcea;
-    background: linear-gradient(to bottom, #fefcea 0%, #f1da36 100%);
+/*    background: #fefcea;
+    background: linear-gradient(to bottom, #fefcea 0%, #f1da36 100%);*/
 }
 
 #qis_technology {
-    background: #ff3019;
-    background: linear-gradient(to bottom,#ff3019 0%, #cf0404 100% );
+/*    background: #ff3019;
+    background: linear-gradient(to bottom,#ff3019 0%, #cf0404 100% ); */
 }
 
 /* Responsive layout for small screens (767 == narrower than iPad) */

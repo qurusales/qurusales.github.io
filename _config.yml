@@ -48,3 +48,5 @@ collections:
     output: true
   whatwedo:
     output: true
+  redhat:
+    output: true

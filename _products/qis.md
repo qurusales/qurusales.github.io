@@ -29,10 +29,10 @@ Simply upload a single high resolution image and instruct the browser to downloa
 
 
 
-  <div class="grid clearfix">
-    <a href="/products/qisforbusiness.html" class="qis_type" id="qis_for_business"> Business </a>
-    <a href="/products/qistechnology.html" class="qis_type" id="qis_technology"> Technology </a>
-  </div>
+<ul>
+<li> <a href="/products/qisforbusiness.html" class="qis_type2" id="qis_for_business">Further details for management</a></li>
+<li><a href="/products/qistechnology.html" class="qis_type2" id="qis_technology">Further details for developers</a></li>
+</ul>
 
 -----
 

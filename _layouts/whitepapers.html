@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <div class="eightws">{{ page.8ws }}</div>
+
+  <div class="post-content">
+    <div id="image" style="float: left; border: 1px solid grey; margin-right: 20px;"> <img class="clickable" src="{{ page.headimage }}&amp;width=450&amp;format=jpg}" title="{{ page.title }}" alt="{{ page.title }}" width="300"> </div>
+    {{ content }}
+  </div>
+
+  <div class="post-footer">
+    {% include partnerfooter.html %}
+  </div>
+  {% include footer.html %}
+
+</article>

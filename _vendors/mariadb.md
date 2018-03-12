@@ -5,7 +5,12 @@ title: MariaDB - enterprise MySQL solutions
 summary: MariaDB open source database
 8ws: The logical robust, scalable, and reliable database choice
 tags:
-  - vendor
+  - MariaDB
+whitepapers:
+  - menu: Power data performance the open way
+    url: /whitepapers/mariaDBOnIBMPower8.html
+  - menu: MariaDB on IBM Power
+    url: /whitepapers/mariaDBOnIBMPower8.html
 order: 6
 thumbnail:
 headimage:

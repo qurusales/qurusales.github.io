@@ -8,10 +8,17 @@
     {% include header.html %}
 
     
-    <div class="page-content">
+    <div id="content">
+      <div id="story">
         {{ content }}
-    </div>
+      </div>
 
+      <div id="sidebar">
+	{% include whitepapers.html %}
+	{% include contact_us.html %}
+	{% include sidelogo.html %}
+      </div>
+    </div>
   </body>
 
 </html>
