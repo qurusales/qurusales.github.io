@@ -15,7 +15,9 @@ order: 6
 thumbnail:
 headimage:
 index: true
-
+logos:
+  - logo: https://images.quru.com/image?src=/web/logos/mariadb.jpg&height=100
+    url: https://www.mariadb.com
 ---
 
 ![UK Partner for MariaDB](http://images.quru.com/image?src=web/logos/mariadb.jpg)

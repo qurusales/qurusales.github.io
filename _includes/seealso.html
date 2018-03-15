@@ -1,0 +1,14 @@
+{% assign counter=0 %}
+{% for t in page.seealso %}
+{% assign counter=counter+1 %}
+{% endfor %}
+{% if counter != 0 %}
+<div class="sidebarItem">
+  <h3>See also</h3>
+  <div class="article_list">
+    <ul>
+      {% for t in page.seealso %}<li><a href="{{ t.url | prepend: site.baseurl }}">{{ t.menu }}</a></li>{% endfor %}
+    </ul>
+  </div>
+</div>
+{% endif %}
