@@ -10,6 +10,9 @@ order: 4
 thumbnail:
 headimage:
 index: true
+logos:
+  - logo: "//images.quru.com/image?src=web/logos/Docker-logo.jpg&width=110"
+    url: "https://www.docker.com"
 ---
 
 <div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="http://images.quru.com/image?src=web/logos/dockerbadge.jpg" title="Docker" alt="Quru are Docker's UK partners"> </div>

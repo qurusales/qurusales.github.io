@@ -10,7 +10,9 @@ order: 8
 thumbnail:
 headimage:
 index: true
-
+logos:
+  - logo: //images.quru.com/image?src=web/logos/nginx.jpg&width=110
+    url: https://nginx.com
 ---
 
 High performance load balancer, webserver and content cache

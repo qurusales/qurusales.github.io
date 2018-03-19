@@ -10,7 +10,9 @@ order: 10
 thumbnail:
 headimage:
 index: true
-
+logos:
+  - logo: //images.quru.com/image?src=web/logos/SEP_GSM_big.jpg&width=110&format=jpg&strip=1
+    url: http://www.sep.de/
 ---
 
 ## Backup Linux workloads on Linux not Windows

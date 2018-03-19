@@ -11,6 +11,10 @@ order: 9
 logo: //images.quru.com/image?src=/web/logos/RHBusPremierLogo_RGB.png
 headimage:
 index: true
+logos:
+  - logo: //images.quru.com/image?src=/web/RH_Tiers_Premier_Partner_RGB.png&height=100&left=0.20625&right=0.79375&top=0.12621&bottom=0.84951
+    url: http://www.redhat.com/
+  
 ---
 
 <div id="image" style="float:right;"><img class="clickable" src="http://images.quru.com/image?src=/web/logos/RHBusPremierLogo_RGB.png&width=300" title="Red Hat" alt="Quru are a Red Hat Premier Partner"></div>

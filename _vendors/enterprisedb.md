@@ -22,7 +22,9 @@ seealso:
     url: /vendors/oracleToEnterprisedbMigrationAssessment.html
   - menu: EnterpriseDB Postgres Plus Advanced Server
     url: /vendors/enterprisedbPostgresPlusAdvancedServer.html
-
+logos:
+  - logo: //images.quru.com/image?src=web/logos/EDB_Logo.png&width=110
+    url: https://enterprisedb.com
 ---
 
 Founded in 2004 and now a global player, EnterpriseDB is the only worldwide provider of enterprise-class products and services based on PostgreSQL. In fact, the majority of code added to the PostgreSQL project is submitted by EnterpriseDB and the company provides expert knowledge and support to its ongoing development.

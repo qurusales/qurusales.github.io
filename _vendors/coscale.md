@@ -10,7 +10,9 @@ order: 3
 thumbnail:
 headimage:
 index: true
-
+logos:
+  - logo: "https://images.quru.com/image?src=web/logos/coscale.png&width=110"
+    url: "https://www.coscale.com"
 ---
 
 <div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="http://images.quru.com/image?src=web/logos/coscale.png&width=300" title="Coscale" alt="Quru are Coscales's UK partners"> </div>

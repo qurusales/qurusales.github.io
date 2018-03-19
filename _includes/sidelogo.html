@@ -1,5 +1,10 @@
+{% assign counter=0 %}
+{% for t in page.logos %}
+{% assign counter=counter+1 %}
+{% endfor %}
 <div class="sidebarItem" id="partners">
   <ul class="nobullets">
-    {% for t in page.logos %}<li><a href="{{ t.url }}" target="_new"><img src="{{ t.logo }}" alt="{{ page.title }}"></a></li>{% endfor %}
+    {% if counter == 0 %}<li><a href="/" target="_new"><img src="https://www.quru.com/static/images/quru_logo.png" alt="Quru"></a></li>{% else %}    
+    {% for t in page.logos %}<li><a href="{{ t.url }}" target="_new"><img src="{{ t.logo }}" alt="{{ page.title }}"></a></li>{% endfor %}{% endif %}
   </ul>
 </div>

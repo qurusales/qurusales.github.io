@@ -10,10 +10,12 @@ order: 7
 thumbnail:
 headimage:
 index: true
-
+logos:
+  - logo: //images.quru.com/image?src=web/logos/nagios-xi.jpg&width=110
+    url: www.nagios.com
 ---
 
-<div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="http://images.quru.com/image?src=web/logos/nagios-xi.jpg&width=300" title="NagiosXI" alt="Quru are Nagios' UK partners"> </div>
+<div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="//images.quru.com/image?src=web/logos/nagios-xi.jpg&width=300" title="NagiosXI" alt="Quru are Nagios' UK partners"> </div>
 
 Solve infrastructure issues before they become business problems
 

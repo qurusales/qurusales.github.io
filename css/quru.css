@@ -77,13 +77,8 @@ img
 }
 #telephone
 {
-  position: absolute;
-    top: 107px;
-    right: 80px;
-    width: 200px;
-    height: 28.5px;
     text-align: right;
-    margin-right: 0.5em;
+    padding-bottom: 1em;
 }
 
 
@@ -639,7 +634,12 @@ input[type="text"]:hover, textarea:hover {
 
 .nobullets
 {
-    list_style_type: none;
+    margin-left: 0;
+    margin-top: 1em;    
+}
+
+.nobullets li {
+    list-style-type: none;
 }
 
 
