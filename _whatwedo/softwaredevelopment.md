@@ -18,6 +18,19 @@ We focus on development and deployment of inspired enterprise-class, award-winni
 
 Quru's core expertise is design and development of software for enterprise clients whose requirements cannot simply or economically be met by 3rd party software solutions.  
 
-Method .....
+Our software development team includes business analysts, subject matter experts, solutions designers and user experience designers as well as programmers skilled in multiple programming languages, environments and libraries.  They also have access to our teams of Linux consultants and System Administrators who add skills and experience beyond DevOps into robust enterprise operations.
 
-Core technologies .....
+Specialist core technologies include:
+
+* Ansible & Puppet
+* Apache & NGINX
+* C, Go, Java, JavaScript & Python
+* Celery, RabbitMQ
+* Django & Flask
+* Docker & OpenShift
+* Git & SVN
+* JBoss
+* Linux, MacOS & Windows
+* PostgreSQL
+* Progress OpenEdge
+* Redis & Memcache
