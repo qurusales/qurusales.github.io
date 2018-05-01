@@ -2,7 +2,7 @@
 layout: vendors
 menu: MariaDB
 title: MariaDB - enterprise MySQL solutions
-summary: MariaDB open source database
+summary: An enhanced open source database, a drop-in replacement for MySQL.
 8ws: The logical robust, scalable, and reliable database choice
 tags:
   - MariaDB
@@ -20,7 +20,7 @@ logos:
     url: https://www.mariadb.com
 ---
 
-![UK Partner for MariaDB](http://images.quru.com/image?src=web/logos/mariadb.jpg)
+<div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="http://images.quru.com/image?src=web/logos/mariadb.jpg&width=300" title="MariaDB" alt="Quru are MariaDB's UK partner"> </div>
 
 Data volumes in key business systems are constantly growing. This increases the pressure on the applications used to supply personalised data from these systems to end-users. To add to the complexity, end-users are using numerous different types of devices which require their own data configuration.
 

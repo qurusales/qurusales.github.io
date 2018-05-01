@@ -3,7 +3,7 @@ layout: qisfeatures
 title: Multi-format
 summary: 3 this incredible because ...
 target: business
-class: cella
+class: plain
 tags:
   - product
 order: 3

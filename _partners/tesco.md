@@ -2,7 +2,8 @@
 layout: vendors
 title: Tesco
 summary: The UKs No.1 retailer
-8ws: Design, develop & distribute enterprise open source solutions
+8ws:
+
 tags:
   - client
   - consulting

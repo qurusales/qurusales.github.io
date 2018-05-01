@@ -16,7 +16,7 @@ Quru has been developing bespoke applications for corporate clients at enterpris
 
 We focus on development and deployment of inspired enterprise-class, award-winning solutions across key areas - business software product development, complex web applications and mobile apps - together with grid, messaging, and distributed filesystem and virtualisation technologies.
 
-Quru's core expertise is design and development of software for enterprise clients whose requirements cannot simply or economically be met by 3rd party software solutions.  
+Quru's core expertise is design and development of software for enterprise clients whose requirements cannot simply or economically be met by 3<sup>rd</sup> party software solutions.  
 
 Our software development team includes business analysts, subject matter experts, solutions designers and user experience designers as well as programmers skilled in multiple programming languages, environments and libraries.  They also have access to our teams of Linux consultants and System Administrators who add skills and experience beyond DevOps into robust enterprise operations.
 

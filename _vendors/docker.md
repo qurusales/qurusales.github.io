@@ -2,8 +2,8 @@
 layout: vendors
 menu: Docker
 title: Docker container solutions & subscriptions
-summary: Docker are a leading container evangelist
-8ws: Freedom to create and deploy applications quickly and easily 
+summary: DevOPs teams can build, ship, and run any app, anywhere
+8ws: Freedom to create and deploy applications quickly and easily
 tags:
   - vendor
 order: 4
@@ -15,7 +15,7 @@ logos:
     url: "https://www.docker.com"
 ---
 
-<div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="http://images.quru.com/image?src=web/logos/dockerbadge.jpg" title="Docker" alt="Quru are Docker's UK partners"> </div>
+<div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="http://images.quru.com/image?src=web/logos/dockerbadge.jpg" title="Docker" alt="Quru are Docker's UK partner"> </div>
 
 Docker provides an integrated technology suite that enables development and IT operations teams to build, ship, and run distributed applications anywhere.
 

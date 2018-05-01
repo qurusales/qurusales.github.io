@@ -19,6 +19,6 @@ Our key vendor partner is Red Hat who has supported us since foundation. We have
 
 Our partners include:
 
-<ul>
-{% for p in site.vendors | sort:'order' %}{% if p.title != "Vendor partners" %}{% if p.index %}<li><a href='{{ p.url }}'>{{ p.menu }}</a> - {{ p.summary }}</li>{% endif %}{% endif %}{% endfor %}
-</ul>
+<table class='padded'>
+{% for p in site.vendors | sort:'order' %}{% if p.title != "Vendor partners" %}{% if p.index %}<tr><td><a href='{{ p.url }}'><img src='{{ p.logo }}'></a></td><td><a href='{{ p.url }}'>{{ p.menu }}</a><br/>{{ p.summary }}</td></tr>{% endif %}{% endif %}{% endfor %}
+</table>

@@ -1,8 +1,8 @@
 ---
 layout: quru
-title: AMP - Drag and drop datacentre management
+title: Agile Metal Platform - AMP
 menu: AMP
-summary: The cloud deployment Agile Metal Platform (AMP)
+summary: The cloud deployment drag and drop datacentre management platform
 8ws: Agile design and deployment of hybrid cloud solutions
 tags:
   - product

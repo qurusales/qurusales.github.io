@@ -2,7 +2,7 @@
 layout: vendors
 menu: EnterpriseDB
 title: EnterpriseDB - PostgreSQL solutions for the enterprise
-summary: EnterpriseDB open source database
+summary: Open source database offering a real alternative to traditional proprietary database systems - and at a fraction of the cost
 8ws: Challenging enterprise level proprietary RDBMS solutions
 tags:
   - vendor
@@ -24,8 +24,9 @@ seealso:
     url: /vendors/enterprisedbPostgresPlusAdvancedServer.html
 logos:
   - logo: //images.quru.com/image?src=web/logos/EDB_Logo.png&width=110
-    url: https://enterprisedb.com
+    url: //enterprisedb.com
 ---
+<div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="http://images.quru.com/image?src=web/logos/EDB_Logo.png&width=300" title="EnterpriseDB" alt="Quru are Enterprise DB's UK partner"> </div>
 
 Founded in 2004 and now a global player, EnterpriseDB is the only worldwide provider of enterprise-class products and services based on PostgreSQL. In fact, the majority of code added to the PostgreSQL project is submitted by EnterpriseDB and the company provides expert knowledge and support to its ongoing development.
 

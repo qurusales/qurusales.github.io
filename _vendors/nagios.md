@@ -2,8 +2,8 @@
 layout: vendors
 menu: Nagios
 title: Enterprise monitoring with NagiosXI
-summary: Nagios open source OS
-8ws: The Industry standard in IT infrastructure monitoring
+summary: IT infrastructure, systems, applications, services monitoring solution
+8ws: The industry standard in IT infrastructure monitoring solutions
 tags:
   - vendor
 order: 7
@@ -15,7 +15,7 @@ logos:
     url: www.nagios.com
 ---
 
-<div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="//images.quru.com/image?src=web/logos/nagios-xi.jpg&width=300" title="NagiosXI" alt="Quru are Nagios' UK partners"> </div>
+<div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="//images.quru.com/image?src=web/logos/nagios-xi.jpg&width=300" title="NagiosXI" alt="Quru are Nagios' UK partner"> </div>
 
 Solve infrastructure issues before they become business problems
 

@@ -2,7 +2,7 @@
 layout: vendors
 title: Coscale container monitoring solutions
 menu: Coscale
-summary: Container monitoring
+summary: Container-native monitoring solution, purpose-built to monitor containers and microservices
 8ws: Full stack container and microservices production monitoring platform
 tags:
   - vendor
@@ -11,11 +11,11 @@ thumbnail:
 headimage:
 index: true
 logos:
-  - logo: "https://images.quru.com/image?src=web/logos/coscale.png&width=110"
-    url: "https://www.coscale.com"
+  - logo: "//images.quru.com/image?src=web/logos/coscale.png&width=110"
+    url: "//www.coscale.com"
 ---
 
-<div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="http://images.quru.com/image?src=web/logos/coscale.png&width=300" title="Coscale" alt="Quru are Coscales's UK partners"> </div>
+<div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="http://images.quru.com/image?src=web/logos/coscale.png&width=300" title="Coscale" alt="Quru are Coscales's UK partner"> </div>
 
 
  CoScale offers a container-native monitoring solution, purpose-built to monitor containers and microservices in enterprise production environments. The CoScale platform automatically discovers and monitors all containers and services running in your environment and provides container-specific visualizations and analytics.

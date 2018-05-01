@@ -12,13 +12,13 @@ headimage:
 
 ---
 
-**Software development** - Bespoke software development to create applications that matter.
+[**Software development**](softwaredevelopment.html) - Bespoke software development to create applications that matter.
 
-**Consulting, design and deployment** - Design and implementation of infrastructure solutions that make open source solutions work for business.
+[**Consulting, design and deployment**](consultingdesigndeployment.html) - Design and implementation of infrastructure solutions that make open source solutions work for business.
 
-**Open source software subscriptions** - Specification and support sales of vendor software solutions from the key global open source companies.
+[**Open source software subscriptions**](subscriptionsales.html) - Specification and support sales of vendor software solutions from the key global open source companies.
 
-**Applications** - Design of corporate open source applications available with enterprise support.
+[**Applications**](quruproducts.html) - Design of corporate open source applications available with enterprise support.
 
 **Enterprise clients**
 

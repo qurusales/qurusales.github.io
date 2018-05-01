@@ -3,7 +3,7 @@ layout: qisfeatures
 title: Cost effective
 summary: 8 this incredible because ...
 target: business
-class: cellb
+class: plain
 tags:
   - product
 order: 8
