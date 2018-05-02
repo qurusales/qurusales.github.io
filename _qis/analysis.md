@@ -14,7 +14,7 @@ index: feature
 
 ---
 
-Key Features
+### Key Features
 
 + Integrated reporting of image traffic
 + View overall image traffic on site

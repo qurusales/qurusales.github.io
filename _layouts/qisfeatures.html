@@ -11,7 +11,7 @@ layout: default
     {{ content }}
     <h3>Other features</h2>
     <div class="grid clearfix">
-  {% for post in site.qis | sort: order %}{% if post.index == "feature"  %}{% if post.target == page.target %}{% if post.title != page.title %}{% include cell.html %}{% endif %}{% endif %}{% endif %}{% endfor %}
+  {% for post in site.qis | sort: order %}{% if post.index == "feature"  %}{% if post.target == page.target %}{% if post.title != page.title %}{% include feature.html %}{% endif %}{% endif %}{% endif %}{% endfor %}
 </div>
   </div>
 
