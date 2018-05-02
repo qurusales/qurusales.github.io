@@ -32,4 +32,3 @@ However, it is also simple to deploy at low scale either as a supporting tactica
 
 QIS only needs to be deployed once irrespective of how big it gets.  Assuming that you have sufficient SysOps capacity, QIS software is designed to underpin deployments that can grow to whatever scale suits your deployment, small or large.
 
-{% include otherfeatures.html %}
