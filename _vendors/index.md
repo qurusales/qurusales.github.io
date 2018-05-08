@@ -20,5 +20,5 @@ Our key vendor partner is Red Hat who has supported us since foundation. We have
 Our partners include:
 
 <table class='padded'>
-{% assign sorted_posts = site.vendors | sort: 'order' %}{% for p in sorted_posts %}{% if p.title != "Vendor partners" %}{% if p.index %}<tr><td><a href='{{ p.url }}'><img src='{{ p.logo }}'></a></td><td><a href='{{ p.url }}'>{{ p.menu }}</a><br/>{{ p.summary }}</td></tr>{% endif %}{% endif %}{% endfor %}
+{% assign sorted_posts = site.vendors | sort: 'order' %}{% for p in sorted_posts %}{% if p.title != "Vendor partners" %}{% if p.index %}<tr><td>{% for l in p.logos | first %}<a href='{{ l.url }}'><img src='{{ l.logo }}'></a>{% endfor %}</td><td><a href='{{ p.url }}'>{{ p.menu }}</a><br/>{{ p.summary }}</td></tr>{% endif %}{% endif %}{% endfor %}
 </table>
