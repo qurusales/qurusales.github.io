@@ -3,7 +3,7 @@ layout: quru
 title: Agile Metal Platform - AMP
 menu: AMP
 summary: The cloud deployment drag and drop datacentre management platform
-8ws: Agile design and deployment of hybrid cloud solutions
+eightws: Agile design and deployment of hybrid cloud solutions
 tags:
   - product
 order: 2

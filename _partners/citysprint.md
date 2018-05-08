@@ -2,7 +2,7 @@
 layout: vendors
 title: City Sprint
 summary: The largest same day distribution service in the UK.
-8ws: Bananas
+eightws: Bananas
 tags:
   - client
   - consulting

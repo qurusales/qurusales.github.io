@@ -3,7 +3,7 @@ layout: vendors
 menu: Docker
 title: Docker container solutions & subscriptions
 summary: DevOPs teams can build, ship, and run any app, anywhere
-8ws: Freedom to create and deploy applications quickly and easily
+eightws: Freedom to create and deploy applications quickly and easily
 tags:
   - vendor
 order: 4

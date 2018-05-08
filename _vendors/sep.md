@@ -3,7 +3,7 @@ layout: vendors
 menu: SEP
 title:  SEP advanced enterprise backup solutions
 summary: Backup & Disaster Recovery, Deduplication & Archiving across all operating systems and applications
-8ws: Enterprise Backup & Disaster Recovery, Deduplication & Archiving
+eightws: Enterprise Backup & Disaster Recovery, Deduplication & Archiving
 tags:
   - vendor
 order: 10

@@ -2,7 +2,7 @@
 layout: vendors
 title: Tesco
 summary: The UKs No.1 retailer
-8ws:
+eightws:
 
 tags:
   - client

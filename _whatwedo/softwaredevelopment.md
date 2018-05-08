@@ -2,7 +2,7 @@
 layout: quru
 title: Software development
 summary: Quru has been developing bespoke applications for corporate clients at enterprise and startup level for over a decade.
-8ws: Bespoke software development to create applications that matter
+eightws: Bespoke software development to create applications that matter
 tags:
   - software
   - development

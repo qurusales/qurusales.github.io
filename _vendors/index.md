@@ -2,7 +2,7 @@
 layout: vendors
 title: Open source software
 summary: Open source partners are very important to us
-8ws: Helping customers leverage the benefits of open source
+eightws: Helping customers leverage the benefits of open source
 tags:
   - Index
 order: 1

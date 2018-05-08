@@ -3,7 +3,7 @@ layout: quru
 menu: Quru Image Server
 title: QIS for Businesss
 summary: A really useful dynamic image server
-8ws: Colour managed dynamic image rendering at scale
+eightws: Colour managed dynamic image rendering at scale
 tags:
   - product
 order: 4

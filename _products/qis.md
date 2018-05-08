@@ -3,7 +3,7 @@ layout: quru
 menu: Quru Image Server
 title: Quru Image Server - QIS
 summary: Colour managed dynamic image rendering at scale
-8ws: Colour managed dynamic image rendering at scale
+eightws: Colour managed dynamic image rendering at scale
 tags:
   - product
 order: 3

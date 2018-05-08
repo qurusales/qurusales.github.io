@@ -3,7 +3,7 @@ layout: quru
 title: Enterprise clients
 menu: Enterprise clients
 summary: Useful publications and papers
-8ws: Our enterprise clients bear testimony to our abilities
+eightws: Our enterprise clients bear testimony to our abilities
 tags:
   - resources
 order: 3

@@ -31,4 +31,3 @@ Performance tuning
 
 Capacity and cost planning with hosting provider + performance tuning
 
-{% include otherfeatures.html %}

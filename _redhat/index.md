@@ -2,7 +2,7 @@
 layout: vendors
 title: Red Hat products & services
 summary: Red Hat products & services
-8ws:
+eightws:
 tags:
   - Index
 order: 1
