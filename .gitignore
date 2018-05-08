@@ -4,6 +4,7 @@ _site
 .ruby-version
 .sass-cache
 
+
 # Numerous always-ignore extensions
 *.diff
 *.err
@@ -31,6 +32,8 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 .idea
+.vscode
+code.code-workspace
 .~*
 
 # Komodo
