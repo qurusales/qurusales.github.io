@@ -3,7 +3,7 @@ layout: quru
 menu: Quru Image Server
 title: QIS for Businesss
 summary: A really useful dynamic image server
-8ws: Colour managed dynamic image rendering at scale
+eightws: Colour managed dynamic image rendering at scale
 tags:
   - product
 order: 4
@@ -24,5 +24,5 @@ effective way" 
 <i>Peter Gadsby, Catalogue Production Manager, www.bonhams.com</i>
 
 <div class="grid clearfix">
-  {% for post in site.qis | sort: order %}{% if post.index == "feature"  %}{% if post.target == "business" %}{% include cell.html %}{% endif %}{% endif %}{% endfor %}
+  {% for post in site.qis | sort: order %}{% if post.index == "feature"  %}{% if post.target == "business" %}{% include feature.html %}{% endif %}{% endif %}{% endfor %}
 </div>

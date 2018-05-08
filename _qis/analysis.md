@@ -3,7 +3,7 @@ layout: qisfeatures
 title: Analysis of viewed images
 summary: 6 this incredible because ...
 target: business
-8ws: The Quru Image Server, business analysis
+eightws: The Quru Image Server, business analysis
 class: plain
 tags:
   - product
@@ -14,7 +14,7 @@ index: feature
 
 ---
 
-Key Features
+### Key Features
 
 + Integrated reporting of image traffic
 + View overall image traffic on site

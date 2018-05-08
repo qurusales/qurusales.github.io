@@ -2,7 +2,7 @@
 layout: page
 title: Enterprise clients
 summary: Quru is extremely proud of it's client list and we are very happy to provide references for our work from our customers
-8ws: Client focussed technology solutions to mission critical problems
+eightws: Client focussed technology solutions to mission critical problems
 tags:
   - Index
 order: 1

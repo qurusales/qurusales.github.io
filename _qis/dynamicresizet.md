@@ -31,4 +31,3 @@ This allows flexibility to deliver thumbnails, respond to varying size requests 
 
 Adopting an open source code solution lets you create a better performing environment that uses less bandwidth and delivers faster speeds whilst delivering ultimate detail, showing perfect details of every part of every image of every product.
 
-{% include otherfeatures.html %}

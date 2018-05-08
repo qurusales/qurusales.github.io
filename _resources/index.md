@@ -2,7 +2,7 @@
 layout: quru
 title: Resources
 summary: Information about open source vendors, software and Products
-8ws: Creating an accessible open source environment for business
+eightws: Creating an accessible open source environment for business
 tags:
   - Index
 order: 1

@@ -2,7 +2,7 @@
 layout: vendors
 title: EasyJet
 summary: The most successful low cost regional and international airline travel business in Europe.
-8ws: Design, develop & distribute enterprise open source solutions
+eightws: Design, develop & distribute enterprise open source solutions
 tags:
   - client
   - consulting

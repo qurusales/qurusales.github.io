@@ -2,7 +2,7 @@
 layout: vendors
 title: Talisker Technologies
 summary: A US based specialist software distributor focussed on fax and document archive.
-8ws: Design, develop & distribute enterprise open source solutions
+eightws: Design, develop & distribute enterprise open source solutions
 tags:
   - client
   - development

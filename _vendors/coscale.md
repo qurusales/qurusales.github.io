@@ -3,7 +3,7 @@ layout: vendors
 title: Coscale container monitoring solutions
 menu: Coscale
 summary: Container-native monitoring solution, purpose-built to monitor containers and microservices
-8ws: Full stack container and microservices production monitoring platform
+eightws: Full stack container and microservices production monitoring platform
 tags:
   - vendor
 order: 3

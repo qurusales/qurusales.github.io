@@ -3,7 +3,7 @@ layout: quru
 title: Agile Metal Platform - AMP
 menu: AMP
 summary: The cloud deployment drag and drop datacentre management platform
-8ws: Agile design and deployment of hybrid cloud solutions
+eightws: Agile design and deployment of hybrid cloud solutions
 tags:
   - product
 order: 2
@@ -13,9 +13,9 @@ index: true
 
 ---
 
-Agile Metal Platform (AMP) is a joint development project between Quru and A24.io, a Tokyo based cloud services company. Quru are currently working to develop AMP into a robust, highly available, scaleable but totally understandable infrastructure management system.
+Agile Metal Platform (AMP) is a joint development project between Quru and <a href='https://a24.io' alt='A24' target='_new' title='Quru&rsquo;s partner A24'>A24.io</a>, a Tokyo based global cloud services company. Quru are currently working to develop AMP into a robust, highly available, scaleable but totally understandable infrastructure management system.
 
-AMP's history:
+## AMP's history
 
  AMP was originally conceived by Advantage 24 as a way of providing a self-provisioning system for their Infrastructure as a Service business. Clients would be able to provision bare metal servers, virtual machines or containers from a web-portal where each customer would have their own access and user management, could visually build, modify and manage their infrastructure before deploying and inspecting each element through an RDP session or shell. Advantage 24 would be able to monitor the resources used optimising them for both the customer and for Advantage 24's data centers and then passing through billing information.
 
@@ -25,7 +25,7 @@ Advantage 24's prototype identified a number of issues that it needed to build o
 
 AMP will remain a plug-able framework where different components can be simply added and different platforms and requirements added with minimal extra work.
 
-AMP features:
+## AMP features
 
 Although there are many solutions that provide some of AMPs features, AMP is a solution that is easy to use and is ideally matched to enterprise requirements and brings many of the benefits that OpenStack provides with very little of the , to make a solution that is indeed usable.
 
@@ -39,13 +39,13 @@ Enterprises currently rel on cross functional IT teams and architects to cobble 
 
 Using AMP individuals are empowered to build resilient systems quickly and easily dragging, dropping and linking to deploy and configure bare metal, VMs, containers, storage, network and cloud resources.
 
-AMP technology:
+## AMP technology
 
 AMP is built on containerised open source components, providing software defined storage and software defined networking, predefined templates of available services which users can modify and build upon, using role and user management to control who can design, deploy and manage what.
 
 AMP manages bare metal, virtualised machines & containers locally, in remote linked data centers and in the public cloud through a web interface or via CLI. An API will enable most of AMPs abilities to be integrated into third party solutions.
 
-AMP Architecture:
+## AMP Architecture
 
 * Bare metal hardware with IPMI with x64 or Power architecture (Quru are IBM lead partner for Linux on Power in the UK)
 * Virtualisation hosts running KVM or XEN (with VirtualBox for localised testing in development)

@@ -255,6 +255,52 @@ a#logo
     border-bottom: 1px dotted #555;
 }
 
+/* Plain button for links */
+
+.post .button {
+    display: inline-block;
+    width: 10em;
+    box-shadow: 1px 1px 3px #999;
+    border: 1px solid #999;
+    border-radius: 4px;
+    margin: 0 1em 1em 0;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    color: white;
+    cursor: pointer;
+    line-height: 1.5em;
+    font-weight: 300;
+    padding: 0.5em 0;
+    text-decoration: none;
+    background: linear-gradient(rgb(85, 175, 209), rgb(55, 145, 179));
+}
+
+.post .button:hover {
+    color: white;
+    background: linear-gradient(rgb(55, 145, 179), rgb(85, 175, 209));    
+}
+
+.post .fixed {
+    width: 12em;
+    height: 4em;
+    box-shadow: none;
+    white-space: normal;
+}
+
+.post span {
+    vertical-align: middle;
+    line-height: normal;
+    display: table-cell;
+    width: 12em;
+    height: 4em;
+}
+
+.post .plain {
+    background: none;
+    border-color: black;
+    color: black;
+}
 .story a:hover {
     border-bottom: 1px solid maroon;
 }
@@ -485,6 +531,7 @@ em.bold {
     font-weight: bold;
 }
 
+    
 /* #contactUs == request_a_call.html */
 #contactUs div.copy
 {
@@ -800,18 +847,18 @@ td.upper_line
 table.searchresults {
     border: none;
 }
-table.searchresults th, td {.cell {
+table.searchresults th, td .cell {
     width: 175px;
     height: 175px;
     border: 1px solid #ddd;
     margin-right: 15px;
     margin-bottom: 15px;
     /*display: inline-block;*/
-float: left;    vertical-align: middle;
+    float: left;
+    vertical-align: middle;
     text-align: center;
     overflow: hidden;
     line-height: 175px;
-}
     padding: 5px;
 }
 table.searchresults th {
@@ -886,15 +933,15 @@ div.sidebarItem.plain
 
 .cell {
     width: 180px;
-    height: 90px;
     border: 1px solid #ddd;
-    margin-right: 15px;
-    margin-bottom: 15px;
+    border-radius: 8px;
+    margin: 1em 1em 0 0;
     /*display: inline-block;*/
-    float: left;    vertical-align: middle;
+    float: left;
     text-align: center;
-    overflow: hidden;
-    line-height: 90px;
+    vertical-align: middle;
+    /*overflow: hidden;*/
+    /*line-height: 90px;*/
 }
 
 .cell .plain {
@@ -982,6 +1029,8 @@ div.sidebarItem.plain
     background: linear-gradient(to bottom,#ff3019 0%, #cf0404 100% ); */
 }
 
+
+    
 /* Responsive layout for small screens (767 == narrower than iPad) */
 
 @media only screen and (max-width: 767px) {
@@ -1004,7 +1053,7 @@ div.sidebarItem.plain
         /* Utilise the sidebar space */
         margin-right: 0;
     }
-        #social{
+    #social{
         padding-bottom: 1em;
         float: none;
         display: block;

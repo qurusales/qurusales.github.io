@@ -2,7 +2,7 @@
 layout: page
 title: Enterprise clients
 summary: Our key enterprise partner and founding supporter is Bonhams
-8ws: Design, develop & deploy enterprise open source solutions
+eightws: Design, develop & deploy enterprise open source solutions
 tags:
   - Index
 order: 1

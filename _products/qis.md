@@ -3,7 +3,7 @@ layout: quru
 menu: Quru Image Server
 title: Quru Image Server (QIS)
 summary: Colour managed dynamic image rendering at scale
-8ws: Colour managed dynamic image rendering at scale
+eightws: Colour managed dynamic image rendering at scale
 tags:
   - product
 order: 3
@@ -27,13 +27,4 @@ Better management of HTML 5 responsive images 
 With QIS it’s easy to manage HTML 5 images without having to manually resize or store multiple versions of the same image. 
 Simply upload a single high resolution image and instruct the browser to download whichever image is appropriate for the size of device. Using different URLs, you can then request scaled and cropped versions without any modifications to the original image. 
 
-
-
-<ul>
-<li> <a href="/products/qisforbusiness.html" class="qis_type2" id="qis_for_business">Further details for management</a></li>
-<li><a href="/products/qistechnology.html" class="qis_type2" id="qis_technology">Further details for developers</a></li>
-</ul>
-
------
-
-Browse the features of the image server from a marketing or technological perspective.
+<center><a href="/products/qisforbusiness.html" class="button" id="qis_for_business" style="margin-right: 2em;">QIS for management</a><a href="/products/qistechnology.html" class="button" id="qis_technology">QIS for developers</a></center>

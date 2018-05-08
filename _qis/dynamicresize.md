@@ -1,4 +1,4 @@
-cd---
+---
 layout: qisfeatures
 title: Dynamic Image Re-Resize
 summary: Dynamic Image Re-Resize is incredible because ...

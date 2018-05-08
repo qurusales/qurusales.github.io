@@ -2,7 +2,7 @@
 layout: quru
 title: What we do
 summary: Quru works with organisations to leverage bespoke and 3rd party technologies.
-8ws: Design, develop & deploy innovative enterprise technology solutions
+eightws: Design, develop & deploy innovative enterprise technology solutions
 tags:
   - Index
 order: 1

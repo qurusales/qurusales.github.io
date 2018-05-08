@@ -2,7 +2,7 @@
 layout: quru
 title: Quru products
 summary: Quru designs and develops corporate open source applications available with enterprise support.
-8ws: Building enterprise open source software to empower business
+eightws: Building enterprise open source software to empower business
 tags:
   - Index
 order: 4
@@ -20,6 +20,6 @@ Our open source products are powerful, proven in production, and can be combined
 
 Core Technologies include: Ansible, Docker, Go, JavaScript, ImageMagick, JBoss, LibRaw, Memcache, PostgreSQL, Python, Red Hat OS, Redis and other open source technologies.
 
-**Agile Metal Platform** <a href="/products/amp.html" class="button">AMP</a>
+## Current products
 
-**Quru Image Server** <a href="/products/qis.html" class="button">QIS</a>
+<center><a href="/products/amp.html" class="button" style="margin-right: 2em;">AMP</a><a href="/products/qis.html" class="button">QIS</a></center>

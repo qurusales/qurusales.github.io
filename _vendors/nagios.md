@@ -3,7 +3,7 @@ layout: vendors
 menu: Nagios
 title: Enterprise monitoring with NagiosXI
 summary: IT infrastructure, systems, applications, services monitoring solution
-8ws: The industry standard in IT infrastructure monitoring solutions
+eightws: The industry standard in IT infrastructure monitoring solutions
 tags:
   - vendor
 order: 7
