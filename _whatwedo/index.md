@@ -23,5 +23,5 @@ headimage:
 **Enterprise clients**
 
 <ul class="partners">
-{% for p in site.partners  | sort:'order' %}{% if p.index == true %}<li><b><a href='{{ p.url }}'>{{ p.title }}</a></b> {{ p.summary }}</li>{% endif %}{% endfor %}
+{% assign sorted_posts = site.partners | sort: 'order' %}{% for p in sorted_posts %}{% if p.index == true %}<li><b><a href='{{ p.url }}'>{{ p.title }}</a></b> {{ p.summary }}</li>{% endif %}{% endfor %}
 </ul>

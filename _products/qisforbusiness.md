@@ -24,5 +24,5 @@ effective way" 
 <i>Peter Gadsby, Catalogue Production Manager, www.bonhams.com</i>
 
 <div class="grid clearfix">
-  {% for post in site.qis | sort: order %}{% if post.index == "feature"  %}{% if post.target == "business" %}{% include feature.html %}{% endif %}{% endif %}{% endfor %}
+  {% assign sorted_posts = site.qis | sort: 'order' %}{% for post in sorted_posts %}{% if post.index == "feature"  %}{% if post.target == "business" %}{% include feature.html %}{% endif %}{% endif %}{% endfor %}
 </div>

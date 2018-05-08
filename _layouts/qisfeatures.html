@@ -9,8 +9,7 @@
         {{ content }}
         <h3>Other features</h2>
             <div class="grid clearfix">
-                {% for post in site.qis | sort: order %}{% if post.index == "feature" %}{% if post.target == page.target %}{% if post.title != page.title %}{% include feature.html %}{% endif %}{% endif %}{% endif %}{% endfor %}
+                {% assign sortedposts = site.qis | sort: 'order' %}{% for post in sortedposts %}{% if post.index == "feature" %}{% if post.target == page.target %}{% if post.title != page.title %}{% include feature.html %}{% endif %}{% endif %}{% endif %}{% endfor %}
             </div>
     </div>
-
 </article>

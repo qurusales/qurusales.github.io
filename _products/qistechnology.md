@@ -22,5 +22,5 @@ The Quru Image Server (QIS) for technology users
 * Software licence / Cloud (as-a-service) purchasing options 
 
 <div class="grid clearfix">
-  {% for post in site.qis | sort: order %}{% if post.index == "feature"  %}{% if post.target == "technology" %}{% include feature.html %}{% endif %}{% endif %}{% endfor %}
+  {% assign sorted_posts = site.qis | sort: 'order' %}{% for post in sorted_posts %}{% if post.index == "feature"  %}{% if post.target == "technology" %}{% include feature.html %}{% endif %}{% endif %}{% endfor %}
 </div>

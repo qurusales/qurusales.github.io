@@ -18,5 +18,5 @@ Quru is extremely proud of it's client list and we are very happy to provide ref
 ## Client case studies ##
 
 <ul class="partners">
-{% for p in site.partners  | sort:'order' %}{% if p.index == true %}<li><b><a href='{{ p.url }}'>{{ p.title }}</a></b> {{ p.summary }}</li>{% endif %}{% endfor %}
+{% assign sortedposts = site.partners  | sort:'order' %}{% for p in sortedposts %}{% if p.index == true %}<li><b><a href='{{ p.url }}'>{{ p.title }}</a></b> {{ p.summary }}</li>{% endif %}{% endfor %}
 </ul>

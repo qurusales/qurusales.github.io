@@ -15,4 +15,4 @@ Quru designs and develops corporate open source applications available with ente
 
 ## Key products
 
-{% for p in site.products  | sort:'order' %}{% if p.index == true %}<li><a href='{{ p.url }}' alt='{{ p.title}}' title='{{ p.title }}'>{{ p.title }}</a> - {{ p.summary }}</li>{% endif %}{% endfor %}
+{% assign sorted_posts = site.products | sort: 'order' %}{% for p in sorted_posts %}{% if p.index == true %}<li><a href='{{ p.url }}' alt='{{ p.title}}' title='{{ p.title }}'>{{ p.title }}</a> - {{ p.summary }}</li>{% endif %}{% endfor %}

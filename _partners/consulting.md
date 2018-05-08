@@ -19,5 +19,5 @@ As premium partners of the key open source vendors in the UK, Quru has a team of
 ## Client case studies ##
 
 <ul class="partners">
-{% for p in site.partners  | sort:'order' %}{% if p.index == true %}<li><b>[{{ p.title }}](this needs a link)</b> {{ p.summary }}</li>{% endif %}{% endfor %}
+{% assign sorted_posts = site.partners | sort: 'order' %}{% for p in sorted_posts %}{% if p.index == true %}<li><b>[{{ p.title }}](this needs a link)</b> {{ p.summary }}</li>{% endif %}{% endfor %}
 </ul>

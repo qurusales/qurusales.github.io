@@ -16,4 +16,4 @@ Our commitment to open source drives us to provide as much relevant information 
 
 Quick links:
 
-{% for p in site.resources  | sort:'order' %}{% if p.title != "Resources" %}<li>{{ p.title }}</li>{% endif %}{% endfor %}
+{% assign sorted_posts = site.resources | sort: 'order' %}{% for p in sorted_posts %}{% if p.title != "Resources" %}<li>{{ p.title }}</li>{% endif %}{% endfor %}
