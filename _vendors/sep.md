@@ -14,12 +14,13 @@ logos:
   - logo: //images.quru.com/image?src=web/logos/SEP_GSM_big.jpg&width=110&format=jpg&strip=1
     url: http://www.sep.de/
 ---
+<div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="{{ logos.logo }}&width=300" title="{{ menu }}" alt="Quru are {{ menu }}'s UK partner"> </div>
 
 ## Backup Linux workloads on Linux not Windows
 
 Using Windows to backup Linux workloads is expensive, inefficient and potentially risky. The better route is to use specifically developed technology and that’s why SEP is the fastest growing backup solution for Linux workloads.
 
-##SEP works natively on Linux
+## SEP works natively on Linux
 
 SEP has the largest portfolio of support for Linux workloads with jointly developed backup solutions for Red Hat and EDB. It offers hybrid backup with one management console to support Linux-based products from Red Hat, EDB, MySQL as well as proprietary vendors including Microsoft, VMware and Oracle.
 

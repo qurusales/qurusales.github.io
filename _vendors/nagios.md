@@ -37,17 +37,17 @@ Scalable and flexible, Nagios gives you the peace of mind that comes from knowin
 
 ## How it works ##
 
-Monitoring - IT staff configure Nagios to monitor critical IT infrastructure components, including system metrics, network protocols, applications, services, servers, and network infrastructure.
+* Monitoring - IT staff configure Nagios to monitor critical IT infrastructure components, including system metrics, network protocols, applications, services, servers, and network infrastructure.
 
-Alerting - Nagios sends alerts when critical infrastructure components fail and recover, providing administrators with notice of important events. Alerts can be delivered via email, SMS, or custom script.
+* Alerting - Nagios sends alerts when critical infrastructure components fail and recover, providing administrators with notice of important events. Alerts can be delivered via email, SMS, or custom script.
 
-Response - IT staff can acknowledge alerts and begin resolving outages and investigating security alerts immediately. Alerts can be escalated to different groups if they are not acknowledged in a timely manner.
+* Response - IT staff can acknowledge alerts and begin resolving outages and investigating security alerts immediately. Alerts can be escalated to different groups if they are not acknowledged in a timely manner.
 
-Reporting - Reports provide a historical record of outages, events, notifications, and alert response for later review. Availability reports help you track if SLAs are being met.
+* Reporting - Reports provide a historical record of outages, events, notifications, and alert response for later review. Availability reports help you track if SLAs are being met.
 
-Maintenance - Scheduled downtime prevents alerts during scheduled maintenance and upgrade windows.
+* Maintenance - Scheduled downtime prevents alerts during scheduled maintenance and upgrade windows.
 
-Planning - Trending and capacity planning graphs and reports allow you to identify necessary infrastructure upgrades before failures occur.
+* Planning - Trending and capacity planning graphs and reports allow you to identify necessary infrastructure upgrades before failures occur.
 
 With Nagios you’ll never be left having to explain why an unseen infrastructure outage hurt your organization’s bottom line. If you want to ensure your infrastructure is always ready, let’s talk about how Nagios can help your business.
 
