@@ -2,7 +2,7 @@
 layout: vendors
 title: Bonhams
 summary: One of 3 key significant global auction players and is our key enterprise partner and founding supporter.
-eightws: Apples
+8ws: Apples
 tags:
   - client
   - development
