@@ -1,6 +1,7 @@
 ---
 layout: quru
 title: Consulting, design and deployment
+menu: Consulting, design & deployment
 summary: Quru designs and implements infrastructure solutions that make open source solutions work for business.
 eightws: Deploying robust large scale application and infrastructure solutions
 tags:

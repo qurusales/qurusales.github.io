@@ -695,7 +695,7 @@ input[type="text"]:hover, textarea:hover {
 .column
 {
     float: left;
-    width: 33%;
+    width: 50%;
     text-align: center;
     height: 140px;
 }
@@ -770,6 +770,11 @@ input[type="text"]:hover, textarea:hover {
 #footer ul li
 {
     list-style-type: none;
+}
+
+#footer strong
+{
+    font-weight: 600;
 }
 
 .ah !important

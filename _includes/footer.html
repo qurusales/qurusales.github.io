@@ -1,36 +1,24 @@
 <div class="clear"></div>
 <div id="footer">
-  <div class="column" id="footerColumn1">
+  {% assign current_directory = page.url | downcase | split:'/' %}
+
+    <div class="column" id="footerColumn1">
     <ul>
-      <li><a href="/partners/">Enterprise clients</a></li>
-      <li><a href="/vendors/">Open source solutions</a></li>
-      <li><a href="/products/">Quru software</a></li>
-      <li><a href="/resources/">Resources</a></li>
+      <li><a href="/whatwedo/">{% if current_directory[1] == "whatwedo" %}<strong>What we do</strong>{% else %}What we do{% endif %}</a></li>
+      <li><a href="/vendors/">{% if current_directory[1] == "vendors" %}<strong>Open source vendors</strong>{% else %}Open source vendors{% endif %}</a></li>
+      <li><a href="/products/">{% if current_directory[1] == "products" %}<strong>Products</strong>{% else %}Products{% endif %}</a></li>
+      <li><a href="/resources/">{% if current_directory[1] == "resources" %}<strong>Resources</strong>{% else %}Resources{% endif %}</a></li>
     </ul>
   </div>
   <div class="column" id="footerColumn2">
     <ul class="article_list">
-      <li>
-	<a href="/qurulabs/">QuruLabs</a>
-      </li>
-      <li>
-	<a href="/healthcheck/">Health check</a>
-      </li>
-      <li>
-	<a href="/architecture/">Linux infrastructure design</a>
-      </li>
-      <li>
-	<a href="/implementation/">Linux implementation</a>
-      </li>
-      <li>
-	<a href="/development/">Development</a>
-      </li>
+       {% if current_directory[1] == "whatwedo" %}{% assign contents = site.whatwedo | sort: 'order' %}
+       {% elsif current_directory[1] == "vendors" %}{% assign contents = site.vendors | sort: 'order' %}
+       {% elsif current_directory[1] == "products" %}{% assign contents = site.products | sort: 'order' %}
+       {% elsif current_directory[1] == "resources" %}{% assign contents = site.resources | sort: 'order' %}
+       {% endif %}
+       {% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url | prepend: site.baseurl }}">{% if page.url == p.url %}<strong>{{ p.menu }}</strong>{% else %}{{ p.menu }}{% endif %}</a></li>{% endif %}{% endfor %}
     </ul>
-  </div>
-  <div class="column" id="footerColumn3">
-    <div class="article_list">
-      
-    </div>
   </div>
   <div class="clear"></div>
 </div> 
