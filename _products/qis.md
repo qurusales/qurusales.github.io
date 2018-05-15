@@ -10,6 +10,19 @@ order: 3
 thumbnail:
 headimage:
 index: true
+carousel:
+  - url: "/products/qis.html"
+    src: "web/qisbanners/qislistingbanner.png"
+    quality: 90
+  - url: "/products/qis.html"
+    src: "web/qisbanners/qisstatsbanner.png"
+    quality: 90
+  - url: "/products/qis.html"
+    src: "web/qisbanners/qisdetailsbanner.png"
+    quality: 90
+  - url: "/products/qis.html"
+    src: "web/qisbanners/qisZoomerbanner.png"
+    quality: 90
 
 ---
 
