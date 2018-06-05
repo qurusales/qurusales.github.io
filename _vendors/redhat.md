@@ -6,6 +6,7 @@ eightws: The world's leading open source company and community
 summary: Quru is a premier partner for Red Hat and leads on a number of infrastructure technologies including Ansible, OpenShift and Virtualisation.
 tags:
   - vendor
+  - RedHat
 order: 9
 logo: //images.quru.com/image?src=/web/logos/RHBusPremierLogo_RGB.png
 headimage:
