@@ -40,4 +40,7 @@ Better management of HTML 5 responsive images 
 With QIS it’s easy to manage HTML 5 images without having to manually resize or store multiple versions of the same image. 
 Simply upload a single high resolution image and instruct the browser to download whichever image is appropriate for the size of device. Using different URLs, you can then request scaled and cropped versions without any modifications to the original image. 
 
+
+{% comment %}
 <center><a href="https://qisphotos.github.io/" class="button" id="qis_for_business" style="margin-right: 2em;">More information</a></center>
+{% endcomment %}
