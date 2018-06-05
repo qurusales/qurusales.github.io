@@ -11,7 +11,7 @@
     </ul>
   </div>
   <div class="column" id="footerColumn2">
-    <ul class="article_list">
+    <ul class="menu_list">
        {% if current_directory[1] == "whatwedo" %}{% assign contents = site.whatwedo | sort: 'order' %}
        {% elsif current_directory[1] == "vendors" %}{% assign contents = site.vendors | sort: 'order' %}
        {% elsif current_directory[1] == "products" %}{% assign contents = site.products | sort: 'order' %}

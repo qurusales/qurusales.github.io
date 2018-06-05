@@ -22,7 +22,7 @@ logos:
 
 Quru is the fastest-growing Red Hat solution provider based in London, UK. We're an award winning Red Hat Premier Partner and part of a select group of global Red Hat partners that possess deep skills in Enterprise Linux and, more importantly, across the whole Red Hat Portfolio. As a demonstration of commitment to our partnership with Red Hat, we have attained the highest level of accreditations across Red Hat Enterprise Virtualisation (RHEV), Red Hat Grid, Red Hat Realtime and Red Hat Storage.
 
-<ul class="article_list">
+<ul class="menu_list">
 	{% assign contents = site.redhat | sort: 'order' %}{% for v in contents %}{% if v.index == true %}<li><a href="{{ v.url | prepend: site.baseurl}}">{{ v.menu }}</a></li>{% endif %}{% endfor %}
 </ul>
 

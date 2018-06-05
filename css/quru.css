@@ -360,11 +360,12 @@ ul.noBullets li
     clear: both;
 }
 
-.sidebarItem ul li
-{
-    margin-bottom: 0.7em !important;
+.sidebarItem ul li {
+    margin-bottom: 0.7em;
 }
-
+.sidebarItem ul li:last-child {
+    margin-bottom: 0;
+}
 
 ul.noBullets li img.partnerLogo
 {
@@ -635,43 +636,46 @@ input[type="text"]:hover, textarea:hover {
 }
 
 
-.quote ul
-{
-    padding: 0 1em;
-}
-
-.article_list ul
+.menu_list ul
 {
     margin-left: 0 !important;
 }
-
-.article_list ul li, .quote ul li
+.menu_list ul li
 {
     list-style-type: none;
     margin-bottom: 0.5em;
 }
-
-.article_list ul li
+.menu_list ul li
 {
     padding-left: 2em;
     text-indent: -2em;
 }
-
-.article_list li a, .quote li a
+.menu_list li a,
+.article_list li a
 {
     text-decoration: none;
     color:  black;
     list-style-type: none;
 }
-
-.article_list li a:hover, .quote li a:hover
+.menu_list li a:hover,
+.article_list li a:hover
 {
     border-bottom: 1px dotted maroon;
 }
 
-#sidebar div.sidebarItem div.article_list
-{
-    margin: 1em;
+.article_list {
+    padding: 1em;
+}
+.article_list ul {
+    margin: 0;
+    padding: 0;
+}
+.article_list li {
+    list-style-type: none;
+    margin-bottom: 0.7em;
+}
+.article_list li:last-child {
+    margin-bottom: 0;
 }
 
 #sidebar.partners li
@@ -685,13 +689,9 @@ input[type="text"]:hover, textarea:hover {
     margin-left: 0;
     margin-top: 1em;    
 }
-
 .nobullets li {
     list-style-type: none;
 }
-
-
-
 
 .column
 {
