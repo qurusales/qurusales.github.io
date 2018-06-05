@@ -18,7 +18,9 @@ Quru designs and implements infrastructure solutions that make open source solut
 
 We use established processes and our own proven methodologies to build a detailed picture of a specific aspect of the client's infrastructure, applications or services. This leads to our Linux Infrastructure Design Services and the development of the detailed solution. Build and deployment is undertaken through our portfolio of Linux Implementation Services, with full documentation and training.
 
+{% comment %}
 To read about clients that we have worked for including City Sprint, EasyJet and Tesco review our [case studies](/resources/whitepapers.html).
+{% endcomment %}
 
 Initially our Solutions team work with companies to identify possible avenues to improve performance and enhance infrastructure.  Secondly, a lead consultant discusses the proposed brief and works to find a solution and final project brief.  Typically we then work both on location or remotely as required.  We are always happy to provide documentation on what we have done.
 
