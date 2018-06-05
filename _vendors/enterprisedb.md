@@ -10,18 +10,18 @@ order: 5
 thumbnail:
 headimage:
 index: true
-whitepapers:
-  - menu: PostgreSQL on IBM Power
-    url: /whitepapers/postgresqOnIBMPower.html
-  - menu: Cut the costs of database licensing
-    url: /whitepapers/cutTheCostsOfDatabaseLicensing.html
-seealso:
-  - menu: EnterpriseDB architectural health check
-    url: /vendors/enterprisedbArchitecturalHealthCheck.html
-  - menu: Oracle to EnterpriseDB migration assessment
-    url: /vendors/oracleToEnterprisedbMigrationAssessment.html
-  - menu: EnterpriseDB Postgres Plus Advanced Server
-    url: /vendors/enterprisedbPostgresPlusAdvancedServer.html
+#whitepapers:
+#  - menu: PostgreSQL on IBM Power
+#    url: /whitepapers/postgresqOnIBMPower.html
+#  - menu: Cut the costs of database licensing
+#    url: /whitepapers/cutTheCostsOfDatabaseLicensing.html
+#seealso:
+#  - menu: EnterpriseDB architectural health check
+#    url: /vendors/enterprisedbArchitecturalHealthCheck.html
+#  - menu: Oracle to EnterpriseDB migration assessment
+#    url: /vendors/oracleToEnterprisedbMigrationAssessment.html
+#  - menu: EnterpriseDB Postgres Plus Advanced Server
+#    url: /vendors/enterprisedbPostgresPlusAdvancedServer.html
 logos:
   - logo: //images.quru.com/image?src=web/logos/EDB_Logo.png&width=110
     url: //enterprisedb.com

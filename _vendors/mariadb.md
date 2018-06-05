@@ -8,7 +8,7 @@ tags:
   - MariaDB
 whitepapers:
   - menu: Power data performance the open way
-    url: /whitepapers/mariaDBOnIBMPower8.html
+    url: /whitepapers/powerDataPerformanceTheOpenWay.html
   - menu: MariaDB on IBM Power
     url: /whitepapers/mariaDBOnIBMPower8.html
 order: 6

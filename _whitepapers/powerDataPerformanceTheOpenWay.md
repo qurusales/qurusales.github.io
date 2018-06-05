@@ -16,13 +16,11 @@ headimage: //images.quru.com/image?src=web/MariaDB_Power8-presenter-2016.pdf&wid
 index: true
 ---
 
-# Optimised Enterprise MariaDB on Power8 delivers
+Optimised Enterprise MariaDB on Power8 delivers
 
-<ul style='font-size:1.2em; font-weight: 400; margin-left: 2em;'>
-	<li>3x better performance than Haswell Intel</li>
-	<li>Up to 5:1 server consolidation</li>
-	<li>70% cost reduction vs typical mixed age Intel estateMariaDB - 64% faster on POWER8 than on Intel</li>
-</ul>
+## 3x better performance than Haswell Intel
+## Up to 5:1 server consolidation
+## 70% cost reduction vs typical mixed age Intel estateMariaDB - 64% faster on POWER8 than on Intel
 
 Your business relies on fast access to its data. The performance of data applications is critical and they are facing growing pressure as volumes increase.
 

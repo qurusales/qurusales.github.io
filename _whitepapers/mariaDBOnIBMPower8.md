@@ -24,5 +24,5 @@ The pressure on costs is endless and at Quru, we believe it is system ‘consoli
 
 However, consolidation requires a platform that can rapidly and easily both scale-up and scale-out. This technical Insight white paper covers benchmark testing we have undertaken of MariaDB on IBM POWER8 - a combination that promises a step change in consolidating systems and the opportunity to significantly enhance application performance. Our work in tuning workloads has demonstrated that MariaDB on POWER8 can lead to lower costs and increased datacentre efficiency.
 
-	Configuration files used in performing this benchmark are available from [Github](https://github.com/quru/MariaDBonPower8).
+Configuration files used in performing this benchmark are available from [Github](https://github.com/quru/MariaDBonPower8).
 
