@@ -42,4 +42,4 @@ New capabilities
 * OpenShift Enterprise
 * Red Hat Satellite 6 - it can transform how you manage your Red Hat systems.
 
-Request a call back to find out more.
+*Request a call back to find out more.*
