@@ -1,7 +1,7 @@
 <div class="sidebarItem" id="contactUs">
 <h3>Request a call</h3>
 <div class="copy">
-<form name="contacts" method="post" action="/emailform" onsubmit="return emailform(this)" data-use-ajax="yes">
+<form name="contacts" method="post" action="https://formspree.io/sales@quru.com" onsubmit="return emailform(this)" data-use-ajax="yes">
 <label for="realname">Name</label>
 <input type="text" name="realname" maxlength="50" placeholder="Your name" />
 <label for="email">Email</label>
@@ -9,8 +9,9 @@
 <label for="phone">Phone no.</label>
 <input type="tel" name="phone" placeholder="+44 20 7160 2888" />
 <input id="email_submit" type="submit" class="button" value="Submit" />
-<input type="hidden" name="token" value="eyJ0b2tlbl90aW1lIjoiMTUyMDg1ODc5MS43MyIsInJlY2lwaWVudCI6ImluZm9AcXVydS5jb20iLCJhc19qc29uIjp0cnVlLCJzdWJqZWN0IjoiUXVydSB3ZWIgZW5xdWlyeSBhYm91dCBJQk0ifQ.YJptRiYEZvtL3-Nkmo1k82dVFiM">
-<div id="email_status"></div>
+<input type="hidden" name="_next" value="/thanks.html" />
+<input type="hidden" name="_subject" value="Contact request from {{ page.url | remove_first: "/" | remove: ".html" }}" /><div id="email_status"></div>
+<input type="text" name="_gotcha" class="honeypot" />
 </form>
 </div>
 </div>

@@ -14,14 +14,16 @@ index: true
 ---
 
 <div id="contact">
-<form name="contacts" method="post" action="/emailform" onsubmit="return emailform(this)" data-use-ajax="yes">
+<form name="contacts" method="post" action="https://formspree.io/sales@quru.com" onsubmit="return emailform(this)" data-use-ajax="yes">
 <div class="formline"><label for="realname">Name</label><input type="text" placeholder="Your name" maxlength="50" name="realname"/></div>
 <div class="formline"><label for="email">Email</label><input type="email" placeholder="name@domain.com" name="email"/></div>
 <div class="formline"><label for="phone">Phone no</label><input type="tel" placeholder="+44 20 7160 2888" name="phone"/></div>
 <div class="formline"><label for="product">Interest</label><input type="product" placeholder="Red Hat, PuppetLabs, EnterpriseDB, Acronis, IBM, Quru Services..." maxlength="50" name="product"/></div>
 <div class="formline"><label for="message">Your message</label><textarea name="message" placeholder="Your message..."></textarea></div>
 <div class="formline"><input id="email_submit" type="submit" class="button" value="Submit" /></div>
-<input type="hidden" name="token" value=".eJwVysEKwjAMANBfCTmPwVyhuJPgF3jwPLaSQSdNXJogIv679fzeB00exLPlQjjhEE5xOI9hjH2I2KFSys9MbM0yb3I5XL1PUpotdd6rME6mTh1WX3dK_3hrB160AvHhWd-wqRS4CtuSDO4Vvz_TPyd4.S0uQA-AYCQ6wUcccibIimf3k-bQ"/>
+<input type="hidden" name="_next" value="/thanks.html" />
+<input type="hidden" name="_subject" value="Contact request from {{ page.url | remove_first: "/" | remove: ".html" }}" />
+<input type="text" name="_gotcha" class="honeypot" />
 <div class="formline" id="email_status"></div>
 </form>
 </div>

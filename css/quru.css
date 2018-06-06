@@ -590,6 +590,11 @@ em.bold {
     height: 6em;
     vertical-align: top;
 }
+
+.honeypot {
+    display: none;
+}
+
 #contact form div.formline input
 {
     min-width: 250px;
