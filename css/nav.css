@@ -32,12 +32,12 @@
 	display: inline-block;
 }
 
-ul#navigation {
+#navigation {
     margin: 0;
     padding: 0;
 }
 
-ul#navigation li {
+#navigation li {
     display: inline;
     margin: 0;
     padding: 0;

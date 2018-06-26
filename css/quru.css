@@ -1049,8 +1049,17 @@ div.sidebarItem.plain
         /* Reduce min width */
         min-width: 300px;
         /* Reduce side padding */
-        padding: 0 2em 0 2em;
+        padding: 0 1.5em;
     }
+    .post {
+        margin-right: 0px;
+    }
+
+    #navigation li {
+        display: block;
+        float: none;
+    }
+
     #trends, .strapline {
         display: none;
     }
