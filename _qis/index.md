@@ -9,6 +9,7 @@ order: 1
 thumbnail:
 headimage:
 index: false
+redirect: /products/qis.html
 ---
 
 QURU IMAGE SERVER  

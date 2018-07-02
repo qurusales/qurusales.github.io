@@ -11,18 +11,19 @@ order: 1
 thumbnail:
 headimage:
 carousel:
-  - url: "/mariadb/"
+  - url: "/vendors/mariadb.html"
     src: "web/mariadb-banner.png"
     quality: 90
-  - url: "/insights/VirtualizationChoice"
+  - url: "/whitepapers/dualVendorVirtualization.html"
     src: "web/Website Banners/NewOpenSourceVirtualizationStory.png"
     quality: 90
-  - url: "/sep/deduplication/"
+  - url: "/vendors/sep.html"
     src: "web/sepdedup.png"
     quality: 90
-  - url: "/ibm/"
+  - url: "/whitepapers/mariaDBOnIBMPower8.html"
     src: "web/Power8videobanner.png"
     quality: 90
+
 
 
 ---
