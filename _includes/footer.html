@@ -3,6 +3,13 @@
   {% assign current_directory = page.url | downcase | split:'/' %}
 
     <div class="column" id="footerColumn1">
+        <ul>
+            <li><a href="/">{% if current_directory[1] == "" %}<strong>Quru</strong>{% else %}Quru{% endif %}</a></li>
+            <li class="telephone"><img src="/css/contactwhite.png" alt="T: " width="14px">+44 20 7160 2888</li>
+        </ul>
+    
+    </div>
+    <div class="column" id="footerColumn2">
     <ul>
       <li><a href="/whatwedo/">{% if current_directory[1] == "whatwedo" %}<strong>What we do</strong>{% else %}What we do{% endif %}</a></li>
       <li><a href="/vendors/">{% if current_directory[1] == "vendors" %}<strong>Open source vendors</strong>{% else %}Open source vendors{% endif %}</a></li>
@@ -10,7 +17,7 @@
       <li><a href="/resources/">{% if current_directory[1] == "resources" %}<strong>Resources</strong>{% else %}Resources{% endif %}</a></li>
     </ul>
   </div>
-  <div class="column" id="footerColumn2">
+  <div class="column" id="footerColumn3">
     <ul class="menu_list">
        {% if current_directory[1] == "whatwedo" %}{% assign contents = site.whatwedo | sort: 'order' %}
        {% elsif current_directory[1] == "vendors" %}{% assign contents = site.vendors | sort: 'order' %}

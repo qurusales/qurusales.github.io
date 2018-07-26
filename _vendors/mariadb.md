@@ -3,7 +3,7 @@ layout: vendors
 menu: MariaDB
 title: MariaDB - enterprise MySQL solutions
 summary: An enhanced open source database, a drop-in replacement for MySQL.
-eightws: The logical robust, scalable, and reliable database choice
+eightws: The logical robust, scalable, and <em>reliable database</em> choice
 tags:
   - MariaDB
 whitepapers:

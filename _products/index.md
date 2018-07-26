@@ -2,7 +2,7 @@
 layout: quru
 title: Quru products
 summary: Quru products are the ultimate release of the R&D that drives the Quru team
-eightws: Building enterprise open source software to empower business
+eightws: <em>Building</em> enterprise open source <em>software</em> to empower business
 tags:
   - Index
 order: 1

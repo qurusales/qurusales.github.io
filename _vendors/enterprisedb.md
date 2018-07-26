@@ -3,7 +3,7 @@ layout: vendors
 menu: EnterpriseDB
 title: EnterpriseDB - PostgreSQL solutions for the enterprise
 summary: Open source database offering a real alternative to traditional proprietary database systems - and at a fraction of the cost
-eightws: Challenging enterprise level proprietary RDBMS solutions
+eightws: Challenging enterprise level proprietary relational <em>database solutions</em>
 tags:
   - vendor
 order: 5

@@ -3,7 +3,7 @@ layout: quru
 title: Quru products
 menu: Quru products
 summary: Quru designs and develops corporate open source applications available with enterprise support.
-eightws: Building enterprise open source software to empower business
+eightws: <em>Building</em> enterprise open source <em>software</em> to empower business
 tags:
   - Index
 order: 4

@@ -3,7 +3,7 @@ layout: vendors
 menu: NGINX
 title: NGINX
 summary: Web application servers, caches and software defined load-balancers with monitoring and microservice deployment
-eightws: Proxy, load-balancer, application server and microservices web platform
+eightws: Proxy, load-balancer, application server and microservices <em>web platform</em>
 tags:
   - vendor
 order: 8

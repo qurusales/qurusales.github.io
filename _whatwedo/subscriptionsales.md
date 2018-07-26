@@ -3,7 +3,7 @@ layout: quru
 title: Open source subscription sales
 menu: Open source subscripton sales
 summary: Specification and support sales of vendor software solutions from the key global open source companies.
-eightws: Design, develop & deploy enterprise open source solutions
+eightws: Design, develop & deploy enterprise <em>open source solutions</em>
 tags:
   - Index
 order: 3
