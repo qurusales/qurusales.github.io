@@ -35,7 +35,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </ul>
            </li>
 
-           <li><a href="/vendors/">Open Source Partners</a>
+           <li><a href="/vendors/">Open source partners</a>
                 <ul class="menu_list">
                     {% assign contents = site.vendors | sort:'order' %}{% for v in contents %}{% if v.index == true %}<li><a href="{{ v.url | prepend: site.baseurl}}">{{ v.menu }}</a></li>{% endif %}{% endfor %}
                 </ul>
