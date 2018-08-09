@@ -6,8 +6,9 @@ summary: Quru designs and develops corporate open source applications available 
 eightws: <em>Building</em> enterprise open source <em>software</em> to empower business
 tags:
   - Index
+whitepapertag: products
 order: 4
-thumbnail:
+thumbnail: //images.quru.com/image?src=/web/south/Applications.png
 index: true
 headimage:
 

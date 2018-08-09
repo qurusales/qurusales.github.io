@@ -7,11 +7,13 @@ eightws: Bespoke <em>software development</em> to create applications that matte
 tags:
   - software
   - development
+whiteppertag: development
 order: 1
-thumbnail:
+thumbnail: //images.quru.com/image?src=/web/south/Development.png
 headimage:
 index: true
-
+logostrip: customers
+stripfilter: development
 ---
 Quru has been developing bespoke applications for corporate clients at enterprise and startup level for over a decade.  Our output ranges from mobile apps to mission critical cloud enabled server applications.
 

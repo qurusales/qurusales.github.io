@@ -5,26 +5,17 @@ title: MariaDB - enterprise MySQL solutions
 summary: An enhanced open source database, a drop-in replacement for MySQL.
 eightws: The logical robust, scalable, and <em>reliable database</em> choice
 tags:
-  - MariaDB
-whitepapers:
-  - menu: Power data performance the open way
-    url: /whitepapers/powerDataPerformanceTheOpenWay.html
-  - menu: MariaDB on IBM Power
-    url: /whitepapers/mariaDBOnIBMPower8.html
+  - mariadb
+whitepapertag: mariadb
 order: 6
 thumbnail:
 headimage:
 index: true
-logos:
-  - logo: https://images.quru.com/image?src=/web/logos/mariadb.jpg&height=100
-    url: https://www.mariadb.com
+logo: "//images.quru.com/image?src=/web/logos/mariadb.jpg"
+vendorurl: "//www.mariadb.com"
+alt: "Quru are MariaDB's UK partner"
+heading: "Data volumes in key business systems are constantly growing. This increases the pressure on the applications used to supply personalised data from these systems to end-users. To add to the complexity, end-users are using numerous different types of devices which require their own data configuration.</p><p>At Quru, we believe that MariaDB is a vendor providing world-class solutions that address this challenge. MariaDB builds massively scalable open source database products that help people build software applications to achieve effective, cheap and reliable data management. It is a global software and database company that develops and supports MariaDB - the world's fastest growing open source database."
 ---
-
-<div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="http://images.quru.com/image?src=web/logos/mariadb.jpg&width=300" title="MariaDB" alt="Quru are MariaDB's UK partner"> </div>
-
-Data volumes in key business systems are constantly growing. This increases the pressure on the applications used to supply personalised data from these systems to end-users. To add to the complexity, end-users are using numerous different types of devices which require their own data configuration.
-
-At Quru, we believe that MariaDB is a vendor providing world-class solutions that address this challenge. MariaDB builds massively scalable open source database products that help people build software applications to achieve effective, cheap and reliable data management. It is a global software and database company that develops and supports MariaDB - the world's fastest growing open source database.
 
 ## MariaDB is a drop-in replacement for MySQL ##
 

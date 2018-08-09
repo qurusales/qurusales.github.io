@@ -10,6 +10,9 @@ order: 5
 thumbnail:
 headimage:
 index: true
+logos:
+  - logo: https://images.quru.com/image?src=/web/logos/talisker.png
+    url: https://www.taliskertech.com
 
 ---
 

@@ -7,21 +7,12 @@ eightws: Full stack <em>container</em> and microservices production <em>monitori
 tags:
   - vendor
 order: 3
-thumbnail:
-headimage:
 index: true
-logos:
-  - logo: "//images.quru.com/image?src=web/logos/coscale.png&width=110"
-    url: "//www.coscale.com"
+logo: "//images.quru.com/image?src=web/logos/coscale.png"
+vendorurl: "//www.coscale.com"
+alt: "Quru are Coscales' UK partner"
+heading: "CoScale offers a container-native monitoring solution, purpose-built to monitor containers and microservices in enterprise production environments. The CoScale platform automatically discovers and monitors all containers and services running in your environment and provides container-specific visualizations and analytics.</p><p>CoScale gives you the visibility and control needed to let you deploy your containers to production faster and with increased confidence. Once in production, CoScale’s automatic anomaly detection lets you proactively manage performance by helping you to detect and solve performance problems before your customers are impacted."
 ---
-
-<div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="http://images.quru.com/image?src=web/logos/coscale.png&width=300" title="Coscale" alt="Quru are Coscales's UK partner"> </div>
-
-
- CoScale offers a container-native monitoring solution, purpose-built to monitor containers and microservices in enterprise production environments. The CoScale platform automatically discovers and monitors all containers and services running in your environment and provides container-specific visualizations and analytics.
-
-CoScale gives you the visibility and control needed to let you deploy your containers to production faster and with increased confidence. Once in production, CoScale’s automatic anomaly detection lets you proactively manage performance by helping you to detect and solve performance problems before your customers are impacted.
-
 ## Container-native monitoring
 
 CoScale’s solution has been built from the ground up with container monitoring in mind. Compared to traditional monitoring vendors that need to retrofit their legacy products in container environments, CoScale seamlessly integrates with your container environment.

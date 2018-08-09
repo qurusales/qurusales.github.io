@@ -5,13 +5,15 @@ menu: Consulting, design & deployment
 summary: Quru designs and implements infrastructure solutions that make open source solutions work for business.
 eightws: <em>Deploying robust</em> large scale application and infrastructure <em>solutions</em>
 tags:
-  - software
-  - development
+  - consulting
+  - linux
+whitepapertag: consulting
 order: 2
-thumbnail:
+thumbnail: //images.quru.com/image?src=/web/south/Consulting.png
 headimage:
 index: true
-
+logostrip: customers
+stripfilter: consulting
 ---
 
 Quru designs and implements infrastructure solutions that make open source solutions work for business.  As premium partners of the key open source vendors in the UK, Quru has a team of experienced certified solutions architects that work directly and indirectly via our partners to help exploit the potential delivered by 3<sup>rd</sup> party solutions.

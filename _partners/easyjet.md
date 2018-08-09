@@ -10,6 +10,9 @@ order: 4
 thumbnail:
 headimage:
 index: true
+logos:
+  - logo: https://images.quru.com/image?src=/web/logos/easyjet.png
+    url: https://www.easyjet.com
 
 ---
 

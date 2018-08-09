@@ -1,14 +1,14 @@
-{% assign counter=0 %}
-{% for t in page.whitepapers %}
-{% assign counter=counter+1 %}
-{% endfor %}
-{% if counter != 0 %}
-<div class="sidebarItem">
-  <h3>White papers</h3>
-  <div class="article_list">
-    <ul>
-      {% assign contents = site.whitepapers %}{% for t in page.whitepapers %}<li><a href="{{ t.url | prepend: site.baseurl }}">{{ t.menu }}</a></li>{% endfor %}
-    </ul>
-  </div>
-</div>
-{% endif %}
+    {% if page.whitepapertag %}{% assign sorted_posts = site.whitepapers | sort: 'order' %}{% assign counter = 1 %}{% assign sectionincluded = false %} {% for p in sorted_posts %}{% if p.index and p.tags contains page.whitepapertag  %}{% assign sectioncount = sectioncount | plus: 1 %}{% endif %}{% endfor %}
+    <div class="whitepapers block{% assign alt = sectioncount | modulo: 2 %}{% if alt == 0 %} alt{% endif %}">
+        <ul>
+        {% for p in sorted_posts %}{% if p.index and p.tags contains page.whitepapertag and counter < 5 %}
+            <li>
+                <a href={{ p.url_for }}>
+                    <img src="{{ p.thumbnail }}&width=320&height=240&autosizefit=0{% if p.type %}&overlay=/overlays/{{ p.type }}.png&ovpos=nw{% endif %}" alt="{{ p.title }}">
+                    <h3>{{ p.title }}</h3>
+                    <div class='tag'> {{ p.summary }}</div>
+                </a>
+            </li>{% assign counter = counter | plus:1 %}{% endif %}{% endfor %}
+        </ul>
+    </div>
+    {% endif %}

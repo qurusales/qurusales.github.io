@@ -11,6 +11,9 @@ order: 6
 thumbnail:
 headimage:
 index: true
+logos:
+  - logo: https://images.quru.com/image?src=/web/logos/tesco.jpeg&height=100
+    url: https://www.tesco.com
 
 ---
 

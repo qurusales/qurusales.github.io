@@ -6,22 +6,15 @@ summary: IT infrastructure, systems, applications, services monitoring solution
 eightws: The industry standard in IT <em>infrastructure monitoring</em> solutions
 tags:
   - vendor
+whitepapertag: nagios
 order: 7
-thumbnail:
-headimage:
 index: true
-logos:
-  - logo: //images.quru.com/image?src=web/logos/nagios-xi.jpg&width=110
-    url: www.nagios.com
+logo: "//images.quru.com/image?src=/web/logos/nagios-xi.jpg"
+vendorurl: "//www.nagios.com"
+alt: "Quru are Europe's most active Nagios partner"
+heading: "Solve infrastructure issues before they become business problems</p><p>Nagios is a powerful open source monitoring system that enables organizations to identify and resolve IT infrastructure problems before they affect critical business processes.</p><p>Nagios monitors your entire IT infrastructure to ensure systems, applications, services, and ensures processes are functioning properly. In the event of a failure, Nagios can alert technical staff about the problem, allowing them to begin remediation processes before outages affect processes, end-users, or customers.
+"
 ---
-
-<div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="//images.quru.com/image?src=web/logos/nagios-xi.jpg&width=300" title="NagiosXI" alt="Quru are Nagios' UK partner"> </div>
-
-Solve infrastructure issues before they become business problems
-
-Nagios is a powerful open source monitoring system that enables organizations to identify and resolve IT infrastructure problems before they affect critical business processes.
-
-Nagios monitors your entire IT infrastructure to ensure systems, applications, services, and ensures processes are functioning properly. In the event of a failure, Nagios can alert technical staff about the problem, allowing them to begin remediation processes before outages affect processes, end-users, or customers.
 
 ## Avoid unexpected outages ##
 

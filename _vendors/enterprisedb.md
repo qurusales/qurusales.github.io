@@ -6,31 +6,16 @@ summary: Open source database offering a real alternative to traditional proprie
 eightws: Challenging enterprise level proprietary relational <em>database solutions</em>
 tags:
   - vendor
+whitepapertag: edb
 order: 5
 thumbnail:
 headimage:
 index: true
-#whitepapers:
-#  - menu: PostgreSQL on IBM Power
-#    url: /whitepapers/postgresqOnIBMPower.html
-#  - menu: Cut the costs of database licensing
-#    url: /whitepapers/cutTheCostsOfDatabaseLicensing.html
-#seealso:
-#  - menu: EnterpriseDB architectural health check
-#    url: /vendors/enterprisedbArchitecturalHealthCheck.html
-#  - menu: Oracle to EnterpriseDB migration assessment
-#    url: /vendors/oracleToEnterprisedbMigrationAssessment.html
-#  - menu: EnterpriseDB Postgres Plus Advanced Server
-#    url: /vendors/enterprisedbPostgresPlusAdvancedServer.html
-logos:
-  - logo: //images.quru.com/image?src=web/logos/EDB_Logo.png&width=110
-    url: //enterprisedb.com
+logo: "//images.quru.com/image?src=web/logos/EDB_Logo.png"
+vendorurl: "//www.enterprisedb.com"
+alt: "Quru are Enterprise' UK partner"
+heading: "Founded in 2004 and now a global player, EnterpriseDB is the only worldwide provider of enterprise-class products and services based on PostgreSQL. In fact, the majority of code added to the PostgreSQL project is submitted by EnterpriseDB and the company provides expert knowledge and support to its ongoing development.<br><br>EnterpriseDB is the biggest challenger to enterprise level proprietary RDBMS solutions and delivers comparable performance and reliability at a fraction of the cost. It has tools to make migration to PostgreSQL easy and reliable - you'll wonder why you didn't do it before!"
 ---
-<div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="http://images.quru.com/image?src=web/logos/EDB_Logo.png&width=300" title="EnterpriseDB" alt="Quru are Enterprise DB's UK partner"> </div>
-
-Founded in 2004 and now a global player, EnterpriseDB is the only worldwide provider of enterprise-class products and services based on PostgreSQL. In fact, the majority of code added to the PostgreSQL project is submitted by EnterpriseDB and the company provides expert knowledge and support to its ongoing development.
-
-EnterpriseDB is the biggest challenger to enterprise level proprietary RDBMS solutions and delivers comparable performance and reliability at a fraction of the cost. It has tools to make migration to PostgreSQL easy and reliable - you'll wonder why you didn't do it before!
 
 ## Oracle Cost Containment
 

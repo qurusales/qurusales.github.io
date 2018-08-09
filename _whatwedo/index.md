@@ -9,20 +9,10 @@ order: 1
 thumbnail:
 index: false
 headimage:
+logostrip: customers
+stripfilter: 
+
 
 ---
 
-[**Software development**](softwaredevelopment.html) - Bespoke software development to create applications that matter.
-
-[**Consulting, design and deployment**](consultingdesigndeployment.html) - Design and implementation of infrastructure solutions that make open source solutions work for business.
-
-[**Open source software subscriptions**](subscriptionsales.html) - Specification and support sales of vendor software solutions from the key global open source companies.
-
-[**Applications**](quruproducts.html) - Design of corporate open source applications available with enterprise support.
-
-
-## Enterprise clients ##
-
-<ul class="partners">
-{% assign sorted_posts = site.partners | sort: 'order' %}{% for p in sorted_posts %}{% if p.index == true %}<li><b><a href='{{ p.url }}'>{{ p.title }}</a></b> {{ p.summary }}</li>{% endif %}{% endfor %}
-</ul>
+Quru enables organisations to utilise the most appropriate blend of open source and proprietary technologies to maximise the effectiveness of their IT infrastructure and be better prepared to meet today's business challenges. Quru is a market leader in the technical design, development, deployment and support of open source based solutions that help organisations to reduce costs and increase operational agility and capability.

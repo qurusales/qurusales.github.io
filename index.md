@@ -23,11 +23,10 @@ carousel:
   - url: "/whitepapers/mariaDBOnIBMPower8.html"
     src: "web/Power8videobanner.png"
     quality: 90
-
+logostrip: customers
+stripfilter: 
 
 
 ---
 
 Quru enables organisations to utilise the most appropriate blend of open source and proprietary technologies to maximise the effectiveness of their IT infrastructure and be better prepared to meet today's business challenges. Quru is a market leader in the technical design, development, deployment and support of open source based solutions that help organisations to reduce costs and increase operational agility and capability.
-
-<center><a href="/whatwedo/" class="button" style="margin-top: 1em;">What we do</a></center>

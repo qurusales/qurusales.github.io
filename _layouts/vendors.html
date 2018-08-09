@@ -1,17 +1,24 @@
 ---
 layout: default
 ---
+
 <article class="post">
+    {% assign sectioncount = 1 %}
+    <h1 class="eightws{% assign alt = sectioncount | modulo: 2 %}{% if alt == 0 %} alt{% endif %}">{{ page.eightws | remove: ',' }}</h1>
 
-    <div class="eightws">{{ page.eightws }}</div>
+    <div class='heading'>{{ page.heading }}</div>
 
-    <div class="post-content">
+    <div class="post-content alt">
+        <div class='vendorLogo'>
+            <a href='https:{{ page.vendorurl }}' target='_new'><img src='{{ page.logo }}&height=320&width=320' alt='{{ page.alt }}'>
+                <div class='tag'>https:{{ page.vendorurl }}</div>
+            </a>
+        </div>
         {{ content }}
     </div>
 
-    <div class="post-footer">
-        {% include vendorfooter.html %}
-    </div>
-    {% include footer.html %}
+
 
 </article>
+
+{% include whitepapers.html %} {% include vendorfooter.html %} {% include footer.html %}

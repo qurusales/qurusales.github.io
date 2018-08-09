@@ -6,15 +6,16 @@ summary: Backup & Disaster Recovery, Deduplication & Archiving across all operat
 eightws: Enterprise <em>backup & disaster recovery</em>, deduplication & archiving
 tags:
   - vendor
+whitepapertag: sep
 order: 10
 thumbnail:
 headimage:
 index: true
-logos:
-  - logo: //images.quru.com/image?src=web/logos/SEP_GSM_big.jpg&width=110&format=jpg&strip=1
-    url: http://www.sep.de/
+logo: //images.quru.com/image?src=web/logos/SEP_GSM_big.jpg
+alt: Quru are SEPs UK partner
+vendorurl: http://www.sep.de/
+heading:
 ---
-<div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="//images.quru.com/image?src=web/logos/SEP_GSM_big.jpg&width=300&format=jpg&strip=1" title="{{ menu }}" alt="Quru are SEP's UK partner"> </div>
 
 ## Backup Linux workloads on Linux not Windows
 

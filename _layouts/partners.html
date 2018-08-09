@@ -1,17 +1,24 @@
 ---
 layout: default
 ---
+
 <article class="post">
 
-    <div class="eightws">{{ page.eightws }}</div>
+    <h1 class="eightws">{{ page.eightws | remove: ',' }}</h1>
 
-    <div class="post-content">
+    <div class='heading'>{{ page.heading }}</div>
+
+    <div class="post-content alt">
+        <div class='vendorLogo'>
+            <a href='https:{{ page.vendorurl }}' target='_new'><img src='{{ page.logo }}&height=320&width=320' alt='{{ page.alt }}'>
+                <div class='tag'>https:{{ page.vendorurl }}</div>
+            </a>
+        </div>
         {{ content }}
     </div>
 
-    <div class="post-footer">
-        {% include partnerfooter.html %}
-    </div>
-    {% include footer.html %}
+
 
 </article>
+
+{% include whitepapers.html %} {% include partnerfooter.html %} {% include footer.html %}
