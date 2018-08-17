@@ -9,11 +9,11 @@ layout: default
     <div class='heading'>{{ page.heading }}</div>
 
     <div class="post-content alt">
-        <div class='vendorLogo'>
+        {% if page.logo != null %}<div class='vendorLogo'>
             <a href='https:{{ page.vendorurl }}' target='_new'><img src='{{ page.logo }}&height=320&width=320' alt='{{ page.alt }}'>
-                <div class='tag'>https:{{ page.vendorurl }}</div>
+                <div class='tag'>https:{{ page.directurl }}</div>
             </a>
-        </div>
+        </div>{% endif %}
         {{ content }}
     </div>
 

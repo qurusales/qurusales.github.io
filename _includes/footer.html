@@ -5,7 +5,7 @@
     <div class="column" id="footerColumn1">
         <ul>
             <li><a href="/">{% if current_directory[1] == "" %}<strong>Quru</strong>{% else %}Quru{% endif %}</a></li>
-            <li class="telephone"><a href="/resources/contactus.html"><img src="/css/contactwhite.png" alt="T: " width="14px">+44 20 7160 2888</a></li>
+            <li class="telephone"><!--<a href="/resources/contactus.html"><img src="/css/contactwhite.png" alt="T: " width="14px">-->+44 20 7160 2888</a></li>
             <li>&nbsp;</li>
             <li><a href="/resources/dataprotection.html">Data protection</a></li>
         </ul>
@@ -32,3 +32,65 @@
   </div>
   <div class="clear"></div>
 </div> 
+
+<script type="text/javascript">
+    function ready(fn) {
+        if (document.addEventListener) {
+          document.addEventListener('DOMContentLoaded', fn);
+        } else {
+          document.attachEvent('onreadystatechange', function() {
+              if (document.readyState === 'interactive')
+                fn();
+          });
+        }
+    }
+
+    ready(function() {
+          
+          /* add other stuff */
+
+        var classFoundList = document.getElementsByClassName('cell');
+          for(var i=0;i<classFoundList.length;i++){
+              classFoundList[i].addEventListener('mouseover', flipCell );
+              classFoundList[i].addEventListener('mouseout', unflipCell );
+              /* classFoundList[i].addEventListener('touchend', function (e) { unflipCell(e, "Go"); } ); */
+              classFoundList[i].addEventListener('touchend', unflipCell, true );
+              classFoundList[i].addEventListener('touchstart', flipCell, false );
+              classFoundList[i].addEventListener('touchleave', unflipCell, false);
+          }
+
+          /*if (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0) || (true)) {*/
+          if (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)) {
+              /* browser with either Touch Events of Pointer Events running on touch-capable device */
+              var b = document.getElementsByTagName('body');
+              if (b.length > 0) {
+                  if (b[0].classList) {
+                      b[0].classList.add('touch');
+                  } else {
+                      b[0].className += ' ' + 'touch';
+                  }
+              }
+              qAddEventListener(document.getElementById('show_nav'), 'click', show_nav);
+              qAddEventListener(document.getElementById('show_nav'), 'touchend', show_nav);
+              qAddEventListener(document.getElementById('menu_work'), 'click', function() { showById('menu_work_sub');});
+              qAddEventListener(document.getElementById('menu_work'), 'touchend', function() { showById('menu_work_sub');});
+           } else {
+           qAddEventListener(document.getElementById('menu_work'), 'click', function() { goToUrl(window.location = '/work');});
+              qAddEventListener(document.getElementById('show_nav'), 'click', show_nav);
+        }
+      });
+
+
+
+    </script>
+
+    <!--[if lte IE 8]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <noscript>
+        <div class="noscript">
+	    <p>This site requires JavaScript. Please enable JavaScript in you browser settings.</p>
+	</div>
+    </noscript>
+    

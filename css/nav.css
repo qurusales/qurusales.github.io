@@ -30,7 +30,7 @@
 
 #nav {
 	display: inline-block;
-    margin: 0.5em 1em 0.5em 5em;
+    margin: 1em 1em 0.5em 5em;
     
 }
 
@@ -52,7 +52,7 @@ ul#navigation li a {
     margin-right: 1.5em;
     color: black;
     text-decoration: none;
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
 }
 
 /* @group Dropdowns */
@@ -62,7 +62,7 @@ ul#navigation ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    padding-top: 6px;
+    padding-top: 1rem;
     /* The next 2 styles are very important,
        being the ones which default the drop-down menu box to hidden */
     visibility: hidden;
@@ -94,7 +94,7 @@ ul#navigation ul {
           ul#navigation li.touch_on > a {
 	background-image: url('/images/triangle.png');
 	background-repeat: no-repeat;
-	background-position: 10px bottom;
+	background-position: 1rem bottom;
 }
 
 /* Support the "nodropdown" class to suppress the triangle */

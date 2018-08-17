@@ -6,7 +6,7 @@ summary: Specification and support sales of vendor software solutions from the k
 eightws: Design, develop & deploy enterprise <em>open source solutions</em>
 tags:
   - Index
-whiteppertag: subscriptions
+whitepapertag: subscriptions
 order: 3
 thumbnail: //images.quru.com/image?src=/web/south/OpenSource.png
 index: true

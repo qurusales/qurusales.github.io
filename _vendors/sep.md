@@ -11,9 +11,9 @@ order: 10
 thumbnail:
 headimage:
 index: true
-logo: //images.quru.com/image?src=web/logos/SEP_GSM_big.jpg
+logo: //images.quru.com/image?src=web/logos/SEP_GSM_cmyk_path.svg
 alt: Quru are SEPs UK partner
-vendorurl: http://www.sep.de/
+vendorurl: //www.sep.de/
 heading:
 ---
 

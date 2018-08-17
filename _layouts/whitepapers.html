@@ -2,21 +2,17 @@
 layout: default
 ---
 <article class="post">
-
-    <header class="post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
-    </header>
-
-    <div class="eightws">{{ page.eightws }}</div>
-
-    <div class="post-content">
-        <div id="image" style="float: left; border: 1px solid grey; margin-right: 20px;"> <img class="clickable" src="{{ page.headimage }}&amp;width=450&amp;format=jpg}" title="{{ page.title }}" alt="{{ page.title }}" width="300"> </div>
+    {% assign sectioncount = 2 %}
+    <h1 class="eightws">{{ page.eightws | remove: ',' }}</h1>
+    <div class='heading'>
+        {{ page.heading }}
+    </div>
+    <div class="post-content whitepaper alt"{% if page.download != null %}style='min-height: 650px;'{% endif %}>
+        {% if page.download != null %}<div class='whitepaperdownload'>
+            <a href='https:{{ page.download }}&attach=1' target='_new'><img class='clickable whitepaper' src='{{ page.download }}&width=450&format=png' alt='{{ page.title }}' align='right'></a></div>{% endif %}
         {{ content }}
     </div>
 
-    <div class="post-footer">
-        {% include partnerfooter.html %}
-    </div>
-    {% include footer.html %}
-
 </article>
+
+{% include whitepapers.html %}{% include partnerfooter.html %}{% include footer.html %}

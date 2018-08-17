@@ -11,7 +11,7 @@ order: 6
 thumbnail:
 headimage:
 index: true
-logo: "//images.quru.com/image?src=/web/logos/mariadb.jpg"
+logo: "//images.quru.com/image?src=/web/logos/mariadb.png"
 vendorurl: "//www.mariadb.com"
 alt: "Quru are MariaDB's UK partner"
 heading: "Data volumes in key business systems are constantly growing. This increases the pressure on the applications used to supply personalised data from these systems to end-users. To add to the complexity, end-users are using numerous different types of devices which require their own data configuration.</p><p>At Quru, we believe that MariaDB is a vendor providing world-class solutions that address this challenge. MariaDB builds massively scalable open source database products that help people build software applications to achieve effective, cheap and reliable data management. It is a global software and database company that develops and supports MariaDB - the world's fastest growing open source database."

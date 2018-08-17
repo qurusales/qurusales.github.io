@@ -7,13 +7,13 @@ eightws:
 tags:
   - client
   - consulting
+whitepapertag: tesco
 order: 6
 thumbnail:
 headimage:
 index: true
-logos:
-  - logo: https://images.quru.com/image?src=/web/logos/tesco.jpeg&height=100
-    url: https://www.tesco.com
+logo: //images.quru.com/image?src=/web/logos/tesco.png
+directurl: //www.tesco.com
 
 ---
 

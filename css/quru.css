@@ -12,6 +12,29 @@
 # Last Changed:  $Date: 2015-04-23 11:13:06 +0100 (Thu, 23 Apr 2015) $ $Rev: 1412 $ by $Author: roland $
 */
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 1em;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
 @font-face {
     font-family: 'DuruSansRegular';
     src: url('/fonts/DuruSans-Regular-webfont.eot');
@@ -27,26 +50,60 @@
 
 body
 {
-    font: 17px/1.5em "Open Sans", GillSansRegular, "Gill Sans MT", "Gill Sans", "Gill Sans W01 Medium", DuraSansRegular, sans-serif;
+    font: 1em "Open Sans", GillSansRegular, "Gill Sans MT", "Gill Sans", "Gill Sans W01 Medium", DuraSansRegular, sans-serif;
     font-weight: 200;
     -ms-touch-action: auto;
     margin: 0;
+    background-color: #333;
 }
 
+#page {
+    background-color: white;
+}
 #header, .heading, h1.eightws, .post-content, .post-footer, #footer, #whitepapers, .altBlock, .block, #About, .whitepapers 
 {
-    padding: 0 12%;
+    padding-left:  12%;
+    padding-right: 12%
+}
+
+a#show_nav {
+    float:   right;
+    display: block;
+    width:  30px;
+    height: 30px;
+    margin-top:   0.5rem;
+    margin-right: 1rem;
+    background-image: url(/css/menu.png);
+}
+
+
+p {
+    padding-bottom: 1em;
+}
+
+.heading {
+    padding-bottom: 1.5em;
+    columns: 2;
+    
 }
 
 a#logo
 {
     float: left;
-    margin: 0.5em 0 0 0.3em;
+    margin: 0.5rem 0 0 0.3rem;
+}
+
+#header
+{
+    height: 3.5em;
+    background-color: #EEE;
+    position: relative;
+    margin-bottom: 3em;
 }
 
 #logo img
 {
-    height: 1.5em;
+    height: 2.5rem;
 }
 
 img
@@ -55,8 +112,8 @@ img
 }
 
 h1.eightws {
-    margin-bottom: 0.5em;
     font-size: 4em;
+    margin-bottom: 0.5em;
     font-weight: 800;
     font-stretch: semi-condensed;
     line-height: 80%;
@@ -72,14 +129,15 @@ h1.eightws em {
 }
 
 h2 {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     color: maroon;
     font-weight: 600;
-    padding-top: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -90,13 +148,13 @@ h3 {
 }
 
 .post-content {
-    padding-bottom: 2em;
+    padding-bottom: 2rem;
 }
 
 h3
 {
     font-weight: 600;
-    font-size: 1.0em;
+    font-size: 1.0rem;
 }
 
 h4
@@ -106,42 +164,53 @@ h4
 
 h5
 {
-    font-size: 1.0em;
+    font-size: 1.0rem;
     font-weight: 400;
     font-style: italic;
     margin-bottom: 0;
 }
 
-#page
-{
-    min-width: 680px;
-    max-width: 2100px;
+ul {
+    padding-left: 2em;
 }
 
-#header
-{
-    height: 2.5em;
-    background-color: #EEE;
-    position: relative;
-    margin-bottom: 3em;
+ul.vendors {
+    padding-top: 1em;
+}
+
+ul.vendors li {
+    padding-bottom: 2em;
+    list-style-type: none;
+}
+ul.vendors li a.logo {
+    display: inline-block;
+    padding-right: 2em;
+    border: none;
+    vertical-align: top;
+}
+
+ul.vendors li a.text {
+    display: inline-block;
+    border: none;
+    vertical-align: top;
 }
 
 .vendorLogo {
     display: inline-block;
     float: right;
-    margin: 0 0 1em 1em;
+    margin: 0 0 1rem 1rem;
     background-color: white;
 }
 
 .vendorLogo img {
-    margin: 1em;
+    margin: 1rem;
 }
 
 .vendorLogo .tag {
     background-color: maroon;
     color: white;
     text-align: center;
-    padding: 0.5em 0;
+    padding: 0.5rem 0;
 }
 
 
@@ -151,18 +220,45 @@ h5
 }
 
 
+.whitepapers {
+    padding-top: 1.5rem;
+}
+
+#image {
+
+}
+
+.post_content p {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+img.whitepaper {
+    border: none;
+    margin: 0 0 1em 1em;
+    width: 450px;
+    height: 637px;
+}
+
+.credit {
+    font-size: 0.8rem;
+    font-style: italic;
+    padding-top: 1em;
+}
+
 #About {
     clear: both;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     padding-bottom: 0.5em;
 }
 
 #About h3 {
     display: inline-block;
     position: relative;
-    top: -3em;
+    top: -2em;
     margin-bottom: 0;
-    padding: 0 2em 0.5em 2em;
+    padding: 0.5em 2em 2em 2em;
     background-color: white;
 }
 
@@ -186,11 +282,20 @@ h5
     text-decoration: none;
 }
 
+#morelink
+{
+    float: right;
+    margin-left: 1em;
+    margin-top: 0.3em;
+    line-height: 1.2em;
+}
+
 #footer
 {
     background-color: #333;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     padding-bottom: 1em;
+    padding-top: 1em;
     border-top: 6px solid maroon;
 }
 
@@ -276,10 +381,11 @@ h5
     display: inline-block;
     vertical-align: top;
     width: 276px;
-    height: 31em;
+    height: 34em;
     margin-right: 2em;
     margin-bottom: 2em;
     background-color: white;
+    overflow: hidden;
 }
 
 .whatwedo li h3, .block li .eightws {
@@ -297,6 +403,12 @@ h5
 }
 
 .logostrip {
+    height: 180px;
+    padding-top: 2em;
+    overflow: hidden;
+}
+
+.logostrip ul li {
     height: 160px;
 }
 
@@ -329,3 +441,164 @@ h5
     color: black;
 }
 
+/* #contactUs == request_a_call.html */
+#contactUs div.copy
+{
+    width: 200px;
+    /* Centre content when sidebar is wider */
+    margin-left: auto;
+    margin-right: auto;
+}
+#contactUs div.copy form label
+{
+    width: 75px;
+    display: inline-block;
+}
+#contactUs div.copy form input
+{
+    width: 103px;
+}
+#contactUs div.copy form input[type="button"],
+#contactUs div.copy form input[type="submit"]
+{
+    margin-left: 79px;
+}
+
+/* #contact == jobs page and contact us page
+   #requestAPaper == white paper form
+   #contactUs == request_a_call.html
+
+   MAINTAINERS - please use a class in future! (no more IDs!)
+*/
+#contact form div.formline label
+{
+    width: 100px;
+    display: inline-block;
+}
+#contactUs div.copy form input,
+#requestAPaper div.copy form input,
+#contact form div.formline input,
+#contact form div.formline textarea
+{
+    padding: 5px;
+    margin-bottom: 1em;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius:  4px;
+    -moz-border-radius:    4px;
+    border-radius:         4px;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    -moz-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 3px #999;
+    border: 1px solid #999;
+}
+#contact form div.formline textarea
+{
+    min-width: 250px;
+    width: 80%;
+    height: 6em;
+    vertical-align: top;
+}
+
+.honeypot {
+    display: none;
+}
+
+#contact form div.formline input
+{
+    min-width: 250px;
+    width: 80%;
+}
+#contact form div.formline input.button,
+#contact #email_status
+{
+    margin-left: 102px;
+    min-width: 148px !important;
+}
+
+input.button
+{
+    background-color: #46a0c2;
+    background: linear-gradient(bottom, #3791b3, #55afd1);
+    background: -o-linear-gradient(bottom, #3791b3, #55afd1);
+    background: -moz-linear-gradient(100% 100% 90deg,#3791b3,#55afd1);
+    background: -webkit-linear-gradient(bottom, #3791b3, #55afd1);
+    background: -ms-linear-gradient(bottom, #3791b3, #55afd1);
+    color: white;
+    cursor: pointer;
+}
+
+input[type="text"]:hover, textarea:hover {
+    border: 1px solid #233567;
+}
+
+
+/* Responsive settings */
+
+
+/* Responsive layout for small screens (767 == narrower than iPad) */
+
+@media only screen and (max-width: 767px) {
+    #page {
+        /* Reduce min width */
+        min-width: 300px;
+    }
+
+    #header, .heading, h1.eightws, .post-content, .post-footer, #footer, #whitepapers, .altBlock, .block, #About, .whitepapers 
+    {
+        padding-left:  2rem;
+        padding-right: 2rem;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    a#show_nav {
+        display: inline-block;
+    }
+
+    .heading {
+        columns: 1;
+    }
+}
+
+/* And a holding area for tablet class devices */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* None really because we assume that the whole site fits */
+    #page
+    {
+        min-width: 768px;
+    }
+
+    #header, .heading, h1.eightws, .post-content, .post-footer, #footer, #whitepapers, .altBlock, .block, #About, .whitepapers 
+    {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .vendorLogo {
+        position: relative;
+        right: -1rem;
+    }
+
+    a#show_nav {
+        display: none;
+    }
+}
+
+/* Settings for a wide screen */
+
+@media only screen and (min-width: 1024px) {
+    /* #header, .heading, h1.eightws, .post-content, .post-footer, #footer, #whitepapers, .altBlock, .block, #About, .whitepapers 
+       {
+           padding: 0 12%;
+       }
+ */
+    a#show_nav {
+        display: none;
+    }
+}
+
+/* end responsive layout */

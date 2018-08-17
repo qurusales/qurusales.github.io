@@ -11,7 +11,7 @@ whitepapertag: bonhams
 order: 3
 index: true
 logo: '//images.quru.com/image?src=/web/logos/bonhams.png'
-vendorurl: '//www.bonhams.com'
+directurl: '//www.bonhams.com'
 alt: Bonhams Auctioneers
 heading: Bonhams is one of 3 key significant global auction players and is our key enterprise partner and founding supporter. Quru is responsible for the design, implementation and ongoing “follow the sun” support for Bonham’s digital online auction services and image management. We are proud to support and inspire Bonhams as the global auction house of choice. 
 ---
@@ -26,4 +26,4 @@ Quru has worked with brand/web agencies Sequence, Identity and, most recently, A
 Bonhams staff have a single number to call and single address to email for all IT support issues. Quru provide a high level of experience in running services for Bonhams and ensuring that end users both understand their processes as well as their systems.
 
 ## System administration
-With over 60 years of auction system administration experience between then, Quru provide un-paralleled skills and knowledge in how to keep auctions running in the digital age with just enough resources and at the right cost. Now working with partners [A24](/partners/a24.html), Quru are responsible for the implementation of servers, services, WANs and LANs for Bonhams globally.
+With over 60 years of auction system administration experience between then, Quru provide un-paralleled skills and knowledge in how to keep auctions running in the digital age with just enough resources and at the right cost. Now working with partners [A24](/partners/a24.io.html), Quru are responsible for the implementation of servers, services, WANs and LANs for Bonhams globally.

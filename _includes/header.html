@@ -23,10 +23,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div id="header">
     <a id="logo" href="/"><img src="{{ "/images/quru374.png" | prepend: site.baseurl }}" border="0" alt="Quru" /></a>
 
-<!--<div id="telephone">
-<img src="{{ '/css/contact.png' | prepend: site.baseurl }}" width="14px" alt="T: "/> +44 20 7160 2888
-</div>-->
-
+    <a href='#' id='show_nav' title='Show navigation'></a> <!-- for mobile -->
+    
     <div id="nav">
         <ul id="navigation">
             <li><a href="/whatwedo/" class="first">What we do</a>
@@ -47,13 +45,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </ul>
            </li>
 
-           <!--<li><a href="/resources/">Resources</a>
-                <ul class="menu_list">
-                    {% assign contents = site.resources | sort:'order' %}{% for q in contents %}{% if q.index == true %}<li><a href="{{ q.url | prepend: site.baseurl}}">{{ q.menu }}</a></li>{% endif %}{% endfor %}
-                </ul>
-           </li>-->
-
-           <li><a href="/resources/contactus.html">Contact us</a></li>
+           <li><a href="/resources/contactus.html" class="nodropdown">Contact us</a></li>
        </ul>
     </div>
 </div>

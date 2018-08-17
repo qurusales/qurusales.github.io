@@ -23,7 +23,6 @@ carousel:
   - url: "/products/qis.html"
     src: "web/qisbanners/qisZoomerbanner.png"
     quality: 90
-
 ---
 
 The Quru Image Server (QIS) is the image server of choice for serious business demands, delivering perfect detailed images, cost effectively, at scale.
