@@ -14,7 +14,7 @@ index: true
 logo: "//images.quru.com/image?src=web/logos/EDB_Logo.png"
 vendorurl: "//www.enterprisedb.com"
 alt: "Quru are Enterprise' UK partner"
-heading: "Founded in 2004 and now a global player, EnterpriseDB is the only worldwide provider of enterprise-class products and services based on PostgreSQL. In fact, the majority of code added to the PostgreSQL project is submitted by EnterpriseDB and the company provides expert knowledge and support to its ongoing development.<br><br>EnterpriseDB is the biggest challenger to enterprise level proprietary RDBMS solutions and delivers comparable performance and reliability at a fraction of the cost. It has tools to make migration to PostgreSQL easy and reliable - you'll wonder why you didn't do it before!"
+heading: "<p>Founded in 2004 and now a global player, EnterpriseDB is the only worldwide provider of enterprise-class products and services based on PostgreSQL. In fact, the majority of code added to the PostgreSQL project is submitted by EnterpriseDB and the company provides expert knowledge and support to its ongoing development.</p><p>EnterpriseDB is the biggest challenger to enterprise level proprietary RDBMS solutions and delivers comparable performance and reliability at a fraction of the cost. It has tools to make migration to PostgreSQL easy and reliable - you'll wonder why you didn't do it before!</p>"
 ---
 
 ## Oracle Cost Containment

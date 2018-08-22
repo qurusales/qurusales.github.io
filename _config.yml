@@ -14,7 +14,7 @@ description: >
   customers including international auction house Bonhams. Quru partners with most
   major open source vendors including Red Hat, Docker, EnterpriseDB and MariaDB.
 baseurl:  # the subpath of your site, e.g. /blog
-url: http://www.quru.com  # the base hostname & protocol for your site
+url: https://south.quru.com  # the base hostname & protocol for your site
 twitter_username: quru
 github_username:  qurusales
 

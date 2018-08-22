@@ -11,27 +11,18 @@ index: true
 logo: "//images.quru.com/image?src=web/logos/coscale.png"
 vendorurl: "//www.coscale.com"
 alt: "Quru are Coscales' UK partner"
-heading: "CoScale offers a container-native monitoring solution, purpose-built to monitor containers and microservices in enterprise production environments. The CoScale platform automatically discovers and monitors all containers and services running in your environment and provides container-specific visualizations and analytics.</p><p>CoScale gives you the visibility and control needed to let you deploy your containers to production faster and with increased confidence. Once in production, CoScale’s automatic anomaly detection lets you proactively manage performance by helping you to detect and solve performance problems before your customers are impacted."
+heading: "<p>Performance monitoring is a vital aspect of ensuring IT, especially new technology, is delivering what is expected and, critically, what the business needs to deliver a high quality end-user experience. As organisations take advantage of new container technology within a full stack, we’re finding that many are unclear as to what they need to invest to achieve the performance they need – especially as they scale.</p><p>In our experience, Coscale is an outstanding monitoring platform that enables organisations to rapidly right-size a full stack container and microservices production environment. Feedback from our customer’s is very positive and they say the software is easy to deploy, the user-interface is well designed and easy to use.</p>"
 ---
 ## Container-native monitoring
 
-CoScale’s solution has been built from the ground up with container monitoring in mind. Compared to traditional monitoring vendors that need to retrofit their legacy products in container environments, CoScale seamlessly integrates with your container environment.
+When building a container environment, there are two main priorities. First, be able to right-size the environment to cost-effectively meet an organisation’s needs and, secondly to avoid wasting time on false alerts. 
 
-What does container-native monitoring mean?
-* Installs as a separate container on your hosts
-* Does not require any changes to your containers or kernel
-* Is lightweight and non-intrusive
-* Auto-detects new containers and images
-* Gathers data from container and orchestration platforms via APIs
-* Provides in-container monitoring via plugins or user-specified metrics
-* Runs automated anomaly detection on all container metrics
+Clearly, when first setting up a container environment, you won’t know the performance you are going to need and because you don’t have any historical data to work from, you cannot undertake capacity planning. Coscale delivers the performance monitoring data that enables you to rapidly gain this insight and right-size your environment. 
 
-## Broad container technology support
+It sounds obvious, but a key question is deciding what to monitor and how to set appropriate thresholds. Each organisation is different and it’s vital to build knowledge of the way it works, i.e. if there are peaks and troughs of performance, you need to know if that peak is a problem or it’s something that happens regularly for a specific reason. 
 
-CoScale integrates with a wide range of container technologies:
-* Openshift monitoring: Certified technology partner of Red Hat and OpenShift
+## Built in machine learning & anomaly detection
 
-Primed partner
-* Docker monitoring: Certified technology partner of Docker
-* Kubernetes monitoring: Technology partner of Kubernetes
-* Additional support for monitoring Google Container Engine, Azure Container Service, IBM Bluemix Container Service, and many more enterprise container platforms.
+Coscale have built machine learning within an anomaly detection engine into their platform.  This means that it learns over time what is a real alert and delivers a much clearer picture of what is going on in the container and micros-services environment. You set performance thresholds that match business aims and focus only on alerts for things that are genuinely important. In addition, it monitors webpage load speeds and provides insight into what is happening in real-life and the impact on the end-user experience. 
+
+We use Coscale to help clients ‘right-size’ their container environments, scale as needed and avoid false alerts. This means they accelerate container deployments in production with confidence and gain metrics that guide them on how to achieve the performance the business needs.
