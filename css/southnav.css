@@ -1,6 +1,3 @@
-/* @override http://localhost:5000/static/css/nav.css */
-
-/*
 #
 # Quru Web Site
 #
@@ -28,15 +25,12 @@
 
 /* Main navigation layout */
 
-#nav {
-	display: inline-block;
-    margin: 1em 1em 0.5em 5em;
-    
-}
+#nav {}
 
 #navigation {
     margin: 0;
     padding: 0;
+    float: right;
 }
 
 #navigation li {
@@ -49,10 +43,14 @@
 
 ul#navigation li a {
     display: inline-block;
-    margin-right: 1.5em;
-    color: black;
+    color: #333;
     text-decoration: none;
-    padding-bottom: 1em;
+    padding: 1.5rem 1.5rem 1.4rem 0.5rem;
+    height: 100%;
+}
+
+ul#navigation li a:hover {
+    Background: #CCC;
 }
 
 /* @group Dropdowns */
@@ -62,14 +60,13 @@ ul#navigation ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    padding-top: 1rem;
     /* The next 2 styles are very important,
        being the ones which default the drop-down menu box to hidden */
     visibility: hidden;
     opacity: 0;
     position: absolute;
     z-index: 99999;
-    background: maroon;
+    background: #CCC;
     background-image: none;
     /* css3 transitions for smooth hover effect */
     -webkit-transition: opacity 0.2s linear;
@@ -92,30 +89,27 @@ ul#navigation ul {
    or on (inferred) yes_touch when touched */
 .no_touch ul#navigation li:hover > a,
           ul#navigation li.touch_on > a {
-	background-image: url('/images/triangle.png');
-	background-repeat: no-repeat;
-	background-position: 1rem bottom;
 }
 
 /* Support the "nodropdown" class to suppress the triangle */
 .no_touch ul#navigation li:hover > a.nodropdown,
           ul#navigation li.touch_on > a.nodropdown {
-	background-image: none;
-	border-bottom: 1px solid maroon;
+/*	background-image: none;
+	background: maroon;
+    color: white;
 	padding-bottom: 0em;
-}
+*/}
 
 /* Drop-down sub-menu item styles */
 ul#navigation ul li a {
     background:none;
-    padding-left: 0.8em;
-    color: white;
+    padding: 1rem 1.2rem 1.5rem 0.8em;
+    color: #333;
     text-decoration:none;
     display:inline-block;
     border:none;
     float:left;
     clear:both;
-    background-image: none !important;
 }
 
 /* Don't wrap text on drop-down sub-menu items */
@@ -127,8 +121,8 @@ ul#navigation ul li {
 
 /* Show hover underline on drop-down sub-menu items */
 ul#navigation ul li a:hover {
-	text-decoration: underline;
-	background-image: none;
+	background: maroon;
+    color: white;
 }
 
 /* @end */

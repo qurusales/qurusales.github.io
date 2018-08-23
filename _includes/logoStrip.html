@@ -4,7 +4,7 @@
     <div class="logo-wrapper">
         <ul id="image-slider">
             {% if page.logostrip == 'customers' %}{% assign sorted_posts = site.partners | sort: 'order' %}{% elsif page.logostrip == 'vendors' %}{% assign sorted_posts = site.vendors | sort: 'order' %}{% else %}{% assign sorted_posts = '' %}{% endif %}{% for p in sorted_posts %}
-            {% if p.index %}{% if p.tags contains page.stripfilter or page.stripfilter == Null %}<li><a class="logo" href="{{ p.url }}"><img src="{{ p.logo }}&width=120&height=120&autosizefit=0&format=png&fill=none" alt='{{ p.title }}'></a></li>{% endif %}{% endif %}
+            {% if p.index %}{% if p.tags contains page.stripfilter or page.stripfilter == Null %}<li><a class="logo" href="{{ p.url }}"><img src="{{ p.logo }}&width=160&height=160&autosizefit=0&format=png&fill=none" alt='{{ p.title }}'></a></li>{% endif %}{% endif %}
             {% endfor %}
         </ul>
     </div>

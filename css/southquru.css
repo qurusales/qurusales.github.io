@@ -35,22 +35,10 @@ time, mark, audio, video {
 
 
 
-@font-face {
-    font-family: 'DuruSansRegular';
-    src: url('/fonts/DuruSans-Regular-webfont.eot');
-    src: url('/fonts/DuruSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/DuruSans-Regular-webfont.woff') format('woff'),
-         url('/fonts/DuruSans-Regular-webfont.ttf') format('truetype'),
-         url('/fonts/DuruSans-Regular-webfont.svg#DuruSansRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 
 body
 {
-    font: 1em "Open Sans", GillSansRegular, "Gill Sans MT", "Gill Sans", "Gill Sans W01 Medium", DuraSansRegular, sans-serif;
+    font: 15px/1.6 "Open Sans", GillSansRegular, "Gill Sans MT", "Gill Sans", "Gill Sans W01 Medium", sans-serif;
     font-weight: 200;
     -ms-touch-action: auto;
     margin: 0;
@@ -60,6 +48,7 @@ body
 #page {
     background-color: white;
 }
+
 #header, .heading, h1.eightws, .post-content, .post-footer, #footer, #whitepapers, .altBlock, .block, #About, .whitepapers 
 {
     padding-left:  12%;
@@ -76,6 +65,9 @@ a#show_nav {
     background-image: url(/css/menu.png);
 }
 
+i {
+    font-style: italic;
+}
 
 p {
     padding-bottom: 1em;
@@ -90,15 +82,15 @@ p {
 a#logo
 {
     float: left;
-    margin: 0.5rem 0 0 0.3rem;
+    margin: 1.2rem 0 0 0.4rem;
 }
 
 #header
 {
-    height: 3.5em;
+    height: 5rem;
     background-color: #EEE;
     position: relative;
-    margin-bottom: 3em;
+    margin-bottom: 3rem;
 }
 
 #logo img
@@ -250,7 +242,8 @@ img.whitepaper {
 #About {
     clear: both;
     font-size: 0.8rem;
-    padding-bottom: 0.5em;
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 #About h3 {
@@ -293,10 +286,11 @@ img.whitepaper {
 #footer
 {
     background-color: #333;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
+    line-heigh: 2rem;
     padding-bottom: 1em;
     padding-top: 1em;
-    border-top: 6px solid maroon;
+    border-top: 0.8rem solid maroon;
 }
 
 #footer ul li a
@@ -365,11 +359,20 @@ img.whitepaper {
     color: #990000;
 }
 
+.block.whatwedo {
+    padding-bottom: 3.5rem;
+}
+
 .whatwedo h2 {
-    padding: 3em 0 2em 0;
+    padding: 3rem 0 2rem 0;
     font-size: 1em;
-    color: #666;
+    color: #333;
     text-transform: uppercase;
+}
+
+.whatwedo h3 {
+    color: #333;
+    margin-bottom: 1rem;
 }
 
 .whatwedo ul, .whitepapers ul, .logostrip ul {
@@ -381,9 +384,9 @@ img.whitepaper {
     display: inline-block;
     vertical-align: top;
     width: 276px;
-    height: 34em;
-    margin-right: 2em;
-    margin-bottom: 2em;
+    height: 39rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
     background-color: white;
     overflow: hidden;
 }
@@ -392,7 +395,10 @@ img.whitepaper {
     padding: 0 1em;
     font-size: 1em;
     line-height: 1.2em;
-    color: black;
+}
+
+.block li .eightws {
+    color: #666;
 }
 
 .whatwedo a {
@@ -403,7 +409,7 @@ img.whitepaper {
 }
 
 .logostrip {
-    height: 180px;
+    height: 16rem;
     padding-top: 2em;
     overflow: hidden;
 }
