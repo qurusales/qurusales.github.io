@@ -1,5 +1,5 @@
-    {% if page.whitepapertag %}{% assign sorted_posts = site.whitepapers | sort: 'order' %}{% assign counter = 1 %}{% assign sectionincluded = false %} {% for p in sorted_posts %}{% if p.index and p.tags contains page.whitepapertag  %}{% assign sectioncount = sectioncount | plus: 1 %}{% endif %}{% endfor %}
-    <div class="whitepapers block{% assign alt = sectioncount | modulo: 2 %}{% if alt == 0 %} alt{% endif %}">
+    {% if page.whitepapertag %}{% assign sorted_posts = site.whitepapers | sort: 'order' %}{% assign counter = 1 %}{% assign sectionincluded = false %} {% for p in sorted_posts %}{% if p.index and p.tags contains page.whitepapertag  and sectionincluded == false %}{% assign sectionincluded = true %}{% assign sectioncount = sectioncount | plus: 1 %}{% endif %}{% endfor %}
+    {% if sectionincluded %}<div class="whitepapers block{% assign alt = sectioncount | modulo: 2 %}{% if alt == 0 %} alt{% endif %}">
         <ul>
         {% for p in sorted_posts %}{% if p.index and p.tags contains page.whitepapertag and counter < 5 %}
             <li>
@@ -10,5 +10,5 @@
                 </a>
             </li>{% assign counter = counter | plus:1 %}{% endif %}{% endfor %}
         </ul>
-    </div>
+    </div>{% endif %}
     {% endif %}

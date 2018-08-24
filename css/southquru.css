@@ -122,10 +122,11 @@ h1.eightws em {
 
 h2 {
     font-size: 1.2rem;
-    color: maroon;
+    color: #333;
     font-weight: 600;
-    padding-top: 1.5em;
-    padding-bottom: 0.5em;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -162,8 +163,23 @@ h5
     margin-bottom: 0;
 }
 
+.post-content li {
+    list-style-position: inside;
+    text-indent: -1.2em;
+    padding-left: 1.5em;
+}
+
+.post-content li::before {
+    content: "\25AA";
+    color: maroon;
+    display: inline-block;
+    width: 0.1em;
+    margin-left: 1.1em
+}
+
+
 ul {
-    padding-left: 2em;
+    list-style: none;
 }
 
 ul.vendors {
@@ -205,7 +221,21 @@ ul.vendors li a.text {
     padding: 0.5rem 0;
 }
 
+.quote {
+    padding-bottom: 4rem;
+}
 
+.quotebody {
+    font-style: italic;    
+}
+
+.quotebody:before {
+    content: "\201C"
+}
+
+.quotebody:after {
+    content: "\201D"
+}
 
 .alt {
     background-color: #EEE !important;
@@ -242,7 +272,7 @@ img.whitepaper {
 #About {
     clear: both;
     font-size: 0.8rem;
-    margin-top: 2rem;
+    margin-top: 0rem;
     padding-bottom: 0.5rem;
 }
 

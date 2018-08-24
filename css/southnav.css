@@ -100,9 +100,18 @@ ul#navigation ul {
 	padding-bottom: 0em;
 */}
 
+/* Don't wrap text on drop-down sub-menu items */
+ul#navigation ul li {
+    background: #ccc;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 0;
+}
+
 /* Drop-down sub-menu item styles */
 ul#navigation ul li a {
     background:none;
+    width: 100%;
     padding: 1rem 1.2rem 1.5rem 0.8em;
     color: #333;
     text-decoration:none;
@@ -110,13 +119,7 @@ ul#navigation ul li a {
     border:none;
     float:left;
     clear:both;
-}
-
-/* Don't wrap text on drop-down sub-menu items */
-ul#navigation ul li {
-    clear:both;
-    border:0 none;
-	white-space: nowrap;
+    white-space: nowrap;
 }
 
 /* Show hover underline on drop-down sub-menu items */
@@ -124,6 +127,4 @@ ul#navigation ul li a:hover {
 	background: maroon;
     color: white;
 }
-
-/* @end */
 

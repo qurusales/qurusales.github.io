@@ -12,6 +12,10 @@ logo: "//images.quru.com/image?src=web/logos/coscale.png"
 vendorurl: "//www.coscale.com"
 alt: "Quru are Coscales' UK partner"
 heading: "<p>Container performance monitoring is vital to ensure that micro-services deliver.<p></p>As organisations take advantage of new container technology using OpenShift and Docker within a full stack, the inherent monitoring shortcomings start to ask difficult questions.  The detail that a well deployed Coscale monitoring environment can provide answers.</p><p>In our experience, Coscale is an outstanding monitoring platform that enables organisations to rapidly right-size a full stack container and microservices production environment. Feedback from our customer’s is very positive and the software is easy to deploy, with a well designed and easy to use user-interface.</p>"
+quotes:
+  - quote: We use Coscale to help clients &lsquo;right-size&rsquo; their container environments, scale as needed and avoid false alerts. This means they accelerate container deployments in production with confidence and gain metrics that guide them on how to achieve optimum performance
+    heading: Optimize container performance by avoiding false alerts
+    by: Quru
 ---
 ## What Coscale say
 
@@ -24,7 +28,3 @@ With a huge amount of available data sources, deciding what to monitor and how t
 Coscale&rsquo;s unique machine learning algorithm makes its anomaly detection engine a superior and intelligent way of addressing this issue.  It learns over time what are genuine alerts and consequently delivers a much clearer picture of what is going on in the container and micros-services environment. Appropriately set performance thresholds that match business aims, will only create genuinely important alerts. 
 
 In addition, Coscale monitors webpage load speeds and provides insight into what is happening in real-life and the impact on the end-user experience. 
-
-## Point of view
-
-<i>&ldquo;We use Coscale to help clients &lsquo;right-size&rsquo; their container environments, scale as needed and avoid false alerts. This means they accelerate container deployments in production with confidence and gain metrics that guide them on how to achieve optimum performance&rdquo;</i>

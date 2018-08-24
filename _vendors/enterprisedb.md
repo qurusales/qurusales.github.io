@@ -3,7 +3,7 @@ layout: vendors
 menu: EnterpriseDB
 title: EnterpriseDB - PostgreSQL solutions for the enterprise
 summary: Open source database offering a real alternative to traditional proprietary database systems - and at a fraction of the cost
-eightws: Challenging enterprise level proprietary relational <em>database solutions</em>
+eightws: Delivering <em>secure PostgreSQL</em> database <em>enterprise solutions</em> at scale
 tags:
   - vendor
 whitepapertag: edb
@@ -14,24 +14,17 @@ index: true
 logo: "//images.quru.com/image?src=web/logos/EDB_Logo.png"
 vendorurl: "//www.enterprisedb.com"
 alt: "Quru are Enterprise' UK partner"
-heading: "<p>Founded in 2004 and now a global player, EnterpriseDB is the only worldwide provider of enterprise-class products and services based on PostgreSQL. In fact, the majority of code added to the PostgreSQL project is submitted by EnterpriseDB and the company provides expert knowledge and support to its ongoing development.</p><p>EnterpriseDB is the biggest challenger to enterprise level proprietary RDBMS solutions and delivers comparable performance and reliability at a fraction of the cost. It has tools to make migration to PostgreSQL easy and reliable - you'll wonder why you didn't do it before!</p>"
+heading: "<p>There are two major open source database solutions – MySQL and PostgreSQL. The choice depends on how an application has been designed alongside design preferences. Where the intelligence to manage data is built into the database rather than the application then PostgreSQL is the usual solution.</p><p>We recommend EnterpriseDB for PostgreSQL as the organisation that demonstrates the deepest PostgreSQL knowledge and who are responsible for over 50% We&rsquo;ve trialled many open source databases and believe that for PostgreSQL, EnterpriseDB is the best solution.  It enables organisations to migrate their data rapidly and cost-effectively and from a technical and business perspective, our organisations have a very close working relationship at all levels.of the posted code changes.</p><p>The benefits our clients achieve are significant - EnterpriseDB enables you to run PostgreSQL at scale. We are regularly asked by organisations to help them move away from Oracle, attracted by the opportunity to reduce database costs by 80% or more.</p>"
+quotes:
+  - quote: We&rsquo;ve trialled many open source databases and believe that for PostgreSQL, EnterpriseDB is the best solution.  It enables organisations to migrate their data rapidly and cost-effectively and from a technical and business perspective, our organisations have a very close working relationship at all levels.
+    heading: The optimal PostgreSQL solution 
+    by: Quru
 ---
 
-## Oracle Cost Containment
+## High availability enterprise database
 
-When a database supplier, such as Oracle, tries to change the rules of the game, an increasing number of organisations are looking to change their database and / or systems and software so they are not at the mercy of a proprietary vendor.
+EnterpriseDB has taken PostgreSQL and developed a full range of enterprise functionality. PostgreSQL is specifically designed for the enterprise environment - it has built-in capability to scale with agility and resiliency. 
 
-Moving from one database to another or from one platform to another can be a time-consuming, complex and costly exercise, however highly compatible products can reduce both the time and the costs of a move.
+EDB Postgres Ark provides a unified UI (graphical and API) to control and manage deployments across multiple platforms from a single management console that you manage and control. EDB Postgres Ark deployments are highly available, have integrated disaster recovery, cross-platform replication (database, provider and geo), self-healing capabilities and with EDB Postgres make migrations a snap. EDB Postgres Ark gives IT managers the ideal combination of deployment flexibility combined with centralized control and monitoring while providing developers point and click simplicity, flexibility and speed when developing and deploying applications.
 
-Quru has reviewed the products currently available and we believe that a combination of EnterpriseDB software on an IBM platform is the best alternative. Both vendors have highly compatible products to enable organisations to migrate their data from Oracle.
-
-## Create a solid database foundation with a suite of packaged services performed by PostgreSQL experts
-
-Together, our experts and your staff will establish an architecture that is maintainable, high performing, highly available, and safeguards your data. We can even augment your own DBA staff on a temporary or permanent basis. All packaged services are well defined, affordably priced, and executed in a timely and predictable fashion. And all our engagements end with effective knowledge transfer enabling your staff to own and maintain the work now and as your business grows.
-
-## Our popular Packaged Services:
-
-* Architectural Health Check - Is your original database architecture lagging behind your current needs and growth?
-* Oracle Migration Assessment - Discover your likelihood for success in migrating off Oracle to Postgres Plus.
-
-*Request a call back to find out more.*
+Migrating from one database or platform to another can be a time-consuming, complex exercise, making it essential to select highly compatible products that can reduce both the time and costs involved. 
