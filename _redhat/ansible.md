@@ -3,45 +3,26 @@ layout: redhat
 title: Ansible Tower
 menu: Ansible
 summary: Configuration management
-eightws: Automation for everyone
+eightws: Making <em>configuration simple</em> and effective in hybrid environments
 tags:
   - vendor
+whitepapertag: ansible
 order: 2
 thumbnail:
-headimage:
+logo: //images.quru.com/image?src=web/logos/ansible.png
+alt: Quru are Annsible specialists
+vendorurl: //www.ansible.com/products/tower
 index: true
-
+heading: "<p>Most enterprises use a hybrid mix of Windows and Linux to meet changing business demands. Systems that are already hard to deploy and maintain lead to serious management and cost implications for IT teams.</p><p>We recommend Ansible automation tools to manage large scale configuration across the entire IT estate, especially in large enterprise environments. </p><p>Ansible Tower is the enterprise version and delivers a simple to use GUI and full Red Hat support.  A key Ansible Tower feature is Workflow which uses conditions in playbooks to create logical workflow automation and rollback to a known &ldquo;good state&rdquo;.</p><p>Quru manages its own infrastructure and software deployment via Ansible including management of Quru Image Server (QIS), configuration of secure Linux, PostgreSQL and query, downloading and installation of GitHub packages.</p>"
+quotes:
+  - quote: We regularly deliver consulting services to companies without sufficient internal capacity to deploy Ansible in hybrid environments. We like Ansible Playbooks because they create order and keep applications properly deployed and managed throughout their entire lifecycle.
+    heading: Keeping applications properly deployed
+    by: Quru
 ---
-In a complex IT environment, even the smallest tasks can take forever. Sprawling systems are hard to develop, deploy, and maintain. Business demands only increase complexity, and IT teams struggle with management, availability, and cost.
 
-Ansible is simple, agentless IT automation technology that can improve your current processes, migrate applications for better optimization, and provide a single language for DevOps practices across your organization.
+## Simplifying server and device configuration
+Ansible Tower is a web-based solution that makes Ansible even more easy to use for IT teams of all kinds. It’s designed to be the hub for all of your automation tasks.
 
-## Configuration Management
-Centralising configuration file management and deployment is a common use case for Ansible, and it’s how many power users are first introduced to the Ansible automation platform.
+Red Hat® Ansible® Tower helps you scale IT automation, manage complex deployments and speed productivity. Centralize and control your IT infrastructure with a visual dashboard, role-based access control, job scheduling, integrated notifications and graphical inventory management. And Ansible Tower's REST API and CLI make it easy to embed Ansible Tower into existing tools and processes.
 
-## Application Deployment
-When you define your application with Ansible, and manage the deployment with Tower, teams are able to effectively manage the entire application lifecycle from development to production.
-
-## Provisioning
-Your apps have to live somewhere. If you’re PXE booting and kickstarting bare-metal servers or VMs, or creating virtual or cloud instances from templates, Ansible and Ansible Tower help streamline the process.
-
-## Continuous Delivery
-Creating a CI/CD pipeline requires buy-in from numerous teams. You can’t do it without a simple automation platform that everyone in your organization can use. Ansible Playbooks keep your applications properly deployed (and managed) throughout their entire lifecycle.
-
-## Security and Compliance
-When you define your security policy in Ansible, scanning and remediation of site-wide security policy can be integrated into other automated processes and instead of being an afterthought, it’ll be integral in everything that is deployed.
-
-## Orchestration
-Configurations alone don’t define your environment. You need to define how multiple configurations interact and ensure the disparate pieces can be managed as a whole. Out of complexity and chaos, Ansible brings order.
-
-# Red Hat Ansible features and benefits
-
-* Agentless Deployment - Ansible is agentless, so there’s no software to install on the things you’re automating
-* Cross platform support -multitude of operating systems & containers, across physical, virtual, public and hybrid cloud environments
-* Tower Dashboard - See a summary view of your entire Ansible environment at any time
-* Real time job output - Watch your Ansible Playbook jobs update in real-time
-* Remote command execution - Execute simple Ansible tasks on your inventory on an as-needed basis
-* Job scheduler - Schedule Playbooks to run at a specific time or to repeat
-* Pull from source - Pull and sync your Playbooks from Git, SVN, or Mercurial
-* Role-based access control - Easily control who can run what tasks on what inventory
-* Playbook runtime support - Ensure your automation remains in operation
+Ansible Tower allows you to control access to who can access what, even allowing sharing of SSH credentials without someone being able to transfer those credentials. Inventory can be graphically managed or synced with a wide variety of cloud sources. It logs all of your jobs, integrates well with LDAP, and has an amazing browsable REST API. Command line tools are available for easy integration with Jenkins as well. Provisioning callbacks provide great support for autoscaling topologies.
