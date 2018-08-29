@@ -15,7 +15,7 @@ whitepapertag: rhel
 order: 9
 logo: //images.quru.com/image?src=web/logos/RHBusPremierLogo_RGB.png&right=0.37813&bottom=0.47826&left=0.13438&top=0.10145
 alt: Quru are Red Hat Linux specialists
-vendorurl: //www.redhat.com/en/technologies/linux-platforms/enterprise-linux
+vendorurl: //www.redhat.com/rhel
 index: true
 heading: <p>We believe that Red Hat® Enterprise Linux® is the leading Linux operating system for enterprises. It powers the applications that run businesses in multiple environments, all backed by Red Hat’s support. </p><p>That&rsquo;s why 90% of Fortune Global 500 companies utilise Red Hat and why we recommend it.</p>
 quotes:

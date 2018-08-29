@@ -9,11 +9,11 @@ tags:
   - redhat
   - virtualisation
   - vistualization
-whitepapertags: rhev
+whitepapertag: rhev
 order: 10
 logo:
 alt: Quru are Virtualization specialists
-vendorurl:
+vendorurl: //redhat.com/rhv
 index: true
 heading: <p>High costs and vendor lock-in from proprietary vendors force many companies to adopt a dual hypervisor strategy. Red Hat Enterprise Virtualization uses open source to effectively support this strategy.</p><p>We believe that RHV is the preferred alternative to VMware in the key areas of cost, performance, functionality, scalability and interoperability. We recognise that Linux workloads can be run on VMware and Microsoft&rsquo;s Hyper-V, but are confident that Linux workloads run better using Red Hat Virtualization because of the full integration of the Linux stack.</p>
 quotes:

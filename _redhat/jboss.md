@@ -2,6 +2,7 @@
 layout: redhat
 menu: JBoss
 title: Red Hat JBoss middleware
+eightws: <em>Middleware</em> tools that rapidly build <em>best-in-class</em, >scaleable applications
 summary:
 tags:
   - vendor
@@ -12,7 +13,7 @@ headimage:
 index: true
 logo: //images.quru.com/image?src=web/logos/JBoss_logo.png
 alt: Quru for your Ansible needs
-vendorurl: //www.redhat.com/en/topics/middleware
+vendorurl: //www.redhat.com/jboss
 heading: "<p>To meet the rapidly changing needs of any organisation, applications and services have to be developed quickly, and seamlessly scale across multiple operating systems deployed as physical, virtual, mobile, and cloud resources. Traditional middleware infrastructure is not sufficiently agile, productive, or cost-effective leaving organisations competitively exposed.</p><p>At Quru we recognise that Red Hat JBoss Middleware is able to integrate software from various open source communities, including the JBoss community, Apache Software Foundation, and Eclipse Foundation, into robust, fully tested, integrated platforms.</p><p>We strive to deliver value for our clients by accelerating deployment and achieving the benefits that JBoss promises.<p>"
 quotes:
   - quote: Red Hat JBoss middleware is a brilliant piece of technology that solve many of the challenges that organisations face in their application development environments. We utilise JBoss enterprise application platform to build great Java applications.
