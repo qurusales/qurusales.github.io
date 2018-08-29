@@ -1,39 +1,33 @@
 ---
-layout: partners
-menu: RHEL
-title: RHEL
-heading: Red Hat enterprise Linux
+layout: redhat
+menu: RHL
+title: RHL
+heading: Red Hat Linux
 summary:
-eightws: Enterprise Linux Open source platform for business-critical computing
+eightws: Enterprise Linux Open source platform for <em>business-critical</em> computing
 tags:
   - vendor
+  - linux
+  - redhat
+  - rhl
+  - rhel
+whitepapertag: rhel
 order: 9
-logo:
-headimage:
+logo: //images.quru.com/image?src=web/logos/RHBusPremierLogo_RGB.png&right=0.37813&bottom=0.47826&left=0.13438&top=0.10145
+alt: Quru are Red Hat Linux specialists
+vendorurl: //www.redhat.com/en/technologies/linux-platforms/enterprise-linux
 index: true
+heading: <p>We believe that Red Hat® Enterprise Linux® is the leading Linux operating system for enterprises. It powers the applications that run businesses in multiple environments, all backed by Red Hat’s support. </p><p>That&rsquo;s why 90% of Fortune Global 500 companies utilise Red Hat and why we recommend it.</p>
+quotes:
+  - quote: Red Hat Enterprise Linux provides the kind of support levels and hardened release cycles that give businesses confidence in security and stability in this key part of their IT infrastructure.
+    heading: Support & release cycles for business confidence
+    by: 
 ---
 
-[Red Hat](/vendors/redhat.html "Red Hat") Enterprise Linux is the world's leading enterprise open source operating system. It supports all the major hardware platforms and thousands of commercial and customized applications and is the new standard for enterprise datacenters. In addition, organizations rely on Red Hat Enterprise Linux to replace their UNIX workloads, reduce operating costs, and increase flexibility—all with hardware vendor neutrality.
+## Then enterprise operating system
 
-Built for the modern datacenter
-Red Hat Enterprise Linux meets changes in the IT landscape that blur the lines between physical, virtual, and cloud computing. It's built for the modern datacenter environment, with:
+Red Hat® Enterprise Linux® delivers all the benefits your organisation needs from its operating system. It has built-in security that enables organisations to meet compliance regulations and safely deploy apps across physical, virtual, and cloud environments. Its reliability, availability, and serviceability (RAS) features for advanced hardware and cloud computing deliver 99.999% uptime.
 
-* Pervasive networking and virtualization
-* Comprehensive security
-* Advances in multicore hardware
+Containers are the future of application development, deployment and management and Linux containers deliver apps to market up to 26% faster through Red Hat® Enterprise Linux® which is the first OS with support for Linux container technology to receive the Common Criteria certification. 
 
-The foundation of a long-term IT strategy
-Red Hat Enterprise Linux Server supports all leading hardware architectures with compatibility across releases and a 10-year update and support lifecycle.
-
-#### Red Hat Enterprise Linux variants:
-
-* Red Hat Enterprise Linux Server	Deploy this versatile platform for x86 and x86-64 on physical systems, as a guest on the major hypervisors, or in the cloud.
-* Red Hat Enterprise Linux OpenStack Platform	Deploy and scale public or private OpenStack clouds on this secure, reliable platform.
-* Red Hat Enterprise Linux for HPC Head Node
-* Red Hat Enterprise Linux for HPC Compute Node
-* Red Hat Enterprise Linux for IBM System z	Red Hat Enterprise Linux, deployed on IBM System z, provides flexibility, performance, and scalability for server consolidation and mainframe reliability.
-* Red Hat Enterprise Linux for IBM POWER	Deploy applications with confidence using the advanced features in IBM Power Systems and the consistency and flexibility of Red Hat Enterprise Linux.
-* Red Hat Enterprise Linux for SAP Business Applications	Red Hat packages and supports the software infrastructure stack required for optimal operation of SAP applications with enterprise-class service and support.
-* Red Hat Enterprise Linux Desktop	Give administrators a robust, secure Red Hat Enterprise Linux foundation. Give end users leading applications and features from the open source community. Available in either desktop or workstation configurations.
-
-*Request a call back to find out more.*
+Red Hat Enterprise Linux is ready to run your toughest workloads immediately after installation. As a seventeen-time world record holder, Red Hat Enterprise Linux is frequently chosen to run industry benchmarks in diverse areas like computational scalability, application performance, and database throughput. Red Hat Enterprise Linux® is a supported, hardened, enterprise OS that delivers lower operational costs and better reliability, availability, and scalability. The average 3-year ROI is 348% with 68% less unplanned downtime. 
