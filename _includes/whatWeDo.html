@@ -1,7 +1,9 @@
-        {% assign sectioncount = sectioncount | plus: 1 %}
-        <div class="block whatwedo{% assign alt = sectioncount | modulo: 2 %}{% if alt == 0 %} alt{% endif %}">
+{% assign sectioncount = sectioncount | plus: 1 %}
+    <div class="{% assign alt = sectioncount | modulo: 2 %}{% if alt == 0 %}alt{% endif %}block">
+         <div class="whatwedo">
             <h2>What do we do?</h2>
             <ul>
                 {% assign sorted_posts = site.whatwedo | sort: 'order' %}{% for p in sorted_posts %}{% if p.index %}<li><a href='{{ p.url }}'><img src='{{ p.thumbnail }}&width=278' alt='{{ p.title }}'/><h3>{{ p.title }}</h3><div class='eightws'>{{ p.eightws }}</div></a></li>{% endif %}{% endfor %}
             </ul>
         </div>
+    </div>

@@ -4,11 +4,11 @@ layout: default
 {% assign sectioncount = 1 %}
 <div class="block">
     <div class="pageheading">
-        <h1 class="eightws">{{ page.eightws | remove: ',' }}</h1>
+        <h1 class="eightws{% assign alt = sectioncount | modulo: 2 %}{% if alt == 0 %} alt{% endif %}">{{ page.eightws | remove: ',' }}</h1>
         <div class='heading'>{{ page.heading }}</div>
         {% assign carousel_size = page.carousel.size %} {% if carousel_size > 3 %}<div class="showbox">
             <script type="text/javascript"  src="//images.quru.com/static/js/slideshow_view.min.js"></script>
-            <div class="slideshow " id="slideshow_1"></div>
+            <div class="slideshow " id="slideshow_1" style="height: 20VW; overflow: hidden; text-align: center; line-height: 304px;margin-bottom: 1em;"></div>
             <script type="text/javascript">
                 slideshow_view_init('slideshow_1', {
                     "images": [{% for slide in page.carousel %} {
@@ -23,12 +23,11 @@ layout: default
         </div>{% endif %}
     </div>
 </div> 
-
-{% assign contentsize = content | size %}{% if contentsize >= 10 %}{% assign sectioncount = sectioncount | plus: 1 %}<div class="altblock">
+<div class="altblock">
     <div class="content">
         {{ content }}
     </div>
-</div>{% endif %}
+</div>
 
 {% if page.title == 'About Quru' or page.title == 'What we do' %}{% include whatWeDo.html %}{% endif %}
     

@@ -1,18 +1,20 @@
 ---
 layout: default
 ---
-<article class="post">
-    {% assign sectioncount = 2 %}
-    <h1 class="eightws">{{ page.eightws | remove: ',' }}</h1>
-    <div class='heading'>
-        {{ page.heading }}
+<div class="block">
+    <div class="pageheading">{% assign sectioncount = 2 %}
+        <h1 class="eightws">{{ page.eightws | remove: ',' }}</h1>
+        <div class='heading'>
+            {{ page.heading }}
+        </div>
     </div>
-    <div class="post-content whitepaper alt"{% if page.download != null %}style='min-height: 650px;'{% endif %}>
+</div>
+<div class="altblock">
+    <div class="content whitepaper alt"{% if page.download != null %}style='min-height: 650px;'{% endif %}>
         {% if page.download != null %}<div class='whitepaperdownload'>
             <a href='https:{{ page.download }}&attach=1' target='_new'><img class='clickable whitepaper' src='{{ page.download }}&width=450&format=png' alt='{{ page.title }}' align='right'></a></div>{% endif %}
         {{ content }}
     </div>
-
-</article>
+</div>
 
 {% include whitepapers.html %}{% include partnerfooter.html %}{% include footer.html %}

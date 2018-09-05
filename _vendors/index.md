@@ -15,5 +15,4 @@ heading: "<p>In partnership with leading open source companies, Quru explores an
 ## Our partners include:
 
 <ul class='vendors'>
-{% assign sorted_posts = site.vendors | sort: 'order' %}{% for p in sorted_posts %}{% if p.title != "Vendor partners" %}{% if p.index %}<li><a href='{{ p.url }}' class='logo'><img src='{{ p.logo }}&width=80&format=png' border='0' alt='{{ p.title }}'></a><a href='{{ p.url }}' class='text'>{{ p.menu }}<br/>{{ p.summary }}</a></li>{% endif %}{% endif %}{% endfor %}
-</ul>
+{% assign sorted_posts = site.vendors | sort: 'order' %}{% for p in sorted_posts %}{% if p.title != "Vendor partners" %}{% if p.index %}<li><a href='{{ p.url }}' class='logo'><img src='{{ p.logo }}&width=212&height=212&format=png' border='0' alt='{{ p.title }}'><h3>{{ p.menu }}</h3><p>{{ p.summary }}</p></a></li>{% endif %}{% endif %}{% endfor %}

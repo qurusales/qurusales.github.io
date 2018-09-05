@@ -2,13 +2,16 @@
 layout: default
 ---
 
-<article class="post">
-    {% assign sectioncount = 2 %}
-    <h1 class="eightws">{{ page.eightws | remove: ',' }}</h1>
+<div class="block">
+    <div class="pageheading">
+        {% assign sectioncount = 2 %}
+        <h1 class="eightws">{{ page.eightws | remove: ',' }}</h1>
 
-    <div class='heading'>{{ page.heading }}</div>
-
-    <div class="post-content alt">
+        <div class='heading'>{{ page.heading }}</div>
+    </div>
+</div>
+<div class="altblock">    
+    <div class="content alt">
         {% if page.logo != null %}<div class='vendorLogo'>
             <a href='https:{{ page.vendorurl }}' target='_new'><img src='{{ page.logo }}&height=320&width=320' alt='{{ page.alt }}'>
                 <div class='tag'>https:{{ page.vendorurl }}</div>
@@ -21,9 +24,6 @@ layout: default
             <div class='quoteby'>{{ q.by }}</div>
         </div>{% endfor %}
     </div>
-
-
-
-</article>
+</div>
 
 {% include whitepapers.html %} {% include vendorfooter.html %} {% include footer.html %}

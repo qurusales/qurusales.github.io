@@ -49,15 +49,35 @@ body
     background-color: white;
 }
 
-#header, .heading, h1.eightws, .post-content, .post-footer, #footer, #whitepapers, .altBlock, .block, #About, .whitepapers 
+.block {
+    width: 100%;
+    background-color: white;
+}
+
+.altblock {
+    width: 100%;
+    background-color: #EEE;
+}
+
+#footerblock {
+    width: 100%;
+    background-color: #333;
+    border-top: 0.8rem solid maroon;
+}
+
+
+#header, .pageheading, .content, .post-footer, #footer, #whitepapers, #About, .whitepapers, .whatwedo, .logostrip 
 {
-    padding-left:  12%;
-    padding-right: 12%
+    margin-left:  auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 1176px;
 }
 
 a#show_nav {
     float:   right;
-    display: block;
+    display: none;
     width:  30px;
     height: 30px;
     margin-top:   0.5rem;
@@ -90,7 +110,6 @@ a#logo
     height: 5rem;
     background-color: #EEE;
     position: relative;
-    margin-bottom: 3rem;
 }
 
 #logo img
@@ -105,9 +124,9 @@ img
 
 h1.eightws {
     font-size: 4em;
-    margin-bottom: 0.5em;
+    padding-top: 3rem;
+    padding-bottom: 0.5em;
     font-weight: 800;
-    font-stretch: semi-condensed;
     line-height: 80%;
     text-transform: uppercase;
     letter-spacing: -0.05em;
@@ -124,7 +143,6 @@ h2 {
     font-size: 1.2rem;
     color: #333;
     font-weight: 600;
-    padding-top: 2em;
     padding-bottom: 1.5em;
     text-transform: uppercase;
 }
@@ -187,24 +205,73 @@ ul.vendors {
 }
 
 ul.vendors li {
-    padding-bottom: 2em;
     list-style-type: none;
-}
-ul.vendors li a.logo {
     display: inline-block;
-    padding-right: 2em;
-    border: none;
     vertical-align: top;
+    width: 276px;
+    height: 34rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #EEE;
+    overflow: hidden;
 }
 
-ul.vendors li a.text {
-    display: inline-block;
-    border: none;
-    vertical-align: top;
+.altblock ul.vendors li {
+    background-color: white;
 }
+
+ul.vendors li img {
+    padding: 32px;
+    background-color: white;
+    height: 212px;
+}
+
+ul.vendors li:last-child {
+    margin-right: 0;
+}
+
+ul.vendors a {
+    color: #666;
+    text-decoration: none;
+}
+
+ul.vendors a:hover {
+    display: block;
+    background-color: maroon;
+    color: white;
+    height: 34rem;
+}
+
+ul.vendors li p {
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+li h3, .block li .eightws {
+    padding: 1rem 1rem 0.5rem 1rem;
+    line-height: 1.2em;
+}
+/* ul.vendors li { */
+/*     padding-bottom: 2em; */
+/*     list-style-type: none; */
+/* } */
+/* ul.vendors li a.logo { */
+/*     display: inline-block; */
+/*     padding-right: 2em; */
+/*     border: none; */
+/*     vertical-align: top; */
+/* } */
+
+/* ul.vendors li a.text { */
+/*     display: inline-block; */
+/*     border: none; */
+/*     vertical-align: top; */
+/* } */
 
 .vendorLogo {
     display: inline-block;
+    position: relative;
+    top: -3rem;
     float: right;
     margin: 0 0 1rem 1rem;
     background-color: white;
@@ -241,6 +308,13 @@ ul.vendors li a.text {
     background-color: #EEE !important;
 }
 
+.slideshow {
+    height: 20VW;
+    overflow: hidden;
+    text-align: center;
+    line-height: 304px;
+    padding-bottom: 2rem;
+}
 
 .whitepapers {
     padding-top: 1.5rem;
@@ -255,12 +329,18 @@ ul.vendors li a.text {
     vertical-align: top;
 }
 
+.whitepaperdownload a {
+    postition: relative;
+    top: -3rem;
+}
 
 img.whitepaper {
     border: none;
     margin: 0 0 1em 1em;
     width: 450px;
     height: 637px;
+    position: relative;
+    top: -3rem;
 }
 
 .credit {
@@ -315,12 +395,10 @@ img.whitepaper {
 
 #footer
 {
-    background-color: #333;
     font-size: 1.1rem;
     line-heigh: 2rem;
     padding-bottom: 1em;
     padding-top: 1em;
-    border-top: 0.8rem solid maroon;
 }
 
 #footer ul li a
@@ -389,12 +467,13 @@ img.whitepaper {
     color: #990000;
 }
 
-.block.whatwedo {
+.whatwedo, .content {
+    padding-top: 3rem;
     padding-bottom: 3.5rem;
 }
 
 .whatwedo h2 {
-    padding: 3rem 0 2rem 0;
+    padding: 0 0 2rem 0;
     font-size: 1em;
     color: #333;
     text-transform: uppercase;
@@ -402,8 +481,7 @@ img.whitepaper {
 
 .whatwedo h3 {
     color: #333;
-    margin-bottom: 1rem;
-}
+ }
 
 .whatwedo ul, .whitepapers ul, .logostrip ul {
     padding: 0;
@@ -421,6 +499,10 @@ img.whitepaper {
     overflow: hidden;
 }
 
+.whatwedo li:last-child {
+    margin-right: 0;
+}
+
 .whatwedo li h3, .block li .eightws {
     padding: 0 1em;
     font-size: 1em;
@@ -432,8 +514,15 @@ img.whitepaper {
 }
 
 .whatwedo a {
+    color: #666;
     text-decoration: none;
 }
+.whatwedo a .eightws {
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    
+}
+
 .whatwedo .eightws em {
     font-style: normal;
 }
@@ -508,7 +597,7 @@ img.whitepaper {
 */
 #contact form div.formline label
 {
-    width: 100px;
+    width: 15rem;
     display: inline-block;
 }
 #contactUs div.copy form input,
@@ -547,7 +636,7 @@ img.whitepaper {
 #contact form div.formline input.button,
 #contact #email_status
 {
-    margin-left: 102px;
+    margin-left: 15rem;
     min-width: 148px !important;
 }
 
@@ -600,8 +689,8 @@ input[type="text"]:hover, textarea:hover {
 
 /* And a holding area for tablet class devices */
 @media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
+and (min-device-width : 9768px)
+and (max-device-width : 91024px) {
 /* None really because we assume that the whole site fits */
     #page
     {
@@ -626,7 +715,7 @@ and (max-device-width : 1024px) {
 
 /* Settings for a wide screen */
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 91024px) {
     /* #header, .heading, h1.eightws, .post-content, .post-footer, #footer, #whitepapers, .altBlock, .block, #About, .whitepapers 
        {
            padding: 0 12%;
@@ -637,4 +726,15 @@ and (max-device-width : 1024px) {
     }
 }
 
+@media only screen and (min-width: 91176px) {
+#header, .heading, h1.eightws, .post-content, .post-footer, #footer, #whitepapers, .altBlock, .block, #About, .whitepapers 
+       {
+           padding-left: 10%;
+           padding-right: 10%;
+       }
+ */
+    a#show_nav {
+        display: none;
+    }
+}
 /* end responsive layout */
