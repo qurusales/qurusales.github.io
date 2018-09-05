@@ -1,9 +1,9 @@
 ---
 layout: redhat
-menu: RHL
-title: RHL
+menu: Red Hat Linux
+title: Red Hat Linux
 heading: Red Hat Linux
-summary:
+summary: Red Hat Linux is the primary enterprise Linux distrubtion - the bed rock of the internet
 eightws: Enterprise Linux Open source platform for <em>business-critical</em> computing
 tags:
   - vendor

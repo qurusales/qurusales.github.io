@@ -3,7 +3,7 @@ layout: redhat
 menu: JBoss
 title: Red Hat JBoss middleware
 eightws: <em>Middleware</em> tools that rapidly build <em>best-in-class</em, >scaleable applications
-summary:
+summary: The most popular open source middleware toolset for rapidly bilding best-in-class, scaleable applications
 tags:
   - vendor
 whitepapertag: jboss

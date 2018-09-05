@@ -2,7 +2,7 @@
 layout: redhat
 menu: Openshift
 title: Red Hat OpenShift
-summary: Enterprise container solutions
+summary: Enterprise class container solutions with embedded Kubernetes for rapidly deploying and managing applications
 eightws: Accelerating the <em>future of containers</em> development and management 
 tags:
   - vendor

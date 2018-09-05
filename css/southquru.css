@@ -277,6 +277,10 @@ li h3, .block li .eightws {
     background-color: white;
 }
 
+.vendorLogo a {
+    text-decoration: none;
+}
+
 .vendorLogo img {
     margin: 1rem;
 }

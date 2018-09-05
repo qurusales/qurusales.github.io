@@ -1,8 +1,8 @@
 ---
 layout: redhat
-menu: RHV
+menu: Red Hat Virtualisation
 title:  RHV
-summary: Red Hat Enterprise Virtualisation
+summary: Red Hat Enterprise Virtualisation provides enterprise grade, multi-host KVM virtualisation configuration management for the deployment of Linux and Window VMs
 eightws: Cutting costs and driving <em>performance</em> of <em>virtualization</em> management  
 tags:
   - vendor
@@ -11,7 +11,7 @@ tags:
   - vistualization
 whitepapertag: rhev
 order: 10
-logo:
+logo: //images.quru.com/image?src=web/logos/Logo_RH_Virtualization_RGB_Black.png
 alt: Quru are Virtualization specialists
 vendorurl: //redhat.com/rhv
 index: true

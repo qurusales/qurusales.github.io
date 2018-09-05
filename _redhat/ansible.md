@@ -2,7 +2,7 @@
 layout: redhat
 title: Ansible Tower
 menu: Ansible
-summary: Configuration management
+summary: Configuration management that is simple and effective in hybrid enironments with web based GUI
 eightws: Making <em>configuration simple</em> and effective in hybrid environments
 tags:
   - vendor
