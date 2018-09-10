@@ -93,10 +93,17 @@ p {
     padding-bottom: 1em;
 }
 
+.pageheading {
+/*    background-image: url('https://images.quru.com/image?src=web/south/bg_cloud.png&width=1100');
+    background-repeat: no-repeat;
+    background-position: 50% bottom;
+*/
+}
+
 .heading {
-    padding-bottom: 1.5em;
-    columns: 2;
-    
+    padding-bottom: 6.5rem;
+    max-width: 72rem;
+    /*columns: 2;*/    
 }
 
 a#logo
@@ -123,15 +130,15 @@ img
 }
 
 h1.eightws {
-    font-size: 4em;
-    padding-top: 3rem;
-    padding-bottom: 0.5em;
+    font-size: 5.5em;
+    padding-top: 4rem;
+    padding-bottom: 3.5rem;
     font-weight: 800;
     line-height: 80%;
     text-transform: uppercase;
     letter-spacing: -0.05em;
     color: #333;
-    max-width: 1000px;
+    max-width: 72rem;
 }
 
 h1.eightws em {
@@ -151,6 +158,18 @@ h3 {
     font-size: 1rem;
     font-weight: 400;
 }
+
+#headingimage {
+    position: relative;
+    bottom: 0;
+}
+
+#headingimage img {
+    height: 276px;
+    position: relative;
+    right: 0;
+}
+
 
 .post a {
     color: black;
@@ -400,9 +419,9 @@ img.whitepaper {
 #footer
 {
     font-size: 1.1rem;
-    line-heigh: 2rem;
-    padding-bottom: 1em;
-    padding-top: 1em;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
 }
 
 #footer ul li a
@@ -443,7 +462,7 @@ img.whitepaper {
 {
     float: left;
     width: 30%;
-    max-width: 15em;
+    max-width: 292px;
     text-align: center;
     height: 140px;
 }
@@ -496,7 +515,7 @@ img.whitepaper {
     display: inline-block;
     vertical-align: top;
     width: 276px;
-    height: 39rem;
+    height: 49rem;
     margin-right: 1.5rem;
     margin-bottom: 1.5rem;
     background-color: white;
@@ -508,9 +527,9 @@ img.whitepaper {
 }
 
 .whatwedo li h3, .block li .eightws {
-    padding: 0 1em;
-    font-size: 1em;
-    line-height: 1.2em;
+    padding: 1.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
 }
 
 .block li .eightws {
@@ -532,7 +551,7 @@ img.whitepaper {
 }
 
 .logostrip {
-    height: 16rem;
+    height: 15rem;
     padding-top: 2em;
     overflow: hidden;
 }

@@ -7,7 +7,7 @@ eightws: Intelligently <em>monitoring container</em> and micro-services environm
 tags:
   - vendor
 order: 3
-index: true
+index: false
 logo: "//images.quru.com/image?src=web/logos/coscale.png"
 vendorurl: "//www.coscale.com"
 alt: "Quru are Coscales' UK partner"
