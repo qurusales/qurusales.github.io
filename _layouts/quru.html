@@ -3,11 +3,9 @@ layout: default
 ---
 {% assign sectioncount = 1 %}
 <div class="block">
-    <div class="pageheading" {% if page.headingimage != "" %}style="{% if page.headingforeground != "" %}background: url('https:{{ page.headingforeground }}'),{% endif %}url('https://{{ page.headingimage }}'){% if page.headingbackground != "" %}, url('https:{{ page.headingbackground }}'){% endif %}; background-repeat: no-repeat; background-position:{% if page.headingforeground != "" %}center bottom, right bottom, {% endif %} right bottom {% if page.headingbackground != "" %}, center bottom{% endif %};{% if headingheight != "" %}height: {{ page.headingheight}};{% endif %}"{% endif %}>
+    <div class='pageheading' {% if page.headingimages != "" %}style="background: {{ page.headingimages }}; background-origin: content-box; height: {{ page.headingheight }};"{% endif %}>
         <h1 class="eightws">{{ page.eightws | remove: ',' }}</h1>
         <div class="heading">{{ page.heading }}</div>
-<!--        <div id="headingimage" style="background-image: {{ page.headingbackground }};"><img src=' {{ page.headingimage }}/></div>
-        <div id='headingforeground' style="background-image: {{ page.headingforeground }};"></div> -->
         {% assign carousel_size = page.carousel.size %} {% if carousel_size > 3 %}<div class="showbox">
             <script type="text/javascript"  src="//images.quru.com/static/js/slideshow_view.min.js"></script>
             <div class="slideshow " id="slideshow_1"></div>
@@ -33,7 +31,7 @@ layout: default
 </div>{% endif %}
 
 {% if page.title == 'About Quru' or page.title == 'What we do' %}{% include whatWeDo.html %}{% endif %}
-    
+
 {% include whitepapers.html %}{% if page.logostrip == 'customers' or page.logostrip == 'vendors' %}{% include logoStrip.html %}{% endif %}
     
 {% include qurufooter.html %}
