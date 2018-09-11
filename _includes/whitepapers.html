@@ -4,13 +4,15 @@
         <div class="whitepapers {% if alt == 0 %} alt{% endif %}">
             <ul>{% for p in sorted_posts %}{% if p.index and p.tags contains page.whitepapertag and counter < 5 %}
                 <li>
-                    <a href={{ p.url }}>
-                        <img src="{{ p.thumbnail }}&width=276&height=207&autosizefit=0&format=png{% if p.type %}&overlay=/overlays/{{ p.type }}.png&ovpos=nw{% endif %}" alt="{{ p.title }}">
-                        <div class="text">
-                            <h3>{{ p.title }}</h3>
-                            <div class='tag'> {{ p.summary }}</div>
-                        </div>
-                    </a>
+                    <figure>
+                        <a href={{ p.url }}><img src="{{ p.thumbnail }}&width=276&height=207&autosizefit=0&format=png{% if p.type %}&overlay=/overlays/{{ p.type }}.png&ovpos=nw{% endif %}" alt="{{ p.title }}"></a>
+                        <figcaption class="text">
+                            <a href={{ p.url }}>
+                                <h3>{{ p.title }}</h3>
+                                <p class='tag'> {{ p.summary }}</p>
+                            </a>
+                        </figcaption>
+                    </figure>
                 </li>{% assign counter = counter | plus:1 %}{% endif %}{% endfor %}
             </ul>
         </div>

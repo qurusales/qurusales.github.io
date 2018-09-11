@@ -52,6 +52,18 @@ body {
 .block {
     width: 100%;
     background-color: white;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.block.development {
+    background-image: url('https://images.quru.com/image?src=web/south/fr_cloud.png&width=1600&fill=none&format=png'), url('https://images.quru.com/image?src=web/south/rocket.png&width=1600&fill=none&format=png'), url('https://images.quru.com/image?src=web/south/bg_cloud.png&fill=none&format=png&width=1600');
+    padding-bottom: 18rem;
+}
+
+.block.consulting {
+    background-image: url('https://images.quru.com/image?src=web/south/fr_cloud.png&width=1600&fill=none&format=png'), url('https://images.quru.com/image?src=web/south/mid_mountains.png&width=1600&fill=none&format=png'), url('https://images.quru.com/image?src=web/south/bg_cloud.png&fill=none&format=png&width=1600'), url('https://images.quru.com/image?src=web/south/bg_mountain.png&width=1600&fill=none&format=png');
+    padding-bottom: 18rem;
 }
 
 .altblock {
@@ -75,16 +87,6 @@ body {
     max-width: 1176px;
 }
 
-a#show_nav {
-    float:   right;
-    display: none;
-    width:  30px;
-    height: 30px;
-    margin-top:   0.5rem;
-    margin-right: 1rem;
-    background-image: url(/css/menu.png);
-}
-
 i {
     font-style: italic;
 }
@@ -93,23 +95,17 @@ p {
     padding-bottom: 1em;
 }
 
-.pageheading {
-/*    background-image: url('https://images.quru.com/image?src=web/south/bg_cloud.png&width=1100');
-    background-repeat: no-repeat;
-    background-position: 50% bottom;
-*/
-}
-
 .heading {
     padding-bottom: 6.5rem;
-    max-width: 72rem;
+    max-width: 56rem;
     /*columns: 2;*/    
 }
 
 a#logo
 {
-    float: left;
-    margin: 1.2rem 0 0 0.4rem;
+    position: relative;
+    top: 1.2rem;
+    left: 1rem;
 }
 
 #header
@@ -130,7 +126,7 @@ img
 }
 
 h1.eightws {
-    font-size: 5.5em;
+    font-size: 5.5rem;
     padding-top: 4rem;
     padding-bottom: 3.5rem;
     font-weight: 800;
@@ -138,7 +134,7 @@ h1.eightws {
     text-transform: uppercase;
     letter-spacing: -0.05em;
     color: #333;
-    max-width: 72rem;
+    max-width: 58rem;
 }
 
 h1.eightws em {
@@ -243,11 +239,15 @@ ul.vendors li img {
     height: 212px;
 }
 
-ul.vendors li .text {
+.alt ul.vendors li .text {
     background-color: #ccc;
     padding: 1.5rem;
     height: 10rem;
 } 
+
+ul.vendors li .text:hover {
+    background-color: maroon;
+}
 
 ul.vendors li:last-child {
     margin-right: 0;
@@ -256,6 +256,10 @@ ul.vendors li:last-child {
 ul.vendors a {
     color: #666;
     text-decoration: none;
+}
+
+ul.vendors li .text:hover a {
+    color: white;
 }
 
 ul.vendors a:hover .text {
@@ -706,22 +710,38 @@ input[type="text"]:hover, textarea:hover {
         min-width: 300px;
     }
 
-    #header, .heading, h1.eightws, .post-content, .post-footer, #footer, #whitepapers, .altBlock, .block, #About, .whitepapers 
+    .block, altBlock {
+        background-position: right bottom;
+        background-size: 100%
+    }
+
+    .block.development, .block.consulting {
+        padding-bottom: 8rem;
+    }
+
+    #header 
     {
-        padding-left:  2rem;
+        padding-left:  1rem;
+        padding-right: 0;
+    }
+
+    .heading, h1.eightws, .post-content, .post-footer, #footer, #whitepapers, #About, .whitepapers {
+        padding-left: 2rem;
         padding-right: 2rem;
+        margin: 0;
     }
 
-    #nav {
-        display: none;
+    .pageheading {
+        padding: 0;
     }
 
-    a#show_nav {
-        display: inline-block;
-    }
 
     .heading {
         columns: 1;
+    }
+
+    h1.eightws {
+        font-size: 4rem;
     }
 }
 

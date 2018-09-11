@@ -23,5 +23,15 @@ heading: "Quru is one the fastest-growing Red Hat solution providers in the UK. 
 We are technical experts with real-world experience across the Red Hat portfolio: 
 
 <ul class='vendors'>
-{% assign sorted_posts = site.redhat | sort: 'order' %}{% for p in sorted_posts %}{% if p.title != "Vendor partners" %}{% if p.index %}<li><a href='{{ p.url }}' class='logo'><img src='{{ p.logo }}&width=212&height=212&format=png' border='0' alt='{{ p.title }}'><h3>{{ p.menu }}</h3><p>{{ p.summary }}</p></a></li>{% endif %}{% endif %}{% endfor %}
+    {% assign sorted_posts = site.redhat | sort: 'order' %}{% for p in sorted_posts %}{% if p.title != "Vendor partners" %}{% if p.index %}<li>
+        <figure>
+            <a href='{{ p.url }}' class='logo'><img src='{{ p.logo }}&width=212&height=212&format=png' border='0' alt='{{ p.title }}'></a>
+            <figcaption class="text">
+                <a href='{{ p.url }}'>
+                    <h3>{{ p.menu }}</h3>
+                    <p>{{ p.summary }}</p>
+                </a>
+            </figcaption>
+        </figure>
+     </li>{% endif %}{% endif %}{% endfor %}
 </ul>

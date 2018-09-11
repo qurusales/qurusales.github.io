@@ -117,7 +117,6 @@ function show_nav(e){
 
 function hide_nav(e){
     e.stopPropagation();
-    hideById('menu_work_sub');
     hideById('nav');
     /*var el = document.getElementById('nav');
     if (el != null ) {

@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-{% assign sectioncount = 1 %}
-<div class="block"{% if page.headingimages != "" %} style="background: {{ page.headingimages }}; background-origin: content-box; height: {{ page.headingheight }};"{% endif %}>
+{% assign sectioncount = 2 %}
+<div class="block {{ page.whitepapertag }}">
     <div class="pageheading">
-        <h1 class="eightws{% assign alt = sectioncount | modulo: 2 %}{% if alt == 0 %} alt{% endif %}">{{ page.eightws | remove: ',' }}</h1>
+        <h1 class="eightws">{{ page.eightws | remove: ',' }}</h1>
         <div class='heading'>{{ page.heading }}</div>
         {% assign carousel_size = page.carousel.size %} {% if carousel_size > 3 %}<div class="showbox">
             <script type="text/javascript"  src="//images.quru.com/static/js/slideshow_view.min.js"></script>

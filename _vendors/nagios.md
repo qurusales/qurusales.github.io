@@ -1,5 +1,6 @@
 ---
 layout: vendors
+
 menu: Nagios
 title: Enterprise monitoring with NagiosXI
 summary: Enhancing enterprise infrastructure uptime via best-in-class data monitoring
@@ -12,7 +13,7 @@ index: true
 logo: "//images.quru.com/image?src=/web/logos/nagios-xi.png&top=0.297&bottom=0.725"
 vendorurl: "//www.nagios.com"
 alt: "Quru are Europe's most active Nagios partner"
-heading: "<p>Nagios is the first name for monitoring in the open source world. It is the oldest and most well-known open source solution for monitoring Linux, Windows, applications and infrastructure workloads.</p><p>Nagios relies on expert partners around the world to deploy services and support companies using their technology. We are the UK partner and have worked with Nagios for over 3 years to deploy full monitoring solutions with meaningful alert thresholds with appropriate parent child device relationships, to ensure rapid recovery and maximum infrastructure and services uptime.</p><p>Quru has assisted major brands, including Tesco’s, with large-scale Nagios deployments, to set up best practice and day-to-day operations in order to gain the most from the software.</p>"
+heading: "<p>Nagios is the first name for monitoring in the open source world. It is the oldest and most well-known open source solution for monitoring Linux, Windows, applications and infrastructure workloads.</p><p>Nagios relies on expert partners around the world to deploy services and support companies using their technology. We are the UK partner and have worked with Nagios for over 3 years to deploy full monitoring solutions with meaningful alert thresholds with appropriate parent child device relationships, to ensure rapid recovery and maximum infrastructure and services uptime.</p><p>Quru has assisted major brands with large-scale Nagios deployments, including Tesco&rsquo;s, to set up best practice and day-to-day operations in order to gain the most from the software.</p>"
 quotes:
   - quote: We&rsquo;ve worked successfully with Nagios for many years and know the product. From our experience, we believe it to be the gold standard infrastructure monitoring solution and have had consistent success after recommending it to our clients.
     heading: Gold standard monitoring

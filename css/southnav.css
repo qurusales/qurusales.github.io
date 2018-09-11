@@ -1,3 +1,4 @@
+/*
 #
 # Quru Web Site
 #
@@ -30,7 +31,9 @@
 #navigation {
     margin: 0;
     padding: 0;
-    float: right;
+    top: 0;
+    right: 2rem;
+    position: absolute;
 }
 
 #navigation li {
@@ -128,3 +131,127 @@ ul#navigation ul li a:hover {
     color: white;
 }
 
+a#show_nav {
+    float:   right;
+    display: none;
+    width:  30px;
+    height: 30px;
+    margin-top:   1.5rem;
+    margin-right: 2rem;
+    background-image: url(/css/menu.png);
+}
+
+
+
+/* Responsive layout for small screens (767 == narrower than iPad) */
+
+@media only screen and (max-width: 767px) {
+
+    #nav {
+        display: none;
+        transition: opacity 0.2s linear;
+    }
+
+    a#show_nav {
+        display: inline-block;
+        
+                              
+    }
+
+    #nav.show {
+	    background: white;
+	    max-height:  360%;
+        transition-duration: 1s;
+        display: block;
+        z-index: initial;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;   
+        background-color: rgba(128,0,0,0.75);
+    }
+
+    #nav.show ul, #nav.show ul ul {
+	    list-style-type: none;
+    }
+
+    #navigation {
+        float: none;
+        width: 100%;
+        right: unset;
+        padding-top: 3rem;
+        background-color: rgba(128,0,0,0.75);
+    }
+
+    #navigation li {
+        display: block;
+        float: none;
+        position: normal;
+    }
+
+    #nav.show ul#navigation ul, ul#navigation li a ul.menu_list {
+        display: block;
+        visibility: visible;
+        opacity: 100;
+                           
+    }
+
+    #nav.show ul#navigation li, ul#navigation li a ul.menu_list li {
+	    margin: 0;
+ 	    border: none;
+	    padding: 0;
+        visibility: visible;
+        opacity: 100;
+    }
+
+    ul#navigation li a, ul#navigation li a ul.menu_list li a {
+        display: inline-block;
+        color: white;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 0.5rem 0 0.5rem 2rem;
+        width: 100%;
+    }
+
+    ul#navigation li a:hover {
+        background: maroon;
+    }
+
+/* Drop-down menu box styles (initially hidden) */
+ul#navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* The next 2 styles are very important,
+       being the ones which default the drop-down menu box to hidden */
+    visibility: visible;
+    opacity: 1;
+    z-index: initial;
+    background: none;
+    position: static;
+}
+
+
+/* Don't wrap text on drop-down sub-menu items */
+ul#navigation ul li {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 0;
+    background: none;
+}
+
+/* Drop-down sub-menu item styles */
+ul#navigation ul li a {
+    background:none;
+    color: white;
+    width: 100%;
+    padding: 0.5rem 0rem 0.5rem 4rem;
+    text-decoration:none;
+    display: block;
+    border: none;
+    float: none;
+    white-space: nowrap;
+}
+    
+
+}
