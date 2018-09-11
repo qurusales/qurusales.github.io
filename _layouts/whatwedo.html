@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign sectioncount = 1 %}
-<div class="block">
+<div class="block"{% if page.headingimages != "" %} style="background: {{ page.headingimages }}; background-origin: content-box; height: {{ page.headingheight }};"{% endif %}>
     <div class="pageheading">
         <h1 class="eightws{% assign alt = sectioncount | modulo: 2 %}{% if alt == 0 %} alt{% endif %}">{{ page.eightws | remove: ',' }}</h1>
         <div class='heading'>{{ page.heading }}</div>
@@ -31,7 +31,7 @@ layout: default
 
 {% if page.title == 'About Quru' or page.title == 'What we do' %}{% include whatWeDo.html %}{% endif %}
     
-{% include whitepapers.html %}{% if page.logostrip == 'customers' or page.logostrip == 'vendors' %}{% include logoStrip.html %}{% endif %}
+{% include whitepapers.html %}{% include products.html %}{% if page.logostrip == 'customers' or page.logostrip == 'vendors' %}{% include logoStrip.html %}{% endif %}
     
 {% include qurufooter.html %}
 

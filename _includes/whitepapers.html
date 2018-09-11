@@ -5,9 +5,11 @@
             <ul>{% for p in sorted_posts %}{% if p.index and p.tags contains page.whitepapertag and counter < 5 %}
                 <li>
                     <a href={{ p.url }}>
-                        <img src="{{ p.thumbnail }}&width=320&height=240&autosizefit=0&format=png{% if p.type %}&overlay=/overlays/{{ p.type }}.png&ovpos=nw{% endif %}" alt="{{ p.title }}">
-                         <h3>{{ p.title }}</h3>
-                         <div class='tag'> {{ p.summary }}</div>
+                        <img src="{{ p.thumbnail }}&width=276&height=207&autosizefit=0&format=png{% if p.type %}&overlay=/overlays/{{ p.type }}.png&ovpos=nw{% endif %}" alt="{{ p.title }}">
+                        <div class="text">
+                            <h3>{{ p.title }}</h3>
+                            <div class='tag'> {{ p.summary }}</div>
+                        </div>
                     </a>
                 </li>{% assign counter = counter | plus:1 %}{% endif %}{% endfor %}
             </ul>

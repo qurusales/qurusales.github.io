@@ -11,7 +11,7 @@ order: 6
 thumbnail:
 headimage:
 index: true
-logo: "//images.quru.com/image?src=/web/logos/mariadb.png"
+logo: "//images.quru.com/image?src=/web/logos/mariadb.png&left=0.15"
 vendorurl: "//www.mariadb.com"
 alt: "Quru are MariaDB's UK partner"
 heading: "There are two major open source database solutions – MySQL and PostgreSQL. The choice depends on how an application has been designed alongside design preferences. The history of MySQL explains why clients who prefer it to PostgreSQL now frequently choose MariaDB.</p><p>The original MySQL development team created MariaDB, following their acquisition by Oracle, to fork the original source code to continue their original development philosophy.  The company has created a robust, scalable and reliable open source enterprise level database solution.</p><p>Quru has developed a productive design and services deployment relationship with MariaDB to support their very fast growth.</p>"

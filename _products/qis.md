@@ -6,8 +6,8 @@ summary: Colour managed dynamic image rendering at scale
 eightws: Colour managed <em>dynamic image rendering</em> at scale
 tags:
   - product
-order: 3
-thumbnail:
+order: 1
+type: product
 headimage:
 index: true
 carousel:
@@ -23,15 +23,15 @@ carousel:
   - url: "/products/qis.html"
     src: "web/qisbanners/qisZoomerbanner.png"
     quality: 90
+thumbnail: //images.quru.com/image?src=web/south/qis.jpg&right=0.83125&width=276
+index: true
+heading: <p>The Quru Image Server (QIS) is the image server of choice for serious business demands, delivering perfect detailed images, cost effectively, at scale.</p><p>QIS makes it easy to manage thousands of images at the same time across any device. Consumers quickly abandon websites that don’t meet their high expectations and brands that sell a high number of products or manage significant collections, have to manage very large numbers of images every day. If the images are not crystal clear on any device, customers will move on and opportunities will be lost.</p><p>Managing large numbers of images is challenging – the mix of formats, shapes, resolutions, devices – and can be expensive. Bonhams, a world leading fine art and antiques auctioneer, manage their library of 1M+ images using QIS to replace existing systems that were defeated by the scale of the challenge.</p>
+ 
+
+
 ---
 
 ## Image serving at scale
-
-The Quru Image Server (QIS) is the image server of choice for serious business demands, delivering perfect detailed images, cost effectively, at scale.
-
-QIS makes it easy to manage thousands of images at the same time across any device. Consumers quickly abandon websites that don’t meet their high expectations and brands that sell a high number of products or manage significant collections, have to manage very large numbers of images every day. If the images are not crystal clear on any device, customers will move on and opportunities will be lost.
-
-Managing large numbers of images is challenging – the mix of formats, shapes, resolutions, devices – and can be expensive. Bonhams, a world leading fine art and antiques auctioneer, manage their library of 1M+ images using QIS to replace existing systems that were defeated by the scale of the challenge.
 
 QIS ensures you deliver the best brand image experience to your customers every time and on any device. It has been designed to meet the needs of brands with thousands of images needing to be changed frequently.
 

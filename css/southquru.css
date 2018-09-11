@@ -28,24 +28,24 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 1em;
+	font-size: 1rem;
 	font: inherit;
 	vertical-align: baseline;
 }
 
-
-
-
-body
-{
+html {
     font: 15px/1.6 "Open Sans", GillSansRegular, "Gill Sans MT", "Gill Sans", "Gill Sans W01 Medium", sans-serif;
-    font-weight: 200;
-    -ms-touch-action: auto;
-    margin: 0;
-    background-color: #333;
+    font-weight: 200;  
 }
 
-#page {
+
+body {
+    -ms-touch-action: auto;
+    margin: 0;
+    /* background-color: #333; */
+}
+
+#Page {
     background-color: white;
 }
 
@@ -66,7 +66,7 @@ body
 }
 
 
-#header, .pageheading, .content, .post-footer, #footer, #whitepapers, #About, .whitepapers, .whatwedo, .logostrip 
+#header, .pageheading, .content, .post-footer, #footer, #whitepapers, #About, .whitepapers:not(.embed), .whatwedo, .logostrip 
 {
     margin-left:  auto;
     margin-right: auto;
@@ -150,13 +150,12 @@ h2 {
     font-size: 1.2rem;
     color: #333;
     font-weight: 600;
-    padding-bottom: 1.5em;
+    padding-bottom: 1.5rem;
     text-transform: uppercase;
 }
 
-h3 {
-    font-size: 1rem;
-    font-weight: 400;
+p+h2 {
+    padding-top: 1.5rem;
 }
 
 #headingimage {
@@ -184,7 +183,7 @@ h3 {
 h3
 {
     font-weight: 600;
-    font-size: 1.0rem;
+    font-size: 1.1rem;
 }
 
 h4
@@ -228,7 +227,6 @@ ul.vendors li {
     display: inline-block;
     vertical-align: top;
     width: 276px;
-    height: 34rem;
     margin-right: 1.5rem;
     margin-bottom: 1.5rem;
     background-color: #EEE;
@@ -240,10 +238,16 @@ ul.vendors li {
 }
 
 ul.vendors li img {
-    padding: 32px;
+    padding: 2.5rem;
     background-color: white;
     height: 212px;
 }
+
+ul.vendors li .text {
+    background-color: #ccc;
+    padding: 1.5rem;
+    height: 10rem;
+} 
 
 ul.vendors li:last-child {
     margin-right: 0;
@@ -254,38 +258,10 @@ ul.vendors a {
     text-decoration: none;
 }
 
-ul.vendors a:hover {
-    display: block;
+ul.vendors a:hover .text {
     background-color: maroon;
-    color: white;
-    height: 34rem;
 }
 
-ul.vendors li p {
-    padding: 0 1rem;
-    font-size: 1rem;
-}
-
-li h3, .block li .eightws {
-    padding: 1rem 1rem 0.5rem 1rem;
-    line-height: 1.2em;
-}
-/* ul.vendors li { */
-/*     padding-bottom: 2em; */
-/*     list-style-type: none; */
-/* } */
-/* ul.vendors li a.logo { */
-/*     display: inline-block; */
-/*     padding-right: 2em; */
-/*     border: none; */
-/*     vertical-align: top; */
-/* } */
-
-/* ul.vendors li a.text { */
-/*     display: inline-block; */
-/*     border: none; */
-/*     vertical-align: top; */
-/* } */
 
 .vendorLogo {
     display: inline-block;
@@ -341,6 +317,7 @@ li h3, .block li .eightws {
 
 .whitepapers {
     padding-top: 1.5rem;
+    padding-bottom: 3rem;
 }
 
 #image {
@@ -418,8 +395,7 @@ img.whitepaper {
 
 #footer
 {
-    font-size: 1.1rem;
-    line-height: 2rem;
+    line-height: 2;
     padding-bottom: 1rem;
     padding-top: 3rem;
 }
@@ -510,12 +486,12 @@ img.whitepaper {
     padding: 0;
 }
 
+
 .whatwedo li {
     list-style-type: none;
     display: inline-block;
     vertical-align: top;
     width: 276px;
-    height: 49rem;
     margin-right: 1.5rem;
     margin-bottom: 1.5rem;
     background-color: white;
@@ -526,10 +502,15 @@ img.whitepaper {
     margin-right: 0;
 }
 
-.whatwedo li h3, .block li .eightws {
-    padding: 1.5rem 1rem;
-    font-size: 1rem;
-    line-height: 1.2rem;
+.whatwedo li .text {
+    height: 13rem;
+    padding: 2rem;
+}
+
+.whatwedo li h3 {
+    font-size: 1.1rem;
+    line-height: 1.2;
+    padding: 0 0 1.2rem 0;
 }
 
 .block li .eightws {
@@ -537,13 +518,12 @@ img.whitepaper {
 }
 
 .whatwedo a {
-    color: #666;
     text-decoration: none;
+    color: black;
 }
-.whatwedo a .eightws {
-    padding-left: 1rem;
-    padding-right: 0.5rem;
-    
+
+.whatwedo a h3 {
+    color: #666;
 }
 
 .whatwedo .eightws em {
@@ -553,6 +533,10 @@ img.whitepaper {
 .logostrip {
     height: 15rem;
     padding-top: 2em;
+    overflow: hidden;
+}
+
+.logo-wrapper {
     overflow: hidden;
 }
 
@@ -572,8 +556,39 @@ img.whitepaper {
 }
 
 .whitepapers li {
-    width: 300px;
-    height: 30em;
+    width: 276px;
+}
+
+.whitepapers.alt li {
+    background-color: white;
+}
+
+.whitepapers .text {
+    padding: 0.5rem 0;
+    height: 14rem;
+}
+
+.whitepapers.alt .text {
+    padding: 1rem 1.2rem;
+}
+
+.whitepapers figure figcaption {
+    height: 5rem;
+}
+
+.whitepapers.alt figcaption:hover {
+    background-color: maroon;
+    color: white;
+}
+
+.whitepapers.alt figcaption a:hover {
+    color: white;
+}
+
+.whitepapers.embed .text {
+    background-color: white;
+    padding: 1.5rem 2rem;
+    height: 9rem;
 }
 
 .whitepapers .tag {
@@ -585,8 +600,8 @@ img.whitepaper {
 }
 
 .whitepapers li h3 {
-    padding: 0;
-    color: black;
+    padding-bottom: 1rem;
+    color: #333;
 }
 
 /* #contactUs == request_a_call.html */
