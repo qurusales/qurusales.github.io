@@ -11,7 +11,8 @@ tags:
   - virtualisation
 order: 50
 thumbnail: //images.quru.com/image?src=/whitepapers/Dual%20vendor%20virtualization%20WP.pdf.d/page-00001.png&bottom=0.30312&right=0.48899&left=0.04405&top=0.06875
-download: //images.quru.com/image?src=whitepapers/Dual%20vendor%20virtualization%20WP.pdf
+image: //images.quru.com/image?src=whitepapers/Dual%20vendor%20virtualization%20WP.pdf
+download: //images.quru.com/original?src=whitepapers/Dual%20vendor%20virtualization%20WP.pdf
 index: true
 heading: Today, the ever increasing cost of proprietary technology has driven many end-users to develop a dual hypervisor strategy – deploying mission-critical databases and big production workloads on different hypervisors.
 

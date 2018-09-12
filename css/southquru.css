@@ -150,7 +150,7 @@ h2 {
     text-transform: uppercase;
 }
 
-p+h2 {
+p+h2, ul+h2 {
     padding-top: 1.5rem;
 }
 
@@ -195,13 +195,13 @@ h5
     margin-bottom: 0;
 }
 
-.post-content li {
+.content ul:not(.vendors) li, .heading ul:not(.vendors) li {
     list-style-position: inside;
     text-indent: -1.2em;
     padding-left: 1.5em;
 }
 
-.post-content li::before {
+.content ul:not(.vendors) li::before, .heading ul li::before {
     content: "\25AA";
     color: maroon;
     display: inline-block;
@@ -258,7 +258,7 @@ ul.vendors a {
     text-decoration: none;
 }
 
-ul.vendors li .text:hover a {
+ul.vendors li a:hover {
     color: white;
 }
 
@@ -292,6 +292,7 @@ ul.vendors a:hover .text {
 }
 
 .quote {
+    padding-top: 2rem;
     padding-bottom: 4rem;
 }
 
@@ -567,6 +568,10 @@ img.whitepaper {
     background-color: white;
 }
 
+.whitepapers.alt li:hover {
+    background-color: maroon;
+}
+
 .whitepapers .text {
     padding: 0.5rem 0;
     height: 14rem;
@@ -580,8 +585,7 @@ img.whitepaper {
     height: 5rem;
 }
 
-.whitepapers.alt figcaption:hover {
-    background-color: maroon;
+.whitepapers.alt li:hover h3, .whitepapers.alt li:hover .tag {
     color: white;
 }
 
@@ -651,10 +655,8 @@ img.whitepaper {
     margin-bottom: 1em;
     -webkit-border-radius: 4px;
     -khtml-border-radius:  4px;
-    -moz-border-radius:    4px;
     border-radius:         4px;
     -webkit-box-shadow: 1px 1px 5px #999;
-    -moz-box-shadow: 1px 1px 5px #999;
     box-shadow: 1px 1px 3px #999;
     border: 1px solid #999;
 }
@@ -743,6 +745,25 @@ input[type="text"]:hover, textarea:hover {
     h1.eightws {
         font-size: 4rem;
     }
+
+    .vendorLogo {
+        width: 17rem;
+    }
+
+    .vendorLogo img {
+        width: 15rem;
+    }
+
+    .vendorLogo .tag {
+        font-size: 0.8rem;
+    }
+
+    .whitepaperdownload img.whitepaper {
+        width: 18rem;
+        height: 25.5rem;
+    }
+
+    .
 }
 
 /* And a holding area for tablet class devices */
@@ -771,28 +792,4 @@ and (max-device-width : 91024px) {
     }
 }
 
-/* Settings for a wide screen */
-
-@media only screen and (min-width: 91024px) {
-    /* #header, .heading, h1.eightws, .post-content, .post-footer, #footer, #whitepapers, .altBlock, .block, #About, .whitepapers 
-       {
-           padding: 0 12%;
-       }
- */
-    a#show_nav {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 91176px) {
-#header, .heading, h1.eightws, .post-content, .post-footer, #footer, #whitepapers, .altBlock, .block, #About, .whitepapers 
-       {
-           padding-left: 10%;
-           padding-right: 10%;
-       }
- */
-    a#show_nav {
-        display: none;
-    }
-}
 /* end responsive layout */

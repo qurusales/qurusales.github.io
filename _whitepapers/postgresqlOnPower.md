@@ -12,7 +12,8 @@ tags:
   - database
 order: 160
 thumbnail: //images.quru.com/image?src=web/south/inaki-del-olmo-602632-unsplash.jpg&right=0.89063
-download: //images.quru.com/image?src=/whitepapers/Quru-PostgreSQLonPower-Commercial.pdf
+image: //images.quru.com/image?src=/whitepapers/Quru-PostgreSQLonPower-Commercial.pdf
+download: //images.quru.com/original?src=/whitepapers/Quru-PostgreSQLonPower-Commercial.pdf
 index: true
 heading: "New hardware can provide exciting opportunities to extract significant performance gains from known and loved software. With the development of the IBM Power architecture there are plenty of opportunities for increasing performance, especially with databases which require large i/o and raw maths processing.</p><p>Quru has fine tuned databases as part of it's work with IBM and as partners of open source databases."
 ---

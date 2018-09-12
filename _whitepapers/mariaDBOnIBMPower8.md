@@ -11,7 +11,8 @@ tags:
   - mariadb
 order: 50
 thumbnail: //images.quru.com/image?src=whitepapers/MariaDBonPower8.pdf&bottom=0.32188&left=0.1674&top=0.0594&right=0.66079
-download: //images.quru.com/image?src=web/MariaDBonPower8.pdf
+image: //images.quru.com/image?src=web/MariaDBonPower8.pdf
+download: //images.quru.com/original?src=web/MariaDBonPower8.pdf
 index: true
 heading: The pressure on costs is endless and at Quru, we believe it is system ‘consolidation’ that potentially promises major reductions in data centre costs (space + power + cooling) together with lower service contract costs. We have recently been focused on consolidating servers and adding extra compute capacity in the same footprint as a way to enable lower costs and increase application performance.
 ---

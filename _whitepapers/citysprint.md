@@ -14,7 +14,8 @@ tags:
   - citysprint
 order: 160
 thumbnail: //images.quru.com/image?src=/whitepapers/citysprint.pdf&bottom=0.4125&right=0.72247&left=0.11894&top=0.09063
-download: //images.quru.com/image?src=/whitepapers/citysprint.pdf
+image: //images.quru.com/image?src=/whitepapers/citysprint.pdf
+download: //images.quru.com/original?src=/whitepapers/citysprint.pdf
 index: true
 heading: "CitySprint is the largest same day distribution service in the UK with a turnover in 201 2 of £101 M. Growth has been rapid over the past few years, both organic and through acquisitions. The Head Office is in London, with 37 service locations and over 2,500 couriers across the UK handling 5M+ deliveries per year.</p><p>CitySprint asked Quru to increase network infrastructure reliability and support business-critical databases." 
 ---

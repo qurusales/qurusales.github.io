@@ -8,9 +8,11 @@ summary: RHV 4 offers an enterprise class, exceedingly capable virtualisation pl
 tags:
   - redhat
   - rhv
+  - virtualisation
 order: 170
 thumbnail: //images.quru.com/image?src=/whitepapers/Quru-RedHatEnterpriseVirtualization.pdf&bottom=0.35625&left=0.14978&top=0.07813&right=0.6696
-headimage: //images.quru.com/image?src=/whitepapers/Quru-RedHatEnterpriseVirtualization.pdf&format=jpg
+image: //images.quru.com/image?src=/whitepapers/Quru-RedHatEnterpriseVirtualization.pdf&format=jpg
+download: //images.quru.com/original?src=/whitepapers/Quru-RedHatEnterpriseVirtualization.pdf
 index: true
 ---
 

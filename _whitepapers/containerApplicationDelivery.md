@@ -12,7 +12,8 @@ tags:
   - container
 order: 160
 thumbnail: //images.quru.com/image?src=whitepapers/ContainersApplicationDeliveryV2.pdf&bottom=0.34063&left=0.39648&top=0.12812&right=0.79295
-download: //images.quru.com/image?src=whitepapers/ContainersApplicationDeliveryV2.pdf
+image: //images.quru.com/image?src=whitepapers/ContainersApplicationDeliveryV2.pdf
+download: //images.quru.com/original?src=whitepapers/ContainersApplicationDeliveryV2.pdf
 index: true
 heading: "Increasingly complicated applications - and demands for faster development - are putting even more pressure on your infrastructure, IT teams, and processes.</p><p>The industry is moving beyond self-contained, isolated, and monolithic applications. New workloads will be part of a connected application fabric—flexibly woven together to serve particular business needs, yet easily torn apart and re-structured to meet changing requirements.</p><p>This requires a new approach to managing applications during development in order to facilitate success in production." 
 ---

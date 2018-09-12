@@ -12,7 +12,8 @@ tags:
   - virtualization
 order: 160
 thumbnail: //images.quru.com/image?src=/whitepapers/Quru-HybridCloud.pdf&bottom=0.49063&left=0.6696&top=0.31563
-headimage: //images.quru.com/image?src=/whitepapers/Quru-HybridCloud.pdf&format=jpg
+image: //images.quru.com/image?src=/whitepapers/Quru-HybridCloud.pdf
+download: //images.quru.com/image?src=/whitepapers/Quru-HybridCloud.pdf
 index: true
 ---
 
