@@ -3,7 +3,7 @@ layout: vendors
 title: Canonical&rsquo;s Ubuntu solutions
 menu: Canonical
 summary: Making open source OS available to people everywhere
-eightws: Making open source OS <em>available</em> to people <em>everywhere</em>
+eightws: Making Linux <em>available to everyone</em>
 tags:
   - vendor
 order: 3
@@ -23,3 +23,12 @@ Ubuntu is an open source software operating system that runs from the desktop, t
 On desktops Ubuntu looks good and works better than any other Linux deployment.
 
 In cloud environments it delivers stability at minimal cost whilst delivering latest technology releases as they become available.  It is also the platform that reliably supports applications developed for cloud deployment.  Cloud providers offer and support eh Ubuntu operating system more prevalently than any other and it is frequently the first choice in the cloud.
+
+## Ubuntu advantages
+
+- More up to date releases, with a more rapid release schedule making new technology in Linux readily available.
+- LTS versions enable stable build standards to be completed even when utilising up to date technology
+- Easy upgrade path between major releases
+- Most widely deployed cloud OS
+- Reference platform for Ubuntu
+- Biggest community behind the OS - and more developers use Ubuntu than any other distribution of Linux

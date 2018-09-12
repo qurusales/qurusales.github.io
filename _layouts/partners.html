@@ -2,23 +2,29 @@
 layout: default
 ---
 
-<article class="post">
-
-    <h1 class="eightws">{{ page.eightws | remove: ',' }}</h1>
-
-    <div class='heading'>{{ page.heading }}</div>
-
-    <div class="content alt">
+{% assign sectioncount = 1 %}
+<div class="block" {% if page.headingimages != "" %}style="background: {{ page.headingimages }}; background-origin: content-box; height: {{ page.headingheight }};"{% endif %}>
+    <div class='pageheading'>
+        <h1 class="eightws">{{ page.eightws | remove: ',' }}</h1>
+        <div class="heading">{{ page.heading }}</div>
         {% if page.logo != null %}<div class='vendorLogo'>
             <a href='https:{{ page.vendorurl }}' target='_new'><img src='{{ page.logo }}&height=320&width=320' alt='{{ page.alt }}'>
                 <div class='tag'>https:{{ page.directurl }}</div>
             </a>
         </div>{% endif %}
+    </div>
+</div> 
+
+{% assign contentsize = content | size %}{% if contentsize >= 10 %}{% assign sectioncount = sectioncount | plus: 1 %}<div class="altblock">
+    <div class="content">
         {{ content }}
     </div>
+</div>{% endif %}
 
+{% if page.title == 'About Quru' or page.title == 'What we do' %}{% include whatWeDo.html %}{% endif %}
 
+{% include products.html %}{% include whitepapers.html %}{% if page.logostrip == 'customers' or page.logostrip == 'vendors' %}{% include logoStrip.html %}{% endif %}
+    
+{% include qurufooter.html %}
 
-</article>
-
-{% include whitepapers.html %} {% include partnerfooter.html %} {% include footer.html %}
+{% include footer.html %}

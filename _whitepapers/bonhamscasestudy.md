@@ -16,7 +16,7 @@ index: true
 heading: "<p>Over the past decade, the Bonhams’ business has been transformed:<ul><li>Global expansion to office network covering 25 countries</li><li>Significant increase in efficiency drives greater profitability</li></ul></p><p>Technology has played a key role in differentiating the company&rsquo;s offering and major challenges have been addressed including:<ul><li>Increased system capability at lower costs</li><li>On-going development of enhanced website</li><li>Disaster Recovery strategy and deployment</li></ul></p>" 
 ---
 
-##The Quru approach
+## The Quru approach
 
 The Quru approach is business led and we develop and deploy integrated best-of-breed proprietary and open source solutions that support our clients’ ambitions and objectives. Technology systems, in particular ERP, should be tailored to the business processes that enable the organisation to deliver market leading service to its various customer types – internal, end-users, partners.
 

@@ -66,6 +66,16 @@ body {
     padding-bottom: 18rem;
 }
 
+.block.subscriptions {
+    background-image: url('https://images.quru.com/image?src=web/south/fr_cloud.png&width=1600&fill=none&format=png'), url('https://images.quru.com/image?src=web/south/balloons.png&width=1600&fill=none&format=png'),url('https://images.quru.com/image?src=web/south/bg_cloud.png&fill=none&format=png&width=1600');
+    padding-bottom: 18rem;
+}
+
+.block.product {
+    background-image: url('https://images.quru.com/image?src=web/south/fr_cloud.png&width=1600&fill=none&format=png'), url('https://images.quru.com/image?src=web/south/large_plane.png&width=1600&fill=none&format=png'), url('https://images.quru.com/image?src=web/south/bg_cloud.png&fill=none&format=png&width=1600');
+    padding-bottom: 18rem;
+}
+
 .altblock {
     width: 100%;
     background-color: #EEE;
@@ -743,7 +753,7 @@ input[type="text"]:hover, textarea:hover {
     }
 
     h1.eightws {
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
 
     .vendorLogo {
