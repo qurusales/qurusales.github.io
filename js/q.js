@@ -1,5 +1,5 @@
 /*
-        Document:      kwf.js
+        Document:      q.js
         Date started:  06Oct2014
         By:            Roland Whitehead
         Purpose:       Provide basic js functionality to quru.com
@@ -14,6 +14,7 @@
         06Oct2014  RW    New
         01Dec2014  RW    Added in hideById and showById
         17Aug2018  RW    renaming functions
+        11Sep2018  RW    Refactored for South design
 */
 
 /**** Private interface ****/
@@ -101,13 +102,6 @@ function toggleById(el_id){
 function show_nav(e){
     e.stopPropagation();
     showById('nav');
-    /*var el = document.getElementById('nav');
-    if (el != null ) {
-        el.classList.add('show');
-    }
-    else {
-        alert(el_id + ' was not found');
-    }*/
     var b = document.body; 
     if (b != null) {
         qAddEventListener(b, 'click', hide_nav);
@@ -118,45 +112,11 @@ function show_nav(e){
 function hide_nav(e){
     e.stopPropagation();
     hideById('nav');
-    /*var el = document.getElementById('nav');
-    if (el != null ) {
-        el.classList.remove('show');
-    }
-    else {
-        alert(el_id + ' was not found');
-    }*/
     var b = document.body;
     if (b != null) {
         qRemoveEventListener(b, 'click', hide_nav);
     }
     return false;
-}
-
-
-
-function flipCell(e){
-   /* e.preventDefault(); */
-    var el_list = this.getElementsByClassName('cell_back');
-    if (el_list.length > 0 ) {
-        if (el_list[0].classList)
-            el_list[0].classList.add('show');
-        else
-            el_list[0].className += ' ' + 'show';
-    }
-    /* return false; */
-}
-
-function unflipCell(e, action){
-    if (action != "Go") 
-        e.preventDefault();
-    var el_list = this.getElementsByClassName('cell_back');
-    if (el_list.length > 0 ) {
-        if (el_list[0].classList)
-            el_list[0].classList.remove('show');
-        else
-            el_list[0].show = el_list[0].show.replace(new RegExp('(^|\\b)' + show.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
-    }
-    /* return false; */
 }
 
 function goToUrl(addr){
