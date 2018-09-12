@@ -1,0 +1,805 @@
+/*
+#
+# Quru Web Site
+#
+# Document:      quru.css
+# Date started:  06 July 2012
+# By:            Roland Whitehead
+# Purpose:       The main styling page for the site
+# Requires:
+# Copyright:     Quru Ltd (www.quru.com)
+#
+# Last Changed:  $Date: 2015-04-23 11:13:06 +0100 (Thu, 23 Apr 2015) $ $Rev: 1412 $ by $Author: roland $
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 1rem;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {
+    font: 15px/1.6 "Open Sans", GillSansRegular, "Gill Sans MT", "Gill Sans", "Gill Sans W01 Medium", sans-serif;
+    font-weight: 200;  
+}
+
+
+body {
+    -ms-touch-action: auto;
+    margin: 0;
+    /* background-color: #333; */
+}
+
+#Page {
+    background-color: white;
+}
+
+.block {
+    width: 100%;
+    background-color: white;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.block.development {
+    background-image: url('https://images.quru.com/image?src=web/south/fr_cloud.png&width=1600&fill=none&format=png'), url('https://images.quru.com/image?src=web/south/rocket.png&width=1600&fill=none&format=png'), url('https://images.quru.com/image?src=web/south/bg_cloud.png&fill=none&format=png&width=1600');
+    padding-bottom: 18rem;
+}
+
+.block.consulting {
+    background-image: url('https://images.quru.com/image?src=web/south/fr_cloud.png&width=1600&fill=none&format=png'), url('https://images.quru.com/image?src=web/south/mid_mountains.png&width=1600&fill=none&format=png'), url('https://images.quru.com/image?src=web/south/bg_cloud.png&fill=none&format=png&width=1600'), url('https://images.quru.com/image?src=web/south/bg_mountain.png&width=1600&fill=none&format=png');
+    padding-bottom: 18rem;
+}
+
+.block.subscriptions {
+    background-image: url('https://images.quru.com/image?src=web/south/fr_cloud.png&width=1600&fill=none&format=png'), url('https://images.quru.com/image?src=web/south/balloons.png&width=1600&fill=none&format=png'),url('https://images.quru.com/image?src=web/south/bg_cloud.png&fill=none&format=png&width=1600');
+    padding-bottom: 18rem;
+}
+
+.block.product {
+    background-image: url('https://images.quru.com/image?src=web/south/fr_cloud.png&width=1600&fill=none&format=png'), url('https://images.quru.com/image?src=web/south/large_plane.png&width=1600&fill=none&format=png'), url('https://images.quru.com/image?src=web/south/bg_cloud.png&fill=none&format=png&width=1600');
+    padding-bottom: 18rem;
+}
+
+.altblock {
+    width: 100%;
+    background-color: #EEE;
+}
+
+#footerblock {
+    width: 100%;
+    background-color: #333;
+    border-top: 0.8rem solid maroon;
+}
+
+
+#header, .pageheading, .content, .post-footer, #footer, #whitepapers, #About, .whitepapers:not(.embed), .whatwedo, .logostrip 
+{
+    margin-left:  auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 1176px;
+}
+
+i {
+    font-style: italic;
+}
+
+p {
+    padding-bottom: 1em;
+}
+
+.heading {
+    padding-bottom: 6.5rem;
+    max-width: 56rem;
+    /*columns: 2;*/    
+}
+
+a#logo
+{
+    position: relative;
+    top: 1.2rem;
+    left: 1rem;
+}
+
+#header
+{
+    height: 5rem;
+    background-color: #EEE;
+    position: relative;
+}
+
+#logo img
+{
+    height: 2.5rem;
+}
+
+img
+{
+    border: none;
+}
+
+h1.eightws {
+    font-size: 5.5rem;
+    padding-top: 4rem;
+    padding-bottom: 3.5rem;
+    font-weight: 800;
+    line-height: 80%;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    color: #333;
+    max-width: 58rem;
+}
+
+h1.eightws em {
+    font-style: normal;
+    color: maroon;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+    padding-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+p+h2, ul+h2 {
+    padding-top: 1.5rem;
+}
+
+#headingimage {
+    position: relative;
+    bottom: 0;
+}
+
+#headingimage img {
+    height: 276px;
+    position: relative;
+    right: 0;
+}
+
+
+.post a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dotted #555;
+}
+
+.post-content {
+    padding-bottom: 2rem;
+}
+
+h3
+{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+h4
+{
+    font-weight: 500;
+}
+
+h5
+{
+    font-size: 1.0rem;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.content ul:not(.vendors) li, .heading ul:not(.vendors) li {
+    list-style-position: inside;
+    text-indent: -1.2em;
+    padding-left: 1.5em;
+}
+
+.content ul:not(.vendors) li::before, .heading ul li::before {
+    content: "\25AA";
+    color: maroon;
+    display: inline-block;
+    width: 0.1em;
+    margin-left: 1.1em
+}
+
+
+ul {
+    list-style: none;
+}
+
+ul.vendors {
+    padding-top: 1em;
+}
+
+ul.vendors li {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 276px;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #EEE;
+    overflow: hidden;
+}
+
+.altblock ul.vendors li {
+    background-color: white;
+}
+
+ul.vendors li img {
+    padding: 2.5rem;
+    background-color: white;
+    height: 212px;
+}
+
+.alt ul.vendors li .text {
+    background-color: #ccc;
+    padding: 1.5rem;
+    height: 10rem;
+} 
+
+ul.vendors li .text:hover {
+    background-color: maroon;
+}
+
+ul.vendors li:last-child {
+    margin-right: 0;
+}
+
+ul.vendors a {
+    color: #666;
+    text-decoration: none;
+}
+
+ul.vendors li a:hover {
+    color: white;
+}
+
+ul.vendors a:hover .text {
+    background-color: maroon;
+}
+
+
+.vendorLogo {
+    display: inline-block;
+    position: relative;
+    top: -3rem;
+    float: right;
+    margin: 0 0 1rem 1rem;
+    background-color: white;
+}
+
+.vendorLogo a {
+    text-decoration: none;
+}
+
+.vendorLogo img {
+    margin: 1rem;
+}
+
+.vendorLogo .tag {
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.quote {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.quotebody {
+    font-style: italic;    
+}
+
+.quotebody:before {
+    content: "\201C"
+}
+
+.quotebody:after {
+    content: "\201D"
+}
+
+.alt {
+    background-color: #EEE !important;
+}
+
+.slideshow {
+    height: 20VW;
+    overflow: hidden;
+    text-align: center;
+    line-height: 304px;
+    padding-bottom: 2rem;
+}
+
+.whitepapers {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+#image {
+
+}
+
+.post_content p {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.whitepaperdownload a {
+    postition: relative;
+    top: -3rem;
+}
+
+img.whitepaper {
+    border: none;
+    margin: 0 0 1em 1em;
+    width: 450px;
+    height: 637px;
+    position: relative;
+    top: -3rem;
+}
+
+.credit {
+    font-size: 0.8rem;
+    font-style: italic;
+    padding-top: 1em;
+}
+
+#About {
+    clear: both;
+    font-size: 0.8rem;
+    margin-top: 0rem;
+    padding-bottom: 0.5rem;
+}
+
+#About h3 {
+    display: inline-block;
+    position: relative;
+    top: -2em;
+    margin-bottom: 0;
+    padding: 0.5em 2em 2em 2em;
+    background-color: white;
+}
+
+#About h3 .About
+{
+    background-color: white;
+}
+
+#About h3 .About .alt {
+    background-color: #EEE;
+}
+
+#About p {
+    position: relative;
+    top: -2.5em;
+}
+
+#About a {
+    color: black;
+    border-bottom: 1pt dotted black;
+    text-decoration: none;
+}
+
+#morelink
+{
+    float: right;
+    margin-left: 1em;
+    margin-top: 0.3em;
+    line-height: 1.2em;
+}
+
+#footer
+{
+    line-height: 2;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+
+#footer ul li a
+{
+    color:  white;
+    text-decoration: none;
+}
+
+#footer .column
+{
+    text-align: left;
+    height: auto;
+}
+
+#footer ul li a:hover
+{
+    border-bottom: 1px solid maroon;
+}
+
+#footer ul
+{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#footer ul li
+{
+    list-style-type: none;
+}
+
+#footer strong
+{
+    font-weight: 600;
+    color: maroon;
+}
+
+.column
+{
+    float: left;
+    width: 30%;
+    max-width: 292px;
+    text-align: center;
+    height: 140px;
+}
+
+.column a
+{
+    border: none !important;
+}
+
+.telephone
+{
+    color: white;
+}
+
+.telephone img {
+    padding-right: 0.5em;
+}
+
+.clear, .customers
+{
+    clear:  both;
+}
+
+.error {
+    color: #990000;
+}
+
+.whatwedo, .content {
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+}
+
+.whatwedo h2 {
+    padding: 0 0 2rem 0;
+    font-size: 1em;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.whatwedo h3 {
+    color: #333;
+ }
+
+.whatwedo ul, .whitepapers ul, .logostrip ul {
+    padding: 0;
+}
+
+
+.whatwedo li {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 276px;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    overflow: hidden;
+}
+
+.whatwedo li:last-child {
+    margin-right: 0;
+}
+
+.whatwedo li .text {
+    height: 13rem;
+    padding: 2rem;
+}
+
+.whatwedo li h3 {
+    font-size: 1.1rem;
+    line-height: 1.2;
+    padding: 0 0 1.2rem 0;
+}
+
+.block li .eightws {
+    color: #666;
+}
+
+.whatwedo a {
+    text-decoration: none;
+    color: black;
+}
+
+.whatwedo a h3 {
+    color: #666;
+}
+
+.whatwedo .eightws em {
+    font-style: normal;
+}
+
+.logostrip {
+    height: 15rem;
+    padding-top: 2em;
+    overflow: hidden;
+}
+
+.logo-wrapper {
+    overflow: hidden;
+}
+
+.logostrip ul li {
+    height: 160px;
+}
+
+.logostrip li, .whitepapers li {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top; 
+    margin: 0 2em 2em 0;
+}
+
+.logostrip li a {
+    margin: 0 2em;
+}
+
+.whitepapers li {
+    width: 276px;
+}
+
+.whitepapers.alt li {
+    background-color: white;
+}
+
+.whitepapers.alt li:hover {
+    background-color: maroon;
+}
+
+.whitepapers .text {
+    padding: 0.5rem 0;
+    height: 14rem;
+}
+
+.whitepapers.alt .text {
+    padding: 1rem 1.2rem;
+}
+
+.whitepapers figure figcaption {
+    height: 5rem;
+}
+
+.whitepapers.alt li:hover h3, .whitepapers.alt li:hover .tag {
+    color: white;
+}
+
+.whitepapers.alt figcaption a:hover {
+    color: white;
+}
+
+.whitepapers.embed .text {
+    background-color: white;
+    padding: 1.5rem 2rem;
+    height: 9rem;
+}
+
+.whitepapers .tag {
+    color: #333;
+}
+
+.whitepapers a {
+    text-decoration: none;
+}
+
+.whitepapers li h3 {
+    padding-bottom: 1rem;
+    color: #333;
+}
+
+/* #contactUs == request_a_call.html */
+#contactUs div.copy
+{
+    width: 200px;
+    /* Centre content when sidebar is wider */
+    margin-left: auto;
+    margin-right: auto;
+}
+#contactUs div.copy form label
+{
+    width: 75px;
+    display: inline-block;
+}
+#contactUs div.copy form input
+{
+    width: 103px;
+}
+#contactUs div.copy form input[type="button"],
+#contactUs div.copy form input[type="submit"]
+{
+    margin-left: 79px;
+}
+
+/* #contact == jobs page and contact us page
+   #requestAPaper == white paper form
+   #contactUs == request_a_call.html
+
+   MAINTAINERS - please use a class in future! (no more IDs!)
+*/
+#contact form div.formline label
+{
+    width: 15rem;
+    display: inline-block;
+}
+#contactUs div.copy form input,
+#requestAPaper div.copy form input,
+#contact form div.formline input,
+#contact form div.formline textarea
+{
+    padding: 5px;
+    margin-bottom: 1em;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius:  4px;
+    border-radius:         4px;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 3px #999;
+    border: 1px solid #999;
+}
+#contact form div.formline textarea
+{
+    min-width: 250px;
+    width: 80%;
+    height: 6em;
+    vertical-align: top;
+}
+
+.honeypot {
+    display: none;
+}
+
+#contact form div.formline input
+{
+    min-width: 250px;
+    width: 80%;
+}
+#contact form div.formline input.button,
+#contact #email_status
+{
+    margin-left: 15rem;
+    min-width: 148px !important;
+}
+
+input.button
+{
+    background-color: #46a0c2;
+    background: linear-gradient(bottom, #3791b3, #55afd1);
+    background: -o-linear-gradient(bottom, #3791b3, #55afd1);
+    background: -moz-linear-gradient(100% 100% 90deg,#3791b3,#55afd1);
+    background: -webkit-linear-gradient(bottom, #3791b3, #55afd1);
+    background: -ms-linear-gradient(bottom, #3791b3, #55afd1);
+    color: white;
+    cursor: pointer;
+}
+
+input[type="text"]:hover, textarea:hover {
+    border: 1px solid #233567;
+}
+
+
+/* Responsive settings */
+
+
+/* Responsive layout for small screens (767 == narrower than iPad) */
+
+@media only screen and (max-width: 767px) {
+    #page {
+        /* Reduce min width */
+        min-width: 300px;
+    }
+
+    .block, altBlock {
+        background-position: right bottom;
+        background-size: 100%
+    }
+
+    .block.development, .block.consulting {
+        padding-bottom: 8rem;
+    }
+
+    #header 
+    {
+        padding-left:  1rem;
+        padding-right: 0;
+    }
+
+    .heading, h1.eightws, .post-content, .post-footer, #footer, #whitepapers, #About, .whitepapers {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin: 0;
+    }
+
+    .pageheading {
+        padding: 0;
+    }
+
+
+    .heading {
+        columns: 1;
+    }
+
+    h1.eightws {
+        font-size: 2.5rem;
+    }
+
+    .vendorLogo {
+        width: 17rem;
+    }
+
+    .vendorLogo img {
+        width: 15rem;
+    }
+
+    .vendorLogo .tag {
+        font-size: 0.8rem;
+    }
+
+    .whitepaperdownload img.whitepaper {
+        width: 18rem;
+        height: 25.5rem;
+    }
+
+    .
+}
+
+/* And a holding area for tablet class devices */
+@media only screen
+and (min-device-width : 9768px)
+and (max-device-width : 91024px) {
+/* None really because we assume that the whole site fits */
+    #page
+    {
+        min-width: 768px;
+    }
+
+    #header, .heading, h1.eightws, .post-content, .post-footer, #footer, #whitepapers, .altBlock, .block, #About, .whitepapers 
+    {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .vendorLogo {
+        position: relative;
+        right: -1rem;
+    }
+
+    a#show_nav {
+        display: none;
+    }
+}
+
+/* end responsive layout */

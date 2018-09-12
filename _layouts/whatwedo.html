@@ -1,0 +1,38 @@
+---
+layout: default
+---
+{% assign sectioncount = 2 %}
+<div class="block {{ page.whitepapertag }}">
+    <div class="pageheading">
+        <h1 class="eightws">{{ page.eightws | remove: ',' }}</h1>
+        <div class='heading'>{{ page.heading }}</div>
+        {% assign carousel_size = page.carousel.size %} {% if carousel_size > 3 %}<div class="showbox">
+            <script type="text/javascript"  src="//images.quru.com/static/js/slideshow_view.min.js"></script>
+            <div class="slideshow " id="slideshow_1" style="height: 20VW; overflow: hidden; text-align: center; line-height: 304px;margin-bottom: 1em;"></div>
+            <script type="text/javascript">
+                slideshow_view_init('slideshow_1', {
+                    "images": [{% for slide in page.carousel %} {
+                        "url": "{{ slide.url }}",
+                        "src": "{{ slide.src }}",
+                        "quality": "{% if slide.quality %}{{ slide.quality }}{% else %}'90'{% endif %}"
+                     } {% if forloop.last != true %}, {% endif %} {% endfor %}],
+                     "mode": "fade",
+                     "server": "//images.quru.com/"
+                });
+            </script>
+        </div>{% endif %}
+    </div>
+</div> 
+<div class="altblock">
+    <div class="content">
+        {{ content }}
+    </div>
+</div>
+
+{% if page.title == 'About Quru' or page.title == 'What we do' %}{% include whatWeDo.html %}{% endif %}
+    
+{% include whitepapers.html %}{% include products.html %}{% if page.logostrip == 'customers' or page.logostrip == 'vendors' %}{% include logoStrip.html %}{% endif %}
+    
+{% include qurufooter.html %}
+
+{% include footer.html %}

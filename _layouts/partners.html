@@ -1,21 +1,30 @@
 ---
 layout: default
 ---
-<article class="post">
 
-    <header class="post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
-    </header>
+{% assign sectioncount = 1 %}
+<div class="block" {% if page.headingimages != "" %}style="background: {{ page.headingimages }}; background-origin: content-box; height: {{ page.headingheight }};"{% endif %}>
+    <div class='pageheading'>
+        <h1 class="eightws">{{ page.eightws | remove: ',' }}</h1>
+        <div class="heading">{{ page.heading }}</div>
+        {% if page.logo != null %}<div class='vendorLogo'>
+            <a href='https:{{ page.vendorurl }}' target='_new'><img src='{{ page.logo }}&height=320&width=320' alt='{{ page.alt }}'>
+                <div class='tag'>https:{{ page.directurl }}</div>
+            </a>
+        </div>{% endif %}
+    </div>
+</div> 
 
-    <div class="eightws">{{ page.eightws }}</div>
-
-    <div class="post-content">
+{% assign contentsize = content | size %}{% if contentsize >= 10 %}{% assign sectioncount = sectioncount | plus: 1 %}<div class="altblock">
+    <div class="content">
         {{ content }}
     </div>
+</div>{% endif %}
 
-    <div class="post-footer">
-        {% include partnerfooter.html %}
-    </div>
-    {% include footer.html %}
+{% if page.title == 'About Quru' or page.title == 'What we do' %}{% include whatWeDo.html %}{% endif %}
 
-</article>
+{% include products.html %}{% include whitepapers.html %}{% if page.logostrip == 'customers' or page.logostrip == 'vendors' %}{% include logoStrip.html %}{% endif %}
+    
+{% include qurufooter.html %}
+
+{% include footer.html %}

@@ -1,19 +1,23 @@
 ---
 layout: quru
 title: Agile Metal Platform - AMP
+type: product
 menu: AMP
 summary: The cloud deployment drag and drop datacentre management platform
-eightws: Agile design and deployment of hybrid cloud solutions
+eightws: <em>Agile</em> design and <em>deployment</em> of hybrid cloud solutions
 tags:
   - product
 order: 2
 thumbnail:
 headimage:
 index: true
+thumbnail: //images.quru.com/image?src=web/south/amp.jpg&width=276&right=0.89063
+download: 
+index: true
+heading: "Agile Metal Platform (AMP) is a joint development project between Quru and A24.io, a Tokyo based global cloud services company. Quru are currently working to develop AMP into a robust, highly available, scaleable but totally understandable infrastructure management system." 
 
 ---
 
-Agile Metal Platform (AMP) is a joint development project between Quru and A24.io, a Tokyo based global cloud services company. Quru are currently working to develop AMP into a robust, highly available, scaleable but totally understandable infrastructure management system.
 
 ## AMP's history
 

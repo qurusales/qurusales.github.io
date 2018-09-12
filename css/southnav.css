@@ -1,0 +1,257 @@
+/*
+#
+# Quru Web Site
+#
+# Document:      nav.css
+# Date started:  12 July 2012
+# By:            Roland Whitehead
+# Purpose:       The main styling page for the navigation bar
+# Requires:      
+# Help:     For a tutorial on how this works, check out http://www.ourtuts.com/create-a-drop-down-navigation-menu-with-html5-and-css3/
+# 
+# Last Changed:  $Date: 2012-07-11 08:59:34 +0100 (Wed, 11 Jul 2012) $ $Rev: 856 $ by $Author: roland $
+# 
+# Notable modifications:
+# Date       By    Details
+# =========  ====  ============================================================
+# 13Jul2012  RW    New
+# 06Aug2012  RW    Much simpler, maroon style
+# 22Oct2012  RW    Added nodropdown style details
+# 07Feb2013  Matt  Tidied up, added iOS support - no_touch and touch_on classes
+#                  For no_touch, see http://stackoverflow.com/q/2741816/1671320
+#                  iOS bug fix to transitions (transition opacity, not visibility)
+# 21Jun2013  RW    Removed margin-right on #nav
+# 17Apr2014  RW    Reduced padding-right on menus
+*/
+
+/* Main navigation layout */
+
+#nav {}
+
+#navigation {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 2rem;
+    position: absolute;
+}
+
+#navigation li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+ul#navigation li a {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    padding: 1.5rem 1.5rem 1.4rem 0.5rem;
+    height: 100%;
+}
+
+ul#navigation li a:hover {
+    Background: #CCC;
+}
+
+/* @group Dropdowns */
+
+/* Drop-down menu box styles (initially hidden) */
+ul#navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* The next 2 styles are very important,
+       being the ones which default the drop-down menu box to hidden */
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    z-index: 99999;
+    background: #CCC;
+    background-image: none;
+    /* css3 transitions for smooth hover effect */
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+}
+
+/* Show drop-down menu box on no_touch hover,
+   or on (inferred) yes_touch when touched */
+.no_touch ul#navigation li:hover > ul,
+          ul#navigation li.touch_on > ul {
+    /* The next 2 styles are very important,
+       being the ones which show the drop-down menu */
+	visibility: visible;
+    opacity: 1;
+}
+
+/* Show triangle above drop-down menu box on no_touch hover,
+   or on (inferred) yes_touch when touched */
+.no_touch ul#navigation li:hover > a,
+          ul#navigation li.touch_on > a {
+}
+
+/* Support the "nodropdown" class to suppress the triangle */
+.no_touch ul#navigation li:hover > a.nodropdown,
+          ul#navigation li.touch_on > a.nodropdown {
+/*	background-image: none;
+	background: maroon;
+    color: white;
+	padding-bottom: 0em;
+*/}
+
+/* Don't wrap text on drop-down sub-menu items */
+ul#navigation ul li {
+    background: #ccc;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 0;
+}
+
+/* Drop-down sub-menu item styles */
+ul#navigation ul li a {
+    background:none;
+    width: 100%;
+    padding: 1rem 1.2rem 1.5rem 0.8em;
+    color: #333;
+    text-decoration:none;
+    display:inline-block;
+    border:none;
+    float:left;
+    clear:both;
+    white-space: nowrap;
+}
+
+/* Show hover underline on drop-down sub-menu items */
+ul#navigation ul li a:hover {
+	background: maroon;
+    color: white;
+}
+
+a#show_nav {
+    float:   right;
+    display: none;
+    width:  30px;
+    height: 30px;
+    margin-top:   1.5rem;
+    margin-right: 2rem;
+    background-image: url(/css/menu.png);
+}
+
+
+
+/* Responsive layout for small screens (767 == narrower than iPad) */
+
+@media only screen and (max-width: 767px) {
+
+    #nav {
+        display: none;
+        transition: opacity 0.2s linear;
+    }
+
+    a#show_nav {
+        display: inline-block;
+        
+                              
+    }
+
+    #nav.show {
+	    background: white;
+	    max-height:  360%;
+        transition-duration: 1s;
+        display: block;
+        z-index: initial;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;   
+        background-color: rgba(128,0,0,0.75);
+    }
+
+    #nav.show ul, #nav.show ul ul {
+	    list-style-type: none;
+    }
+
+    #navigation {
+        float: none;
+        width: 100%;
+        right: unset;
+        padding-top: 3rem;
+        background-color: rgba(128,0,0,0.75);
+    }
+
+    #navigation li {
+        display: block;
+        float: none;
+        position: normal;
+    }
+
+    #nav.show ul#navigation ul, ul#navigation li a ul.menu_list {
+        display: block;
+        visibility: visible;
+        opacity: 100;
+                           
+    }
+
+    #nav.show ul#navigation li, ul#navigation li a ul.menu_list li {
+	    margin: 0;
+ 	    border: none;
+	    padding: 0;
+        visibility: visible;
+        opacity: 100;
+    }
+
+    ul#navigation li a, ul#navigation li a ul.menu_list li a {
+        display: inline-block;
+        color: white;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 0.5rem 0 0.5rem 2rem;
+        width: 100%;
+    }
+
+    ul#navigation li a:hover {
+        background: maroon;
+    }
+
+/* Drop-down menu box styles (initially hidden) */
+ul#navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* The next 2 styles are very important,
+       being the ones which default the drop-down menu box to hidden */
+    visibility: visible;
+    opacity: 1;
+    z-index: initial;
+    background: none;
+    position: static;
+}
+
+
+/* Don't wrap text on drop-down sub-menu items */
+ul#navigation ul li {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 0;
+    background: none;
+}
+
+/* Drop-down sub-menu item styles */
+ul#navigation ul li a {
+    background:none;
+    color: white;
+    width: 100%;
+    padding: 0.5rem 0rem 0.5rem 4rem;
+    text-decoration:none;
+    display: block;
+    border: none;
+    float: none;
+    white-space: nowrap;
+}
+    
+
+}

@@ -4,22 +4,8 @@
   {% include head.html %}
 
   <body class="no_touch">
-
     {% include header.html %}
-
-    
-    <div id="content">
-      <div id="story">
-        {{ content }}
-      </div>
-
-      <div id="sidebar">
-        {% include seealso.html %}
-        {% include whitepapers.html %}
-        {% include contact_us.html %}
-        {% include sidelogo.html %}
-      </div>
-    </div>
+    {{ content }}
   </body>
 
 </html>

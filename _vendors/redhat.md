@@ -2,28 +2,36 @@
 layout: vendors
 menu: Red Hat
 title: Red Hat UK Premier Partner - enterprise Linux & open source subscriptions
-eightws: The world's leading open source company and community
+eightws: Giving <em>enterprise</em> the best <em>open source</em> products and community
 summary: Quru is a premier partner for Red Hat and leads on a number of infrastructure technologies including Ansible, OpenShift and Virtualisation.
 tags:
   - vendor
   - RedHat
+whitepapertag: redhat
 order: 9
 logo: //images.quru.com/image?src=/web/logos/RHBusPremierLogo_RGB.png
-headimage:
+alt: Quru are a Red Hat Premier Partner
 index: true
-logos:
-  - logo: //images.quru.com/image?src=/web/RH_Tiers_Premier_Partner_RGB.png&height=100&left=0.20625&right=0.79375&top=0.12621&bottom=0.84951
-    url: http://www.redhat.com/
+vendorurl: //www.redhat.com/
+heading: "Quru is one the fastest-growing Red Hat solution providers in the UK. We’re an award-winning Red Hat Premier Partner and part of a select global group that has deep skills in Enterprise Linux and across the whole Red Hat Portfolio. We hold the highest level of accreditations across Red Hat Virtualisation (RHV) and Red Hat Storage."
 
 ---
-<!-- heading: Red Hat UK Premier Partner -->
 
-<div id="image" style="float:right;"><img class="clickable" src="http://images.quru.com/image?src=/web/logos/RHBusPremierLogo_RGB.png&width=300" title="Red Hat" alt="Quru are a Red Hat Premier Partner"></div>
 
-Quru is the fastest-growing Red Hat solution provider based in London, UK. We're an award winning Red Hat Premier Partner and part of a select group of global Red Hat partners that possess deep skills in Enterprise Linux and, more importantly, across the whole Red Hat Portfolio. As a demonstration of commitment to our partnership with Red Hat, we have attained the highest level of accreditations across Red Hat Enterprise Virtualisation (RHEV), Red Hat Grid, Red Hat Realtime and Red Hat Storage.
+## Red Hat Products
 
-<ul class="menu_list">
-	{% assign contents = site.redhat | sort: 'order' %}{% for v in contents %}{% if v.index == true %}<li><a href="{{ v.url | prepend: site.baseurl}}">{{ v.menu }}</a></li>{% endif %}{% endfor %}
+We are technical experts with real-world experience across the Red Hat portfolio: 
+
+<ul class='vendors'>
+    {% assign sorted_posts = site.redhat | sort: 'order' %}{% for p in sorted_posts %}{% if p.title != "Vendor partners" %}{% if p.index %}<li>
+        <figure>
+            <a href='{{ p.url }}' class='logo'><img src='{{ p.logo }}&width=212&height=212&format=png' border='0' alt='{{ p.title }}'></a>
+            <figcaption class="text">
+                <a href='{{ p.url }}'>
+                    <h3>{{ p.menu }}</h3>
+                    <p>{{ p.summary }}</p>
+                </a>
+            </figcaption>
+        </figure>
+     </li>{% endif %}{% endif %}{% endfor %}
 </ul>
-
-*Request a call back to find out more.*

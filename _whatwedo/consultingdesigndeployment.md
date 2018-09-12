@@ -1,22 +1,23 @@
 ---
-layout: quru
+layout: whatwedo
 title: Consulting, design and deployment
 menu: Consulting, design & deployment
 summary: Quru designs and implements infrastructure solutions that make open source solutions work for business.
-eightws: Deploying robust large scale application and infrastructure solutions
+eightws: <em>Deploying robust</em> large scale application and infrastructure <em>solutions</em>
 tags:
-  - software
-  - development
+  - consulting
+  - linux
+whitepapertag: consulting
 order: 2
-thumbnail:
+thumbnail: //images.quru.com/image?src=/web/south/Consulting.png
 headimage:
 index: true
-
+logostrip: customers
+stripfilter: consulting
+heading: <p>Quru designs and implements infrastructure solutions that make open source solutions work for business.  As premium partners of the key open source vendors in the UK, Quru has a team of experienced certified solutions architects that work directly and indirectly via our partners to help exploit the potential delivered by 3<sup>rd</sup> party solutions.</p><p>We use established processes and our own proven methodologies to build a detailed picture of a specific aspect the client's infrastructure, applications or services. This leads to our Linux Infrastructure Design Services and the development of the detailed solution. Build and deployment is undertaken through our portfolio of Linux Implementation Services, with full documentation and training.</p>
+headingimages: url('https://images.quru.com/image?src=web/south/fr_cloud.png&width=1600&fill=none&format=png') center bottom no-repeat, url('https://images.quru.com/image?src=web/south/mid_mountains.png&width=1600') center bottom no-repeat, url('https://images.quru.com/image?src=web/south/bg_cloud.png&fill=none&format=png&width=1600') center bottom no-repeat, url('https://images.quru.com/image?src=web/south/bg_mountain.png&width=1600&fill=none&format=png') center bottom no-repeat
+headingheight: 18rem
 ---
-
-Quru designs and implements infrastructure solutions that make open source solutions work for business.  As premium partners of the key open source vendors in the UK, Quru has a team of experienced certified solutions architects that work directly and indirectly via our partners to help exploit the potential delivered by 3<sup>rd</sup> party solutions.
-
-We use established processes and our own proven methodologies to build a detailed picture of a specific aspect of the client's infrastructure, applications or services. This leads to our Linux Infrastructure Design Services and the development of the detailed solution. Build and deployment is undertaken through our portfolio of Linux Implementation Services, with full documentation and training.
 
 {% comment %}
 To read about clients that we have worked for including City Sprint, EasyJet and Tesco review our [case studies](/resources/whitepapers.html).

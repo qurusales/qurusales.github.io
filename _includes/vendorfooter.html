@@ -1,5 +1,7 @@
-<div id='About'>
-<hr>
-<h3>About Quru</h3>
-<p>Quru work closely with vendors to establish their presence in the UK market and promote their ongoing innovations to our client base of over 500. Our relationship with them is unrelentingly technical which allows us to fully understand the wider implications and opportunities arising when embedding solutions both into enterprise partners’ deployments and into software developed by Quru. <a href="/resources/aboutus.html" id="morelink">More...</a></p>
-</div>
+{% assign sectioncount = sectioncount | plus: 1 %} {% assign alt = sectioncount | modulo: 2 %}
+<div class="{% if alt == 0 %}alt{% endif %}block">
+    <div id='About'{% if alt == 0 %}class='alt'{% endif %}>
+        <h3 class='About{% if alt == 0 %} alt{% endif %}'>About Quru</h3>
+        <p>Quru work closely with vendors to establish their presence in the UK market and promote their ongoing innovations to our client base of over 500. Our relationship with them is unrelentingly technical which allows us to fully understand the wider implications and opportunities arising when embedding solutions both into enterprise partners’ deployments and into software developed by Quru. <a href="/resources/aboutus.html" id="morelink">More...</a></p>
+    </div>
+<div>

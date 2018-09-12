@@ -6,10 +6,13 @@ eightws: Design, develop & distribute enterprise open source solutions
 tags:
   - client
   - consulting
+whitepapertag: easyjet
 order: 4
 thumbnail:
 headimage:
 index: true
+logo: //images.quru.com/image?src=/web/logos/easyjet.png
+directurl: //www.easyjet.com
 
 ---
 

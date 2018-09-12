@@ -1,24 +1,83 @@
-<div class="clear"></div>
-<div id="footer">
-  {% assign current_directory = page.url | downcase | split:'/' %}
-
-    <div class="column" id="footerColumn1">
-    <ul>
-      <li><a href="/whatwedo/">{% if current_directory[1] == "whatwedo" %}<strong>What we do</strong>{% else %}What we do{% endif %}</a></li>
-      <li><a href="/vendors/">{% if current_directory[1] == "vendors" %}<strong>Open source vendors</strong>{% else %}Open source vendors{% endif %}</a></li>
-      <li><a href="/products/">{% if current_directory[1] == "products" %}<strong>Products</strong>{% else %}Products{% endif %}</a></li>
-      <li><a href="/resources/">{% if current_directory[1] == "resources" %}<strong>Resources</strong>{% else %}Resources{% endif %}</a></li>
-    </ul>
-  </div>
-  <div class="column" id="footerColumn2">
-    <ul class="menu_list">
+<div id="footerblock">
+    <div id="footer">{% assign current_directory = page.url | downcase | split:'/' %}
+        <div class="column" id="footerColumn1">
+            <ul>
+                <li><a href="/">{% if current_directory[1] == "" %}<strong>Quru</strong>{% else %}Quru{% endif %}</a></li>
+                <li class="telephone"><!--<a href="/resources/contactus.html"><img src="/css/contactwhite.png" alt="T: " width="14px">-->+44 20 7160 2888</a></li>
+                <li>&nbsp;</li>
+                <li><a href="/resources/dataprotection.html">Data protection</a></li>
+             </ul>
+    
+        </div>
+        <div class="column" id="footerColumn2">
+            <ul>
+                <li><a href="/whatwedo/">{% if current_directory[1] == "whatwedo" %}<strong>What we do</strong>{% else %}What we do{% endif %}</a></li>
+                <li><a href="/vendors/">{% if current_directory[1] == "vendors" or current_directory[1] == "redhat" %}<strong>Open source partners</strong>{% else %}Open source partners{% endif %}</a></li>
+                 <li><a href="/products/">{% if current_directory[1] == "products" %}<strong>Products</strong>{% else %}Products{% endif %}</a></li>
+                 <li><a href="/resources/">{% if current_directory[1] == "resources" %}<strong>Resources</strong>{% else %}Resources{% endif %}</a></li>
+            </ul>
+        </div>
+        <div class="column" id="footerColumn3">
+            <ul class="menu_list">
        {% if current_directory[1] == "whatwedo" %}{% assign contents = site.whatwedo | sort: 'order' %}
        {% elsif current_directory[1] == "vendors" %}{% assign contents = site.vendors | sort: 'order' %}
+       {% elsif current_directory[1] == "redhat" %}{% assign contents = site.vendors | sort: 'order' %}
        {% elsif current_directory[1] == "products" %}{% assign contents = site.products | sort: 'order' %}
        {% elsif current_directory[1] == "resources" %}{% assign contents = site.resources | sort: 'order' %}
        {% endif %}
-       {% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url | prepend: site.baseurl }}">{% if page.url == p.url %}<strong>{{ p.menu }}</strong>{% else %}{{ p.menu }}{% endif %}</a></li>{% endif %}{% endfor %}
-    </ul>
-  </div>
-  <div class="clear"></div>
+                {% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url | prepend: site.baseurl }}">{% if page.url == p.url or current_directory[1] == "redhat" and p.menu == "Red Hat" %}<strong>{{ p.menu }}</strong>{% else %}{{ p.menu }}{% endif %}</a></li>{% endif %}{% endfor %}
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
 </div> 
+
+<script type="text/javascript">
+    function ready(fn) {
+        if (document.addEventListener) {
+          document.addEventListener('DOMContentLoaded', fn);
+        } else {
+          document.attachEvent('onreadystatechange', function() {
+              if (document.readyState === 'interactive')
+                fn();
+          });
+        }
+    }
+
+    ready(function() {
+          
+          /* add other stuff */
+
+
+          /*if (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0) || (true)) {*/
+          if (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)) {
+              /* browser with either Touch Events of Pointer Events running on touch-capable device */
+              var b = document.getElementsByTagName('body');
+              if (b.length > 0) {
+                  if (b[0].classList) {
+                      b[0].classList.add('touch');
+                  } else {
+                      b[0].className += ' ' + 'touch';
+                  }
+              }
+              qAddEventListener(document.getElementById('show_nav'), 'click', show_nav);
+              qAddEventListener(document.getElementById('show_nav'), 'touchend', show_nav);
+           } else {
+              qAddEventListener(document.getElementById('show_nav'), 'click', show_nav);
+        }
+      });
+
+
+
+    </script>
+
+    <!--[if lte IE 8]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <noscript>
+        <div class="noscript">
+	    <p>This site requires JavaScript. Please enable JavaScript in you browser settings.</p>
+	</div>
+    </noscript>
+    

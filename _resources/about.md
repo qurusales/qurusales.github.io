@@ -3,7 +3,7 @@ layout: quru
 menu: About us
 title: About Quru
 summary: Quru is the leading open source product and software design and development team in Europe
-eightws: Design and development of open source applications and infrastructure
+eightws: <em>Design and development</em> of open source applications and infrastructure
 tags:
   - quru
 order: 1
@@ -33,10 +33,14 @@ headimage:
 
 
 
-Quru was established in 2008 as an innovative design and development house.  
+Quru was established in 2008 as an innovative design and development house.
 
-In the last 10 years there have been huge changes in software application development including the rise of mobile, the acceleration of enterprise adoption of open source technologies and the emergence of cloud.  
+In the last 10 years there have been huge changes in software application development including the rise of mobile, the acceleration of enterprise adoption of open source technologies and the emergence of cloud.
 
 We are now actively working with secure private cloud , distributed ledger (blockchain) and machine learning/ AI technologies to help our clients remain well ahead of their competitors.
 
 The company is headed by its founder Roland Whitehead.
+
+Quru is registered in England with company number 6144978.  
+It's VAT number is GB 910 1047 84. It's D-U-N-S number is 219631400.  
+Quru's registered address is Millmead, Pulborough, RH20 1AG  

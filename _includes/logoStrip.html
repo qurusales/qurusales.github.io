@@ -1,0 +1,12 @@
+{% assign sectioncount = sectioncount | plus: 1 %}
+       <div class="{% assign alt = sectioncount | modulo: 2 %}{% if alt == 0 %} alt{% endif %}block">
+        <div class="logostrip {{ page.logostrip }}">
+        <!-- https://coderwall.com/p/vsdrug/how-to-create-an-image-slider-with-javascript-->
+            <div class="logo-wrapper">
+                <ul id="image-slider">
+                    {% if page.logostrip == 'customers' %}{% assign sorted_posts = site.partners | sort: 'order' %}{% elsif page.logostrip == 'vendors' %}{% assign sorted_posts = site.vendors | sort: 'order' %}{% else %}{% assign sorted_posts = '' %}{% endif %}{% for p in sorted_posts %}
+            {% if p.index %}{% if p.tags contains page.stripfilter or page.stripfilter == Null %}<li><a class="logo" href="{{ p.url }}"><img src="{{ p.logo }}&width=160&height=160&autosizefit=0&format=png&fill=none" alt='{{ p.title }}'></a></li>{% endif %}{% endif %}{% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>

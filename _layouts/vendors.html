@@ -1,21 +1,29 @@
 ---
 layout: default
 ---
-<article class="post">
 
-    <header class="post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
-    </header>
+<div class="block">
+    <div class="pageheading">
+        {% assign sectioncount = 2 %}
+        <h1 class="eightws">{{ page.eightws | remove: ',' }}</h1>
 
-    <div class="eightws">{{ page.eightws }}</div>
-
-    <div class="post-content">
+        <div class='heading'>{{ page.heading }}</div>
+    </div>
+</div>
+<div class="altblock">    
+    <div class="content alt">
+        {% if page.logo != null %}<div class='vendorLogo'>
+            <a href='https:{{ page.vendorurl }}' target='_new'><img src='{{ page.logo }}&height=320&width=320' alt='{{ page.alt }}'>
+                <div class='tag'>https:{{ page.vendorurl }}</div>
+            </a>
+        </div>{% endif %}
         {{ content }}
+        {% assign quotedone = false %}{% for q in page.quotes %}{% if quotedone == false %}<h2>{{ q.heading }}</h2>{% assign quotedone = true %}{% endif %}
+        <div class='quote'>
+            <div class='quotebody'>{{ q.quote }}</div>
+            <div class='quoteby'>{{ q.by }}</div>
+        </div>{% endfor %}
     </div>
+</div>
 
-    <div class="post-footer">
-        {% include vendorfooter.html %}
-    </div>
-    {% include footer.html %}
-
-</article>
+{% include whitepapers.html %} {% include vendorfooter.html %} {% include footer.html %}

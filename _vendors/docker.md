@@ -3,42 +3,32 @@ layout: vendors
 menu: Docker
 title: Docker container solutions & subscriptions
 summary: DevOPs teams can build, ship, and run any app, anywhere
-eightws: Freedom to create and deploy applications quickly and easily
+eightws: Building application <em>deployments in containers</em> on every platform
 tags:
   - vendor
+whitepapertag: docker
 order: 4
-thumbnail:
-headimage:
 index: true
-logos:
-  - logo: "//images.quru.com/image?src=web/logos/Docker-logo.jpg&width=110"
-    url: "https://www.docker.com"
+logo: "//images.quru.com/image?src=web/logos/docker.png"
+vendorurl: "//www.docker.com"
+alt: "Quru are Docker's UK partner"
+heading: "Docker has led the container revolution and its leading technology has been incorporated into many competitive products. </p><p>Historically, server virtualization represented a major step forward, enabling consolidation of workloads from multiple applications to run on the same hardware. However, virtual server instances still require deployment of individual operating systems, the application and the workload. Multi-tier applications that don't work well together need to be deployed in separate virtual machines, separately managed, monitored and backed-up. Containers enable applications to be held in much smaller packages that share an underlying Operating System, which is more efficient.</p><p>Docker has the flexibility to accommodate combinations of Windows and Linux based container deployments across multiple operating systems.  We have been application developers for many years and in our experience Docker is the industry standard container technology for efficiently built, managed secure applications and micro-services, deployed at scale.</p>"
+quotes:
+  - quote: The Docker Enterprise container platform provides 300% faster time to delivery; 40% reduction in cost via better server utilization and lower licensing costs; 70% increase in resolving customer issues. The combination of reduced costs and getting new solutions to market faster is something that our clients can’t ignore.
+    heading: Faster to delivery, cheaper to run
+    by: Quru
 ---
 
-<div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="http://images.quru.com/image?src=web/logos/dockerbadge.jpg" title="Docker" alt="Quru are Docker's UK partner"> </div>
+## What Docker say
 
-Docker provides an integrated technology suite that enables development and IT operations teams to build, ship, and run distributed applications anywhere.
+Docker provides container software that is ideal for developers and teams experimenting with container-based applications. Docker Desktop provides an integrated container-native development experience; it launches as an application from your Mac or Windows toolbar and provides access to the largest library of community and certified Linux and Windows content from Docker Hub. 
 
-Docker allows you to package an application with all of its dependencies into a standardized unit for software development. Docker containers wrap up a piece of software in a complete filesystem that contains everything it needs to run: code, runtime, system tools, system libraries – anything you can install on a server. This guarantees that it will always run the same on any computer, on any infrastructure and in any cloud.
+Docker Enterprise eliminates risk by enabling you to start big or small, with legacy or new applications, using any operational model, on any OS, across any infrastructure, whether it be on prem or across multiple clouds with the same Docker experience throughout.
 
-Agility - Docker gives developers the freedom to define environments, create and deploy applications faster and easier, and the flexibility for IT to respond to change.
+It unifies processes across any architecture, while aligning with existing IT operations so organizations can get applications to market faster, reduce TCO and ease the adoption of new technology as business needs evolve over time. 
 
-Control - Docker enables developers to own all the code from infrastructure to application and IT to standardize, secure and scale the operating environment.
+Enterprise incorporates security at every step of the application delivery lifecycle without getting in your way or adding extra cost. Applications receive greater protection while maintaining performance, improving governance and enabling policy-driven automation.
 
-Portability - Docker gives you choice without complexity, from a laptop to a team, to private infrastructure and public cloud providers.
+Docker originated in a Linux world but delivers the capability to deploy containers on Windows, and Linux variants including Red Hat, SuSe and Ubuntu. Companies that use both Windows and Linux or that are moving towards increased use of Linux, are able to gain the same benefits of agility, scale and resiliency for workloads on both platforms in a hybrid environment.
 
-## Open and secure
-
-Docker containers are based on open standards and run on all major Linux distributions and Microsoft operating systems with support for every infrastructure.
-
-In addition, if containers are running on a single machine, they all share the same operating system kernel so they start instantly and make more efficient use of RAM. Images are constructed from layered filesystems so they can share common files, making disk usage and image downloads much more efficient. Critically, containers isolate applications from each other and the underlying infrastructure thereby providing an added layer of protection for the application.
-
-## Accelerate development
-
-Save time by using Docker to take copies of your live environment and run them on any new endpoint running Docker. Also, because applications are isolated, developers can use the best language and tools for their needs without worrying about using ‘approved’ language stacks and tooling.
-
-By packaging up the application with its configs and dependencies and shipping as a container, the application will always work as designed locally, on another machine, in test or production. No more worries about having to install the same configs into a different environment, Docker creates a common framework for developers and sysadmins to work together on distributed applications and dynamically change applications - adding new capabilities, scaling out services or resolving any issues.
-
-Docker’s research has found that users on average ship x7 more software after deploying Docker in their environment, thereby delivering more value to customers faster. If you want to help your DevOps team be even more productive, let’s talk about how Docker can help your business.
-
-*Request a call back to find out more.*
+Docker therefore gives developers and SysOps the freedom to build, manage and secure business-critical applications without the fear of technology or infrastructure lock-in.

@@ -3,35 +3,32 @@ layout: vendors
 menu: NGINX
 title: NGINX
 summary: Web application servers, caches and software defined load-balancers with monitoring and microservice deployment
-eightws: Proxy, load-balancer, application server and microservices web platform
+eightws: Serving secure load balanced <em>websites</em> inexpensively <em>at scale</em>
+index: true
 tags:
   - vendor
 order: 8
-thumbnail:
-headimage:
-index: true
-logos:
-  - logo: //images.quru.com/image?src=web/logos/nginx.jpg&width=110
-    url: https://nginx.com
+logo: //images.quru.com/image?src=web/logos/nginx.jpg
+vendorurl: //www.nginx.com
+alt: "Quru are NGINX's UK partner"
+heading: "<p>As sole UK partner for NGINX, we deliver an easy-to-configure, cost-effective and fast software solution to the solve the limitations of existing webservers. We have successfully helped clients migrate from hardware based load balancers to NGiNX Plus as well as migrating web servers and cacheing solutions.  The subsequent deployments deliver superior levels of content cache management, web application firewall and resulting performance. Because there are no dedicated hardware requirements the resulting ROI is very strong.</p><p>Today, when organisations ask us to improve the load balancing performance of their webservers and performance of their websites, we recommend NGiNX Plus. It works across web servers, applications and micro-services, is efficient, inexpensive and allows a high level of scale.</p>"
+quotes:
+  - quote: "Quru is the preferred NGINX partner for the UK. Quru has extensive experience in building IT infrastructure using enterprise open source, with impressive and proven results across the UK market, Quru have the skills to take organisations of all sizes by the hand and lead them through the digital transformation phase from Infrastructure to Application Platforms.<br/><br/>As part of the NGINX partner ecosystem, Quru can leverage the power and performance of the NGINX Application Platform to help deliver applications, modernise solutions, and support customers journey in the digital transformation to Containers and cloud initiatives."
+    heading: Extensive experience in IT infrastructure
+    by: Klaus Oxdal, EMEA Channel Director, NGINX
 ---
 
-<div id="image" style="float: right; padding: 20px 20px"> <img class="clickable" src="//images.quru.com/image?src=web/logos/nginx.jpg&width=300&top=0.3&bottom=0.7" title="NGINX" alt="Quru are NGINX's UK partner"> </div>
+## Mission control for your web application
 
-High performance load balancer, webserver and content cache
-NGINX has earnt a reputation as the web server for modern web sites, applications and microservices - lightweight, easily configured and fast. But there is a commercial version of NGINX that adds enterprise grade support and added features including session persistence, monitoring, configuration API and even more performance options.
+NGiNX Plus enables a very high level of website performance – it accelerates content and application delivery, improves security and facilitates availability and scalability. 
 
-As NGINX's UK partner we can help you understand the NGINX portfolio, give you advice on which solutions would be suit your needs or provide you with the technical services to get your NGINX solution up and running.
+NGiNX Plus is a software load balancer, web server, and content cache built on top of open source NGiNX. NGiNX Plus has exclusive production‑ready features on top of what's available in the open source offering, including session persistence, configuration via API, and active health checks. Use NGiNX Plus instead of your hardware load balancer and get the freedom to innovate without being constrained by infrastructure.
 
-For more information on NGINX Plus please visit nginx.com or give us a call.
+* Save more than 80% compared to hardware ADCs, without sacrificing performance or functionality
+* Deploy anywhere: public cloud, private cloud, bare metal, virtual machines, and containers
+* Save time by performing common tasks through the built‑in NGINX Plus API
 
-Mission control for your web application
-NGINX Controller will help you monitor and manage your NGINX estate from a single pain. With a full API we have successfully managed to connect NGINX Controller to other monitoring systems to provide you with an n-tier monitoring and management solution that, with blue-green control, will keep your web infrastructure at peak performance without your customers being impacted.
 
-For more information on NGINX Controller please visit nginx.com or give us a call.
+## Efficient microservices server through NGINX Unit
 
-Efficient microservices server through NGINX Unit
 A core requirement for microservices is a small, lightweight but very efficient web and application server - specifically the demand that NGINX Unit has been built to fulfil. Currently at Beta, Unit can be used to deploy distributed solutions with no service disruptions. NGINX Unit will serve applications written in multiple languages including Go, PHP 5 or 7, Python 2.7 or 3 all on the same server.
-
-For more details and to download the Beta please visit nginx.com and we would be delighted to discuss what this could do for you.
-
-*Request a call back to find out more.*

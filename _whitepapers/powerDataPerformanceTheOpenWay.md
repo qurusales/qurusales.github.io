@@ -12,7 +12,9 @@ order: 50
 logos: 
   - //images.quru.com/image?src=web/logos/mariadb.jpg&width=80
   - //images.quru.com/image?src=/web/logos/power8.png&width=80
-headimage: //images.quru.com/image?src=web/MariaDB_Power8-presenter-2016.pdf&width=450&format=jpg
+thumbnail: //images.quru.com/image?src=/web/MariaDBonPower8.pdf&width=276&height=207&bottom=0.32188&right=0.74009&left=0.26432&top=0.06875
+download: //images.quru.com/original?src=web/MariaDB_Power8-presenter-2016.pdf
+image: //images.quru.com/image?src=web/MariaDB_Power8-presenter-2016.pdf&width=450
 index: true
 ---
 
