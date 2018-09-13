@@ -7,6 +7,7 @@ eightws: <em>Increase</em> the <em>reliability</em> of infrastructure and databa
 summary: Consolidation of services onto Red Hat RHV requires a DR solution to replicate services across data-centers spanning the US
 tags:
   - rhl
+  - rhv
   - redhat
   - bonhams
 order: 10
