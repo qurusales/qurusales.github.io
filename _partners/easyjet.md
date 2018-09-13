@@ -10,7 +10,7 @@ whitepapertag: easyjet
 order: 4
 thumbnail:
 headimage:
-index: true
+index: false
 logo: //images.quru.com/image?src=/web/logos/easyjet.png
 directurl: //www.easyjet.com
 
