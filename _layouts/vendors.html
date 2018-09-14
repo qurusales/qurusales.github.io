@@ -18,11 +18,11 @@ layout: default
             </a>
         </div>{% endif %}
         {{ content }}
-        {% assign quotedone = false %}{% for q in page.quotes %}{% if quotedone == false %}<h2>{{ q.heading }}</h2>{% assign quotedone = true %}{% endif %}
-        <div class='quote'>
+        {% assign quotedone = false %}{% for q in page.quotes %}{% if quotedone == false %}<h2>{{ q.heading }}</h2>
+            <div class='quote'>{% assign quotedone = true %}{% endif %}
             <div class='quotebody'>{{ q.quote }}</div>
             <div class='quoteby'>{{ q.by }}</div>
-        </div>{% endfor %}
+       {% endfor %} </div>
     </div>
 </div>
 

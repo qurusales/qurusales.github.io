@@ -302,7 +302,7 @@ ul.vendors a:hover .text {
 }
 
 .quote {
-    padding-top: 2rem;
+    padding-top: 0;
     padding-bottom: 4rem;
 }
 
@@ -316,6 +316,10 @@ ul.vendors a:hover .text {
 
 .quotebody:after {
     content: "\201D"
+}
+
+.quoteby {
+    padding-bottom: 1.5rem;
 }
 
 .alt {
