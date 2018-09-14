@@ -2,12 +2,13 @@
 layout: whitepapers
 menu: Power data performance the open way
 title: Power data performance the open way
+type: whitepapers
 heading: 
 summary: Quru is a premier partner for Red Hat and leads on a number of infrastructure technologies including Ansible, OpenShift and Virtualisation. Quru will always give best advice and can reduce your infrastructure costs.
 tags:
-  - IBM
-  - Power8
-  - MariaDB
+  - ibm
+  - power8
+  - mariadb
 order: 50
 logos: 
   - //images.quru.com/image?src=web/logos/mariadb.jpg&width=80

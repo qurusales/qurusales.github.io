@@ -9,7 +9,7 @@ tags:
   - redhat
   - virtualisation
   - vistualization
-whitepapertag: rhev
+whitepapertag: rhv
 order: 10
 logo: //images.quru.com/image?src=web/logos/Logo_RH_Virtualization_RGB_Black.png
 alt: Quru are Virtualization specialists

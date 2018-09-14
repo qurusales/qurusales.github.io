@@ -7,7 +7,7 @@ eightws:  Dual vendor is the <em>smart</em> thinking on <em>virtualization</em>
 summary: Quru is a premier partner for Red Hat and leads on a number of infrastructure technologies including Ansible, OpenShift and Virtualisation. Quru will always give best advice and can reduce your infrastructure costs.
 tags:
   - redhat
-  - rhev
+  - rhv
   - virtualisation
 order: 50
 thumbnail: //images.quru.com/image?src=/whitepapers/Dual%20vendor%20virtualization%20WP.pdf.d/page-00001.png&bottom=0.30312&right=0.48899&left=0.04405&top=0.06875

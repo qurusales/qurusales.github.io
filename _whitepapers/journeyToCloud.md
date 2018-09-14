@@ -1,8 +1,8 @@
 ---
 layout: whitepapers
 type: whitepapers
-menu: The Journey from virtualization to the cloud
-title: The Journey from virtualization to the cloud
+menu: The journey from virtualization to the cloud
+title: The journey from virtualization to the cloud
 eightws: Taking back control of <em>Hybrid Cloud</em> deployments
 summary: Hybrid cloud solutions appear to offer the best of both worlds – IT retain control of data in a private cloud and can utilise public cloud providers that offer a way to buy computing capacity using Opex. 
 tags:

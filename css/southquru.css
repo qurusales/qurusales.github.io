@@ -205,13 +205,13 @@ h5
     margin-bottom: 0;
 }
 
-.content ul:not(.vendors) li, .heading ul:not(.vendors) li {
+.content ul:not(.vendors .whitepapers) li, .heading ul:not(.vendors) li {
     list-style-position: inside;
     text-indent: -1.2em;
     padding-left: 1.5em;
 }
 
-.content ul:not(.vendors) li::before, .heading ul li::before {
+.content ul:not(.vendors .whitepapers) li::before, .heading ul li::before {
     content: "\25AA";
     color: maroon;
     display: inline-block;
@@ -591,8 +591,20 @@ img.whitepaper {
     padding: 1rem 1.2rem;
 }
 
-.whitepapers figure figcaption {
+.whitepapers .figure figcaption {
     height: 5rem;
+}
+
+.whitepapers.resources figcaption {
+    height: 18rem;
+}
+
+.whitepapers.resources figcaption a {
+    color: black;
+}
+
+.whitepapers.resources figcaption a:hover {
+    color: white;
 }
 
 .whitepapers.alt li:hover h3, .whitepapers.alt li:hover .tag {
