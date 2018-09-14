@@ -13,7 +13,7 @@ index: true
 headimage:
 logostrip: customers
 stripfilter: subscriptions
-heading: <p>Quru specifies and supports sales of vendor software solutions from the [key global open source companies](/vendors/ "Quru's vendor partners"). We supply open source 3<sup>rd</sup> party solutions that allow companies to deploy and manage business grade infrastructure and applications. We have a history of saving clients substantial costs by ensuring that they have the right open source subscriptions for their needs.</p>
+heading: <p>Quru specifies and supports sales of vendor software solutions from the <a href="/vendors">key global open source companies</a>. We supply open source 3<sup>rd</sup> party solutions that allow companies to deploy and manage business grade infrastructure and applications. We have a history of saving clients substantial costs by ensuring that they have the right open source subscriptions for their needs.</p>
 ---
 
 ## The most technically competent open source solution sales team

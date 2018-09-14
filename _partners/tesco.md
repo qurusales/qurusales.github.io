@@ -11,8 +11,8 @@ order: 6
 thumbnail:
 headimage:
 index: true
-logo: //images.quru.com/image?src=/web/logos/tesco.png
-directurl: bananas
+logo: '//images.quru.com/image?src=/web/logos/tesco.png'
+directurl: '//www.tesco.com'
 heading: <p>Tesco is the largest retailer in the UK with over 3000 stores, and a significant online presence. They serve 66 customers every second and their key goal is to ensure that each of those customers experiences better service on each visit. Quru has supported Tesco in building out their standardised operating environment and managing their Red Hat estate.</p>
 ---
 
