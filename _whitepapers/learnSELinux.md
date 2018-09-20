@@ -7,6 +7,7 @@ eightws: Setenforce 0 is <em>not</em> the way to do it
 summary: When Red Hat stopped providing their excellent security training for Enterprise Linux, there suddenly was no official channel for learning security staple SELinux. Quru&rsquo;s lead consultant James Freeman stepped in and wrote this excellent tutorial.
 tags:
   - rhl
+  - rhel
   - redhat
 order: 60
 thumbnail: //images.quru.com/image?src=/web/wade-lambert-681499-unsplash.jpg&right=0.99688&left=0.10625
