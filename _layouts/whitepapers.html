@@ -10,9 +10,9 @@ layout: default
     </div>
 </div>
 <div class="altblock">
-    <div class="content whitepaper alt"{% if page.download != null %}style='min-height: 650px;'{% endif %}>
-        {% if page.download != null %}<div class='whitepaperdownload'>
-            <a href='https:{{ page.download }}&attach=1' target='_new'><img class='clickable whitepaper' src='{{ page.image }}&width=450&format=png' alt='{{ page.title }}' align='right'></a></div>{% endif %}
+    <div class="content whitepaper alt"{% if page.download != null or page.link != null %}style='min-height: 650px;'{% endif %}>
+        <div class='whitepaperdownload'>
+            {% if page.download != null or page.link != null %}<a href='{% if page.download != null %}https:{{ page.download }}&attach=1{% elsif page.link != null %}{{ page.link }}{% endif %}' target='_new'><img class='clickable whitepaper' src='{{ page.image }}&width=450&format=png' alt='{{ page.title }}' align='right'></a></div>{% endif %}
         {{ content }}
     </div>
 </div>
