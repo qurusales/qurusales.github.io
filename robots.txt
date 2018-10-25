@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://www.quru.com/sitemap.xml

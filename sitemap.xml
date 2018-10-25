@@ -1,0 +1,40 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for post in site.partners %}
+    {% if post.index %}<url>
+        <loc>{{site.url}}{{ post.url | remove: 'index.html' }}</loc>
+    </url>{% endif %}
+    {% endfor %}
+
+    {% for post in site.products %}
+    {% if post.index %}<url>
+        <loc>{{site.url}}{{ post.url | remove: 'index.html' }}</loc>
+    </url>{% endif %}
+    {% endfor %}
+
+    {% for post in site.redhat %}
+    {% if post.index %}<url>
+        <loc>{{site.url}}{{ post.url | remove: 'index.html' }}</loc>
+    </url>{% endif %}
+    {% endfor %}
+
+    {% for post in site.vendors %}
+    {% if post.index %}<url>
+        <loc>{{site.url}}{{ post.url | remove: 'index.html' }}</loc>
+    </url>{% endif %}
+    {% endfor %}
+    {% for post in site.whatwedo %}
+    {% if post.index %}<url>
+        <loc>{{site.url}}{{ post.url | remove: 'index.html' }}</loc>
+    </url>{% endif %}
+    {% endfor %}
+
+    {% for post in site.whitepapers %}
+    {% if post.index %}<url>
+        <loc>{{site.url}}{{ post.url | remove: 'index.html' }}</loc>
+    </url>{% endif %}
+    {% endfor %}
+
+</urlset>
