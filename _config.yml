@@ -13,15 +13,15 @@ description: >
   implements enterprise business solutions. Quru also supplies IT services to several
   customers including international auction house Bonhams. Quru partners with most
   major open source vendors including Red Hat, Docker, EnterpriseDB and MariaDB.
-baseurl: #https://quru.com # the subpath of your site, e.g. /blog
-url: https://quru.com  # the base hostname & protocol for your site
+baseurl: / #https://www.quru.com # the subpath of your site, e.g. /blog
+url: https://www.quru.com  # the base hostname & protocol for your site
 twitter_username: quru
 github_username:  qurusales
 
 author:
   name:           Roland Whitehead
   url:            https://twitter.com/rolandw
-  email:          i.am@rolandw.me
+  email:          roland@quru.com
 
 
 # Build settings
