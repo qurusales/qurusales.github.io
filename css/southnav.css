@@ -53,7 +53,7 @@ ul#navigation li a {
 }
 
 ul#navigation li a:hover {
-    Background: #CCC;
+    background: #CCC;
 }
 
 /* @group Dropdowns */

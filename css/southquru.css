@@ -707,13 +707,7 @@ img.whitepaper {
 
 input.button
 {
-    background-color: #46a0c2;
-    background: linear-gradient(bottom, #3791b3, #55afd1);
-    background: -o-linear-gradient(bottom, #3791b3, #55afd1);
-    background: -moz-linear-gradient(100% 100% 90deg,#3791b3,#55afd1);
-    background: -webkit-linear-gradient(bottom, #3791b3, #55afd1);
-    background: -ms-linear-gradient(bottom, #3791b3, #55afd1);
-    color: white;
+    background-color: #ccc;
     cursor: pointer;
 }
 
