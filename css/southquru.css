@@ -697,16 +697,12 @@ img.whitepaper {
     display: none;
 }
 
-#contact form div.formline input
+#contact form div.formline input,
+#contact #email_status
 {
     min-width: 250px;
     width: 80%;
-}
-#contact form div.formline input.button,
-#contact #email_status
-{
-    margin-left: 15rem;
-    min-width: 148px !important;
+    box-sizing: content-box;
 }
 
 input.button
