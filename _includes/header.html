@@ -6,19 +6,19 @@
             <ul id="navigation">
                 <li><a href="/whatwedo/" class="first">What we do</a>
                     <ul class="menu_list">
-                        {% assign contents = site.whatwedo | sort: 'order' %}{% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>{% endif %}{% endfor %}
+                        {% assign contents = site.whatwedo | sort: 'order' %}{% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url }}">{{ p.title }}</a></li>{% endif %}{% endfor %}
                     </ul>
                 </li>
 
                 <li><a href="/vendors/">Open source partners</a>
                     <ul class="menu_list">
-                        {% assign contents = site.vendors | sort:'order' %}{% for v in contents %}{% if v.index == true %}<li><a href="{{ v.url | prepend: site.baseurl}}">{{ v.menu }}</a></li>{% endif %}{% endfor %}
+                        {% assign contents = site.vendors | sort:'order' %}{% for v in contents %}{% if v.index == true %}<li><a href="{{ v.url }}">{{ v.menu }}</a></li>{% endif %}{% endfor %}
                     </ul>
                 </li>
 
                 <li><a href="/products/">Quru products</a>
                     <ul class="menu_list">
-                        {% assign contents = site.products | sort:'order' %}{% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url | prepend: site.baseurl}}">{{ p.menu }}</a></li>{% endif %}{% endfor %}
+                        {% assign contents = site.products | sort:'order' %}{% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url }}">{{ p.menu }}</a></li>{% endif %}{% endfor %}
                      </ul>
                 </li>
 

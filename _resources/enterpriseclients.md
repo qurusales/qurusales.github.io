@@ -75,5 +75,5 @@ index: true
 </div>
 
 <!--  <ul class="article_list">
-      {% assign contents = site.partners | sort: 'order' %}{% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>{% endif %}{% endfor %}
+      {% assign contents = site.partners | sort: 'order' %}{% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url }}">{{ p.title }}</a></li>{% endif %}{% endfor %}
     </ul>-->

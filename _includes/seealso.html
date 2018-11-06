@@ -7,7 +7,7 @@
   <h3>See also</h3>
   <div class="article_list">
     <ul>
-      {% for t in page.seealso %}<li><a href="{{ t.url | prepend: site.baseurl }}">{{ t.menu }}</a></li>{% endfor %}
+      {% for t in page.seealso %}<li><a href="{{ t.url }}">{{ t.menu }}</a></li>{% endfor %}
     </ul>
   </div>
 </div>

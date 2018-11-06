@@ -25,7 +25,7 @@
        {% elsif current_directory[1] == "products" %}{% assign contents = site.products | sort: 'order' %}
        {% elsif current_directory[1] == "resources" %}{% assign contents = site.resources | sort: 'order' %}
        {% endif %}
-                {% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url | prepend: site.baseurl }}">{% if page.url == p.url or current_directory[1] == "redhat" and p.menu == "Red Hat" %}<strong>{{ p.menu }}</strong>{% else %}{{ p.menu }}{% endif %}</a></li>{% endif %}{% endfor %}
+                {% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url }}">{% if page.url == p.url or current_directory[1] == "redhat" and p.menu == "Red Hat" %}<strong>{{ p.menu }}</strong>{% else %}{{ p.menu }}{% endif %}</a></li>{% endif %}{% endfor %}
             </ul>
         </div>
         <div class="clear"></div>
