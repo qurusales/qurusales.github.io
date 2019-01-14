@@ -18,17 +18,23 @@ quotes:
     by: Klaus Oxdal, EMEA Channel Director, NGINX
 ---
 
+## NGINX Inc.
+
+NGINX, Inc. is the company behind the popular open source project trusted by more than 400 million sites. It offers a suite of technologies for developing and delivering modern applications. The NGINX Application Platform enables enterprises undergoing digital transformation to modernize legacy, monolithic applications as well as deliver new, microservices-based applications. Companies like Netflix, Starbucks, and McDonalds rely on NGINX to reduce costs, improve resiliency, and speed innovation. NGINX investors include Blue Cloud Ventures, e.ventures, Goldman Sachs, Index Ventures, MSD Capital, NEA, Runa Capital, and Telstra Ventures.
+
+
 ## Mission control for your web application
 
-NGiNX Plus enables a very high level of website performance – it accelerates content and application delivery, improves security and facilitates availability and scalability. 
+NGINX Plus enables a very high level of website performance – it accelerates content and application delivery, improves security and facilitates availability and scalability. 
 
-NGiNX Plus is a software load balancer, web server, and content cache built on top of open source NGiNX. NGiNX Plus has exclusive production‑ready features on top of what's available in the open source offering, including session persistence, configuration via API, and active health checks. Use NGiNX Plus instead of your hardware load balancer and get the freedom to innovate without being constrained by infrastructure.
+NGiNX Plus is a software load balancer, web server, and content cache built on top of open source NGiNX. NGiNX Plus has exclusive production‑ready features on top of what's available in the open source offering, including session persistence, configuration via API, and active health checks. Use NGiNX Plus instead of your hardware load balancer and get the freedom to innovate without being constrained by infrastructure.
 
-* Save more than 80% compared to hardware ADCs, without sacrificing performance or functionality
+* Save more than 80% compared to hardware Application Delivery Controllers, without sacrificing performance or functionality
 * Deploy anywhere: public cloud, private cloud, bare metal, virtual machines, and containers
-* Save time by performing common tasks through the built‑in NGINX Plus API
+* Save time by performing common tasks through the built‑in NGINX Plus API
 
 
 ## Efficient microservices server through NGINX Unit
 
 A core requirement for microservices is a small, lightweight but very efficient web and application server - specifically the demand that NGINX Unit has been built to fulfil. Currently at Beta, Unit can be used to deploy distributed solutions with no service disruptions. NGINX Unit will serve applications written in multiple languages including Go, PHP 5 or 7, Python 2.7 or 3 all on the same server.
+
