@@ -9,7 +9,7 @@ tags:
 whitepapertag: subscriptions
 order: 3
 thumbnail: //images.quru.com/image?src=/web/south/OpenSource.png
-index: true
+index: false
 headimage:
 logostrip: customers
 stripfilter: subscriptions
