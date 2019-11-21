@@ -4,7 +4,7 @@
 # Author: Roland <roland@quru.com>
 # Date: 21 November 2019
 
-DEBUG="True" #set to True to debug, false to not!
+DEBUG="False" #set to True to debug, false to not!
 
 # Get the os
 if [ -f /etc/os-release ]; then
