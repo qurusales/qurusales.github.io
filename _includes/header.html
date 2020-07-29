@@ -4,25 +4,25 @@
         <a href='#' id='show_nav' title='Show navigation'></a> <!-- for mobile -->
         <div id="nav">
             <ul id="navigation">
-                <li><a href="/whatwedo/" class="first">What we do</a>
-                    <ul class="menu_list">
-                        {% assign contents = site.whatwedo | sort: 'order' %}{% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url }}">{{ p.title }}</a></li>{% endif %}{% endfor %}
-                    </ul>
-                </li>
-
-                <li><a href="/a24io.html">Open source partners</a>
-                    <ul class="menu_list">
-                        <li><a href="/a24io.html">A24</a></li>
-
-                    </ul>
-                </li>
-
-                <li><a href="/products/">Quru products</a>
-                    <ul class="menu_list">
-                        {% assign contents = site.products | sort:'order' %}{% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url }}">{{ p.menu }}</a></li>{% endif %}{% endfor %}
+                <!-- <li><a href="/whatwedo/" class="first">What we do</a>
+                     <ul class="menu_list">
+                     {% assign contents = site.whatwedo | sort: 'order' %}{% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url }}">{{ p.title }}</a></li>{% endif %}{% endfor %}
                      </ul>
-                </li>
+                     </li>
 
+                     <li><a href="/a24io.html">Open source partners</a>
+                     <ul class="menu_list">
+                     <li><a href="/a24io.html">A24</a></li>
+
+                     </ul>
+                     </li>
+
+                     <li><a href="/products/">Quru products</a>
+                     <ul class="menu_list">
+                     {% assign contents = site.products | sort:'order' %}{% for p in contents %}{% if p.index == true %}<li><a href="{{ p.url }}">{{ p.menu }}</a></li>{% endif %}{% endfor %}
+                     </ul>
+                     </li>
+                -->
                 <li><a href="/resources/contactus.html" class="nodropdown">Contact us</a></li>
             </ul>
         </div>

@@ -5,7 +5,7 @@ layout: default
 <div class="block" {% if page.headingimages != "" %}style="background: {{ page.headingimages }}; background-origin: content-box; height: {{ page.headingheight }};"{% endif %}>
     <div class='pageheading'>
         <h1 class="eightws">{{ page.eightws | remove: ',' }}</h1>
-        <div class="heading">{{ page.heading }}</div>
+        <div class="heading" style="padding-bottom: 0rem;">{{ page.heading }}</div>
         {% assign carousel_size = page.carousel.size %} {% if carousel_size > 3 %}<div class="showbox">
             <script type="text/javascript"  src="//images.quru.com/static/js/slideshow_view.min.js"></script>
             <div class="slideshow " id="slideshow_1"></div>

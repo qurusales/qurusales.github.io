@@ -1,9 +1,7 @@
 {% assign sectioncount = sectioncount | plus: 1 %}
     <div class="{% assign alt = sectioncount | modulo: 2 %}{% if alt == 0 %}alt{% endif %}block">
          <div class="whatwedo">
-            <h2>What do we do?</h2>
-            <ul>
-                {% assign sorted_posts = site.whatwedo | sort: 'order' %}{% for p in sorted_posts %}{% if p.index %}<li><a href='{{ p.url }}'><img src='{{ p.thumbnail }}&width=278' alt='{{ p.title }}'/><div class="text"><h3>{{ p.title }}</h3><div class='eightws'>{{ p.eightws }}</div></div></a></li>{% endif %}{% endfor %}
-            </ul>
+             <h2>No longer trading</h2>
+             <p>Quru is no longer trading as a separate entity. For open source solutions, please visit our partners, <a href="https://a24.io" style="text-decoration: underline; color: maroon" >a24.io</a>.</p>
         </div>
     </div>
